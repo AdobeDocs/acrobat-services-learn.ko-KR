@@ -8,7 +8,7 @@ thumbnail: KT-6677.jpg
 kt: 6677
 keywords: 영웅
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: c1937561d607f1eabbc1921d6090858abb13f0d3
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 2%
@@ -30,7 +30,9 @@ OCR(Optical Character Recognition)을 사용하면 스캔한 PDF의 잠금을 �
 아래 시작하기 자습서를 사용하여 API 자격 증명을 만들고, 샘플 파일을 다운로드하고, 환경을 설정합니다.
 
 [PDF 서비스 API 및 Java 시작하기](gettingstartedjava.md)
+
 [PDF 서비스 API 및 .Net 시작하기](gettingstartednet.md)
+
 [PDF 서비스 API 및 Node.js 시작하기](createpdffromhtml.md)
 
 ## 샘플 파일에 제공된 OCR 예제 실행
