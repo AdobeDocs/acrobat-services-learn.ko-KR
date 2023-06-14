@@ -6,10 +6,10 @@ role: Developer
 skill: Beginner, Intermediate, Experienced
 thumbnail: KT-11079.jpg
 exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
-source-git-commit: 0c434db1665d4cb6ce6aff6f329e300f22129df9
+source-git-commit: 744830d00c75c136354ca41893337e6a474d5aed
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![Acrobat Sign API 배너](../assets/acrobatsignhero.png)
 
-Acrobat Sign의 API를 사용하면 앱을 만들고 Acrobat Sign UI 및 기능을 애플리케이션에 포함할 수 있습니다.
+Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 애플리케이션에 포함시킬 수 있습니다.
 
 ## 시작하기
 
