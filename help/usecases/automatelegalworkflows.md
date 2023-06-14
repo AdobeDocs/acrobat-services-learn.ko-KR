@@ -7,9 +7,9 @@ type: Tutorial
 thumbnail: KT-10202.jpg
 kt: 10202
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 98dc9f98f660b43d2ca0780b51624bf3be71c853
 workflow-type: tm+mt
-source-wordcount: '2893'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -551,7 +551,7 @@ Acrobat Sign 인증 토큰을 만드는 방법에 대해 자세히 알아보려�
   }
 ```
 
-업데이트가 변경될 때 알림을 받는 보다 효율적인 방법은 Webhook를 사용하는 것입니다. Webhook에서 자세한 내용을 확인할 수 있습니다 [여기](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html) 사용 가능한 webhook 이벤트의 전체 목록을 사용할 수 있습니다. [여기](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookevents.html).
+업데이트가 변경될 때 알림을 받는 보다 효율적인 방법은 Webhook를 사용하는 것입니다. Webhook에서 자세한 내용을 확인할 수 있습니다 [여기](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html.
 
 ## 서명된 문서 저장
 
