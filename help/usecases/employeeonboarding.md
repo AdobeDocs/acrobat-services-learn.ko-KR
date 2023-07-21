@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-10203.jpg
-kt: 10203
+jira: KT-10203
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 1%
@@ -34,7 +34,7 @@ API는 아니지만 개발자는 무료 [PDF 포함 API](https://developer.adobe
 
 ##  Acrobat Sign이란 무엇입니까?
 
-[Acrobat Sign](https://www.adobe.com/sign.html) 전자 서명 서비스 분야의 선두 기업입니다. 여러 서명을 포함한 다양한 작업 과정을 사용하여 서명을 위해 문서를 보낼 수 있습니다. Acrobat Sign은 서명 및 추가 정보가 필요한 워크플로우도 지원합니다. 이러한 모든 기능은 유연한 제작 시스템을 갖춘 강력한 대시보드에서 지원됩니다.
+[Acrobat Sign](https://www.adobe.com/kr/sign.html) 전자 서명 서비스 분야의 선두 기업입니다. 여러 서명을 포함한 다양한 작업 과정을 사용하여 서명을 위해 문서를 보낼 수 있습니다. Acrobat Sign은 서명 및 추가 정보가 필요한 워크플로우도 지원합니다. 이러한 모든 기능은 유연한 제작 시스템을 갖춘 강력한 대시보드에서 지원됩니다.
 
 과 마찬가지로 [!DNL Acrobat Services], Acrobat Sign에 [무료 체험판](https://www.adobe.com/sign.html#sign_free_trial) 이를 통해 개발자는 대시보드와 사용하기 쉬운 REST 기반 API를 통해 서명 프로세스를 테스트할 수 있습니다.
 
@@ -191,7 +191,7 @@ combineFilesOperation.execute(executionContext)
 
 ## 서명 프로세스
 
-온보딩 프로세스의 최종 중지에서 직원은 자신이 읽었으며 내에 정의된 모든 정책에 동의한다는 계약에 서명해야 합니다. [Acrobat Sign](https://www.adobe.com/sign.html) 에서는 [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). 크게 말하자면, 시나리오의 마지막 부분은 다음과 같이 완료될 수 있습니다.
+온보딩 프로세스의 최종 중지에서 직원은 자신이 읽었으며 내에 정의된 모든 정책에 동의한다는 계약에 서명해야 합니다. [Acrobat Sign](https://www.adobe.com/kr/sign.html) 에서는 [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). 크게 말하자면, 시나리오의 마지막 부분은 다음과 같이 완료될 수 있습니다.
 
 먼저 서명이 필요한 양식이 포함된 문서를 디자인합니다. 이를 수행하는 방법에는 Adobe Sign 사용자 대시보드에서 시각적으로 디자인하는 방법 등 여러 가지가 있습니다. 또 다른 옵션은 문서 생성 Word 추가 기능을 사용하여 태그를 삽입하는 것입니다. 이 예에서는 서명 및 날짜를 요청합니다.
 

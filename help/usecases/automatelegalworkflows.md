@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-10202.jpg
-kt: 10202
+jira: KT-10202
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: 98dc9f98f660b43d2ca0780b51624bf3be71c853
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 1%
@@ -361,7 +361,7 @@ var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".docx");
 
 ## 서명을 위해 계약 보내기
 
-[Adobe Acrobat Sign](https://www.adobe.com/sign.html) 계약을 한 명 또는 여러 명의 수신자에게 보내 문서를 보고 서명하도록 할 수 있습니다. 서명을 위해 문서를 보내는 사용하기 쉬운 사용자 환경과 함께 Word, PDF, HTML 및 기타 형식을 가져와서 서명을 위해 보낼 수 있는 REST API를 사용할 수 있습니다.
+[Adobe Acrobat Sign](https://www.adobe.com/kr/sign.html) 계약을 한 명 또는 여러 명의 수신자에게 보내 문서를 보고 서명하도록 할 수 있습니다. 서명을 위해 문서를 보내는 사용하기 쉬운 사용자 환경과 함께 Word, PDF, HTML 및 기타 형식을 가져와서 서명을 위해 보낼 수 있는 REST API를 사용할 수 있습니다.
 
 아래 예제에서는 REST API 설명서 페이지를 사용하여 이전에 생성된 문서를 가져와서 서명을 위해 전송하는 방법을 보여 줍니다. 먼저 Acrobat Sign 웹 인터페이스를 통해 이를 수행하는 방법과 REST API를 사용하여 이를 수행하는 방법을 알아봅니다.
 

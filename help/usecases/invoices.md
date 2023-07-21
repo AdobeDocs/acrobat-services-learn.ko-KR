@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8145.jpg
-kt: 8145
+jira: KT-8145
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Danielle이 필요로 하는 것은 월말에 일괄적으로 송장을 작성�
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
 

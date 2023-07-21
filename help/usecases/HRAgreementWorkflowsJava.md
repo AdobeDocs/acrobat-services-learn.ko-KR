@@ -3,11 +3,11 @@ title: Java의 HR 문서 워크플로우
 description: "[!DNL Adobe Acrobat Services] API는 PDF 기능을 HR 웹 애플리케이션에 쉽게 통합합니다."
 type: Tutorial
 role: Developer
-level: Beginner
+level: Intermediate
 thumbnail: KT-7474.jpg
-kt: 7474
+jira: KT-7474
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
 

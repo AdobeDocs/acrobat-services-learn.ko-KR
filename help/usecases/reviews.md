@@ -5,12 +5,12 @@ type: Tutorial
 role: Developer
 level: Intermediate
 thumbnail: KT-8094.jpg
-kt: 8094
+jira: KT-8094
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [PDF 포함 API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 

@@ -5,12 +5,12 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8091.jpg
-kt: 8091
+jira: KT-8091
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ PDF 서비스 API에 액세스하기 위한 Node.js 응용 프로그램에 대�
 
 * [PDF 포함 API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [프로젝트 코드](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers)
 

@@ -3,11 +3,11 @@ title: PDF 서비스 API를 사용하여 PDF을 Word, PowerPoint 등으로 내�
 description: Node.js, Java 및 .Net 언어에 대한 샘플 파일을 사용하여 PDF 서비스 API 내보내기 작업을 실행하는 방법을 알아봅니다
 type: Tutorial
 role: Developer
-level: Beginner
+level: Intermediate
 thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
-source-git-commit: aa5c88fb5725a3d1c50d5c6b73fce7add629b08d
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 2%

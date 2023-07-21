@@ -5,9 +5,9 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-10382.jpg
-kt: 10382
+jira: KT-10382
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -22,13 +22,14 @@ ht-degree: 3%
 
 ## Microsoft Power Automate 사용자는 Adobe PDF Services 커넥터를 어떻게 사용할 수 있습니까?
 
-기존 Microsoft Power Automate 사용자는 [평가판 자격 증명 가져오기](https://www.adobe.com/go/powerautomate_getstarted) Adobe PDF 서비스 위 링크는 Microsoft Power Automate 사용자를 위해 이 프로세스를 지원하는 특별 등록 링크입니다.
+기존 Microsoft Power Automate 사용자는 [평가판 자격 증명 가져오기](https://www.adobe.com/go/powerautomate_getstarted_kr) Adobe PDF 서비스 위 링크는 Microsoft Power Automate 사용자를 위해 이 프로세스를 지원하는 특별 등록 링크입니다.
 
 ![Adobe Developer 사용자 로그인](assets/credentials_1.png)
 
 
 >[!IMPORTANT]
 > 평가판을 위해 로그인하는 경우 Enterprise ID이 아닌 Adobe ID을 사용해야 합니다. 현재 Adobe PDF 서비스 API를 구독하지 않고 Enterprise ID으로 로그인을 시도하면 엔터프라이즈에서 Adobe PDF 서비스 API를 사용할 권한이 없기 때문에 권한 오류가 발생할 수 있습니다. 따라서 무료 개인 Adobe ID을 사용하는 것이 좋습니다.
+>
 
 1. 로그인 후 새 자격 증명의 이름을 선택하라는 메시지가 표시됩니다. 다음을 입력합니다. *자격 증명 이름*.
 1. 개발자 약관에 동의하려면 확인란을 선택합니다.

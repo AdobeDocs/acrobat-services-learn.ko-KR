@@ -5,12 +5,12 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8092.jpg
-kt: 8092
+jira: KT-8092
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * [PDF 포함 API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 ## Adobe API 자격 증명 만들기
 
@@ -199,7 +199,7 @@ Node.js 파일로 돌아갑니다. 파일 위쪽에 일부 가져오기 추가:
   result.writeToStream(writableStream);
 ```
 
-내용을 쓰려면 WritableStreamBuffer를 만듭니다. finish 이벤트를 사용하면 SQL 쿼리를 실행할 시간입니다. node-postgres 패키지는 자동으로 Buffer 매개 변수를 BYTEA 형식으로 변환합니다. 쿼리는 사용자를 나중에 만들어진 끝점인 /job/{id}(으)로 리디렉션합니다.
+내용을 쓰려면 WritableStreamBuffer를 만듭니다. finish 이벤트를 사용하면 SQL 쿼리를 실행할 시간입니다. node-postgres 패키지는 자동으로 Buffer 매개 변수를 BYTEA 형식으로 변환합니다. 쿼리에서 사용자를 /job/로 리디렉션합니다.{id}나중에 만든 끝점입니다.
 
 PDF 포함 API의 경우 PDF 내용만 반환하는 끝점이 필요합니다.
 
@@ -220,7 +220,7 @@ PDF 포함 API의 경우 PDF 내용만 반환하는 끝점이 필요합니다.
 
 ## PDF 포함
 
-이제 /job/{id} 끝점을 만듭니다. 이 끝점은 요청된 작업 게시의 이름과 포함된 PDF을 포함하는 템플릿을 렌더링합니다.
+이제 /job/{id} endpoint - 요청된 작업 게시 이름과 포함된 PDF을 포함하는 템플릿을 렌더링합니다.
 
 ```
 router.get('/job/:id', async function(req, res, next) {
@@ -279,6 +279,6 @@ views/ 디렉토리에서 다음 내용이 포함된 job.jade 파일을 만듭�
 
 * [PDF 포함 API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 웹 사이트에 사용자 친화적인 문서 처리 기능을 추가하려면 [무료 체험판 등록](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Adobe PDF Embed API는 항상 무료로 사용할 수 있으며 Adobe PDF Services API는 6개월 동안 무료입니다. 단, 문서 트랜잭션당 \$0.05이므로 [사용한 만큼 지불](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) 비즈니스 규모에 맞게

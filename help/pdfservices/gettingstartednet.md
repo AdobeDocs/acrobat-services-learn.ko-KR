@@ -5,10 +5,10 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-6675.jpg
-kt: 6675
+jira: KT-6675
 keywords: 추천
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -80,6 +80,6 @@ PDF 서비스 API를 사용하면 일반적인 워크플로우를 자동화하�
 
 * 관련 기사
 
-   [새로운 PDF 서비스 API는 문서 워크플로우를 위한 더욱 다양한 기능을 제공합니다](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
+  [새로운 PDF 서비스 API는 문서 워크플로우를 위한 더욱 다양한 기능을 제공합니다](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
-   [7월 릴리스 [!DNL Adobe Acrobat Services]: PDF 포함 및 PDF 서비스](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+  [7월 릴리스 [!DNL Adobe Acrobat Services]: PDF 포함 및 PDF 서비스](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
