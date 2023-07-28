@@ -4,10 +4,11 @@ description: Adobe PDF 서비스 API 자습서에 대한 개요 페이지
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: PDF Services API
 thumbnail: KT-8116.jpg
 jira: KT-8116
 exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

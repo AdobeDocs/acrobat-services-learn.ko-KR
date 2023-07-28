@@ -4,10 +4,11 @@ description: Node.js, Java 및 .Net 언어에 대한 샘플 파일을 사용하�
 type: Tutorial
 role: Developer
 level: Intermediate
+feature: PDF Services API
 thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 2%

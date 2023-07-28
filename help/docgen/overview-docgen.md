@@ -4,10 +4,11 @@ description: 문서 생성 API 자습서 개요
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: Document Generation API
 thumbnail: KT-7480.jpg
 kt: 7480
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
-source-git-commit: 0c434db1665d4cb6ce6aff6f329e300f22129df9
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%

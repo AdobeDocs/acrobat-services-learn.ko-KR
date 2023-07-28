@@ -4,11 +4,12 @@ description: 개발자는 사용 가능한 모든 웹 서비스에 액세스하�
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-6675.jpg
 jira: KT-6675
 keywords: 추천
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%

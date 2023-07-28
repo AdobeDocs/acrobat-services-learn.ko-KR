@@ -4,10 +4,11 @@ description: Microsoft Power Automate에서 Adobe PDF Services 커넥터를 사�
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-10379.jpg
 kt: 10379
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 2%
@@ -196,7 +197,6 @@ Power Automate의 라이선스 수준을 확인하는 방법 알아보기 [여�
 >* [Adobe 문서 생성에 대해 더 알아보기](https://developer.adobe.com/document-services/apis/doc-generation/)
 >* [Microsoft Word용 Adobe 문서 생성 태거](https://appsource.microsoft.com/en-US/product/office/WA200002654)
 >* [Adobe 문서 생성 API 설명서](https://developer.adobe.com/document-services/docs/overview/document-generation-api/)
-
 
 ### 파일을 OneDrive에 저장
 
