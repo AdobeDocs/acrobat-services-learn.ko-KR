@@ -1,14 +1,14 @@
 ---
 title: PDF 서비스 API와 Node.js를 통해 몇 분 안에 HTML 또는 MS Office에서 PDF 생성
 description: PDF 서비스 API 내에는 PDF을 만들고 조작하거나 PDF에서 MS Office 및 기타 형식으로 내보낼 수 있는 여러 가지 서비스가 있습니다
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
-thumbnail: KT-6673.jpg
+type: Tutorial
 jira: KT-6673
+thumbnail: KT-6673.jpg
 exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%

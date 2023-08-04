@@ -1,13 +1,14 @@
 ---
 title: 포함 링크 만들기
 description: 응용 프로그램이 사용자에 대한 권한을 받는 방법인 OAuth에 대한 포함 링크를 만드는 방법을 알아봅니다
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11073
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%

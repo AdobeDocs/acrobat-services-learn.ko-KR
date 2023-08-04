@@ -1,13 +1,13 @@
 ---
 title: 임시 문서 생성
-description: Acrobat Sign API로 사용할 수 있는 임시 문서를 만드는 방법을 알아봅니다.
-type: Tutorial
+description: Acrobat Sign API로 사용할 수 있는 임시 문서를 만드는 방법을 알아봅니다
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
 thumbnail: KT-11076.jpg
 exl-id: fddd5745-afa4-4ce8-b94d-c78254d7fb00
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%

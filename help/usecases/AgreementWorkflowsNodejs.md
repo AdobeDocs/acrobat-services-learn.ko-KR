@@ -1,15 +1,15 @@
 ---
 title: Node.js의 계약 작업 과정
 description: "[!DNL Adobe Acrobat Services] API는 PDF 기능을 웹 애플리케이션에 쉽게 통합합니다."
-type: Tutorial
+feature: Use Cases
 role: Developer
 level: Beginner
-feature: Use Cases
-thumbnail: KT-7473.jpg
+type: Tutorial
 jira: KT-7473
+thumbnail: KT-7473.jpg
 keywords: 추천
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 1%

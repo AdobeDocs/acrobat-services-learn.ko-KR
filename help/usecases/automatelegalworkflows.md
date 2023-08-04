@@ -1,14 +1,14 @@
 ---
 title: 법률 워크플로우 자동화
 description: 조건부 콘텐츠로 법적 워크플로우를 자동화하는 방법에 대해 알아봅니다.
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-10202.jpg
 jira: KT-10202
+thumbnail: KT-10202.jpg
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 1%

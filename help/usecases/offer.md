@@ -1,14 +1,14 @@
 ---
 title: 사원 제안서 관리
 description: 서명을 받기 위해 새 직원에게 전달할 수 있는 제안서를 생성하는 방법에 대해 알아봅니다.
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8096.jpg
 jira: KT-8096
+thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '1794'
 ht-degree: 2%

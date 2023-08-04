@@ -1,14 +1,14 @@
 ---
 title: Java에서 재무 문서 워크플로우 관리
 description: "[!DNL Adobe Acrobat Services] PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다."
-type: Tutorial
+feature: Use Cases
 role: Developer
 level: Intermediate
-feature: Use Cases
+type: Tutorial
+jira: KT-7482
 thumbnail: KT-7482.jpg
-jria: KT-7482
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
