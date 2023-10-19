@@ -8,16 +8,14 @@ type: Tutorial
 jira: KT-9247
 thumbnail: KT-9247.jpg
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
-source-git-commit: 382518232e804a5a64504bead419e6b822df42c0
+source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 # Adobe PDF 추출 API 튜토리얼
-
-![PDF Embed API 배너](../assets/pdfextracthero.jpg)
 
 Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 PDF의 구조 및 콘텐츠 요소를 잠금 해제하십시오.
 
