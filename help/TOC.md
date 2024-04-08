@@ -1,17 +1,17 @@
 ---
 user-guide-title: "[!DNL Adobe Acrobat Services]"
 breadcrumb-title: "[!DNL Acrobat Services]"
-user-guide-description: 자세히 알아보기 [!DNL Adobe Acrobat Services]
+user-guide-description: 에 대해 자세히 알아보기 [!DNL Adobe Acrobat Services]
 solution: Acrobat Services
 feature-set: Acrobat Services
 feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 8%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 # [!DNL Adobe Acrobat Services] API TUTORIALS {#tutorials}
 
 + [개요](overview.md)
-+ PDF Services API {#pdfservices}
++ PDF 서비스 API {#pdfservices}
    + [개요](pdfservices/overview-pdfservices.md)
    + [Microsoft Power Automate 자격 증명 가져오기](pdfservices/getting-credentials-power-automate.md)
    + [Microsoft Power Automate에서 첫 번째 플로우 만들기](pdfservices/create-workflow-power-automate.md)
@@ -30,6 +30,7 @@ ht-degree: 8%
    + [Adobe PDF Services API를 사용하여 OCR PDF 파일](pdfservices/ocr.md)
 + 문서 생성 API {#docgen}
    + [개요](docgen/overview-docgen.md)
+   + [문서 생성 자동화](docgen/automate-doc-gen.md)
    + 템플릿 만들기 {#docgentemplates}
       + [Adobe 문서 생성 Tagger 개요](docgen/taggeroverview.md)
       + [텍스트 태그 추가](docgen/taggeraddtexttags.md)
@@ -42,7 +43,7 @@ ht-degree: 8%
 + PDF 포함 API {#pdfembed}
    + [개요](pdfembed/overview-embed.md)
    + [PDF 온라인 환경을 제어하고 분석을 수집하세요.](pdfembed/controlpdfexperience.md)
-+ Acrobat Sign API {#acrobatsign}
++ ACROBAT SIGN API {#acrobatsign}
    + [개요](acrobatsign/overview-sign.md)
    + [Adobe Sign API 시작하기](acrobatsign/signapi.md)
    + OEM/임베디드 파트너 {#oem}
