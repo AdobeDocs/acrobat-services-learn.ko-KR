@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-7480
 thumbnail: KT-7480.jpg
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
-source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
+source-git-commit: 5354dc45fe27cd4dccbbe62d502277bc44441d9b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,6 @@ ht-degree: 0%
    <a href="automate-doc-gen.md">
       <img alt="문서 생성 자동화" src="assets/automate-doc-gen.png" />
    </a>
-    <div>
-   <a href="taggeroverview.md"><strong>문서 생성 자동화</strong></a>
-    </div>
-    <em>문서를 자동으로 대규모로 생성하는 방법 알아보기</em>
-    <br>
   </td>
     <td>
     <img alt="스페이서" src="../assets/WhiteBanner_Placeholder.png" />
