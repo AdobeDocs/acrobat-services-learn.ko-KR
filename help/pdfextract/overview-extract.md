@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-9247
 thumbnail: KT-9247.jpg
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: e35377fb467aac8581a5f81d2efb74fb442a6dc5
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,11 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
 <table style="table-layout:fixed">
 <tr>
  <td>
+   <a href="automate-content-extraction.md">
+      <img alt="콘텐츠 추출 자동화" src="assets/automate-content-extraction.png" />
+   </a>
+  </td>
+  <td>
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/parsing-pdf.html">
       <img alt="PDF 구문 분석: PDF 추출 API를 사용하여 JSON 데이터로 작업하면 손쉽게" src="assets/ParsingPDF_1280.png" />
    </a>
@@ -33,11 +38,6 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/parsing-pdf.html"><strong>PDF 구문 분석: PDF 추출 API를 사용하여 JSON 데이터로 작업하면 손쉽게</strong></a>
     </div>
     <em>Adobe PDF Services API의 PDF 추출 서비스를 사용하여 JSON을 구문 분석하는 것처럼 PDF을 쉽게 만드는 방법에 대해 알아봅니다</em>
-    <br>
-  </td>
-  <td>
-    <img alt="스페이서" src="../assets/WhiteBanner_Placeholder.png" />
-    <div>
     <br>
   </td>
   <td>

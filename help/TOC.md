@@ -8,9 +8,9 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
+source-git-commit: e35377fb467aac8581a5f81d2efb74fb442a6dc5
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 3%
       + [조건부 콘텐츠 설정](docgen/taggerconditional.md)
 + PDF 추출 API {#pdfextract}
    + [개요](pdfextract/overview-extract.md)
+   + [콘텐츠 추출 자동화](pdfextract/automate-content-extraction.md)
 + PDF 포함 API {#pdfembed}
    + [개요](pdfembed/overview-embed.md)
    + [PDF 온라인 환경을 제어하고 분석을 수집하세요.](pdfembed/controlpdfexperience.md)
