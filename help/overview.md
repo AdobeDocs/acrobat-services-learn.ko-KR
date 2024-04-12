@@ -8,16 +8,25 @@ jira: KT-7463
 type: Tutorial
 thumbnail: KT-7463.jpg
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
-source-git-commit: eee88418f6d94c1f35ba05b23ab7fea6a5f54847
+source-git-commit: cdbefd8bd0d4b65e0d34e5bbf74065f80faf20e1
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Acrobat Services] API 튜토리얼
 
-[!DNL Adobe Acrobat Services] 에는 6개의 주요 API가 있습니다. [!DNL Adobe PDF Services API], [!DNL Adobe PDF Embed API], [!DNL Adobe Document Generation API], [!DNL Adobe PDF Electronic Seal API], [!DNL Adobe PDF Extract API], 및 [!DNL Adobe PDF Accessibility Auto-Tag API]. 후자의 두 API 및 해당 SDK는 [!DNL Adobe PDF Services API] 유상 제공의 일부로. [!DNL PDF Embed API] 은(는) 무료 오퍼링입니다. 이들 API는 일련의 최신 클라우드 기반 웹 서비스를 통해 문서 콘텐츠의 생성, 조작 및 변형을 자동화합니다. 간편한 브랜드 환경을 제공하여 문서 사용자와의 상호 작용을 제어하고, PDF 워크플로우를 간소화하고, 사용 및 유지를 촉진할 수 있도록 합니다. 이 튜토리얼을 통해 보다 간단하고, 빠르고, 다양한 브랜드 경험을 신속하게 제공할 수 있습니다. [!DNL Adobe Acrobat Services] API.
+[!DNL Adobe Acrobat Services] 에는 6개의 주요 API가 있습니다.
+
+* [!DNL Adobe PDF Services API]
+* [!DNL Adobe PDF Embed API]
+* [!DNL Adobe Document Generation API]
+* [!DNL Adobe PDF Electronic Seal API]
+* [!DNL Adobe PDF Extract API]
+* [!DNL Adobe PDF Accessibility Auto-Tag API]
+
+후자의 두 API 및 해당 SDK는 [!DNL Adobe PDF Services API] 유상 제공의 일부로. [!DNL PDF Embed API] 은(는) 무료 오퍼링입니다. 이들 API는 일련의 최신 클라우드 기반 웹 서비스를 통해 문서 콘텐츠의 생성, 조작 및 변형을 자동화합니다. 간편한 브랜드 환경을 제공하여 문서 사용자와의 상호 작용을 제어하고, PDF 워크플로우를 간소화하고, 사용 및 유지를 촉진할 수 있도록 합니다. 이 튜토리얼을 통해 보다 간단하고, 빠르고, 다양한 브랜드 경험을 신속하게 제공할 수 있습니다. [!DNL Adobe Acrobat Services] API.
 
 <table style="table-layout:fixed">
 <tr>

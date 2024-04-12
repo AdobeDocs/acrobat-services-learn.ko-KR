@@ -1,12 +1,12 @@
 ---
 title: 전자 봉인 자동 적용
-description: PDF 규모에 맞게 변조 방지 전자 봉인을 적용하는 방법에 대해 알아봅니다.
+description: PDF에게 변조 방지 전자 봉인을 규모에 맞게 적용하는 방법 알아보기
 feature: PDF Services API
 role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15033
-source-git-commit: a1090dba32fd8085c1bb6d21d2d1237fb6f49301
+source-git-commit: cdbefd8bd0d4b65e0d34e5bbf74065f80faf20e1
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
