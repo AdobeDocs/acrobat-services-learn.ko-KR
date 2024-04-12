@@ -8,9 +8,9 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: 073dc25717c22ef238bc81338223945b9fee2ef7
+source-git-commit: 794e4418a6cbff45b75775121404f239aa41f8e0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,9 @@ ht-degree: 3%
 + PDF 추출 API {#pdfextract}
    + [개요](pdfextract/overview-extract.md)
    + [콘텐츠 추출 자동화](pdfextract/automate-content-extraction.md)
++ PDF 전자 봉인 API {#eseal}
+   + [개요](pdfelectronicseal/overview-electronic-seal.md)
+   + [전자 봉인 자동 적용](pdfelectronicseal/automatically-apply-electronic-seal.md)
 + PDF 포함 API {#pdfembed}
    + [개요](pdfembed/overview-embed.md)
    + [PDF 온라인 환경을 제어하고 분석을 수집하세요.](pdfembed/controlpdfexperience.md)
