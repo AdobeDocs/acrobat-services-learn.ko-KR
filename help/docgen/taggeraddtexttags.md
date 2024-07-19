@@ -1,6 +1,6 @@
 ---
 title: 텍스트 태그 추가
-description: Adobe 문서 생성 API에서 사용하기 위해 Adobe 문서 생성 태거를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법에 대해 알아봅니다
+description: Adobe 문서 생성 API와 함께 사용할 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법을 알아봅니다
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # 텍스트 태그 추가
 
-Adobe 문서 생성 API에서 사용하기 위해 Adobe 문서 생성 태거를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법에 대해 알아봅니다.
+Adobe 문서 생성 API와 함께 사용할 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)

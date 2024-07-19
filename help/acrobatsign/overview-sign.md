@@ -30,7 +30,7 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
     <div>
     <a href="signapi.md"><strong>시작하기</strong></a>
     </div>
-    <em>애플리케이션에 Sign API를 포함하여 서명 및 기타 정보를 수집하는 방법에 대해 알아봅니다</em>
+    <em>서명 및 기타 정보를 수집하기 위해 응용 프로그램에 Sign API를 포함하는 방법에 대해 알아보십시오</em>
     <br>
   </td>
   <td>
@@ -64,7 +64,7 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
     <div>
    <a href="sign-up-developer-account.md"><strong>개발자 계정 등록</strong></a>
     </div>
-    <em>Sign 및 API 기능으로 완전히 활성화된 Acrobat Sign 개발자 계정을 등록하는 방법에 대해 알아봅니다.</em>
+    <em>Sign 및 API 기능으로 완전히 활성화된 Acrobat Sign의 개발자 계정을 등록하는 방법에 대해 알아봅니다.</em>
     <br>
   </td>
   <td>
@@ -74,7 +74,7 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
     <div>
    <a href="creating-your-application.md"><strong>응용 프로그램 만들기</strong></a>
     </div>
-    <em>Acrobat Sign에서 애플리케이션을 만드는 방법 알아보기</em>
+    <em>Acrobat Sign에서 응용 프로그램을 만드는 방법</em>
     <br>
   </td>
    <td>
@@ -82,9 +82,9 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
       <img alt="임베드 링크 만들기" src="assets/Creatinganembedlink_1280.png" />
    </a>
     <div>
-   <a href="creating-an-embed-link.md"><strong>임베드 링크 만들기</strong></a>
+   <a href="creating-an-embed-link.md"><strong>포함 링크 만들기</strong></a>
     </div>
-    <em>응용 프로그램이 사용자에 대한 권한을 얻는 방법인 OAuth에 대한 포함 링크를 만드는 방법에 대해 알아봅니다</em>
+    <em>응용 프로그램이 사용자에 대한 권한을 받는 방법인 OAuth에 대한 포함 링크를 만드는 방법에 대해 알아봅니다.</em>
     <br>
   </td>
   <td>
@@ -94,7 +94,7 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
     <div>
    <a href="generating-an-access-token.md"><strong>액세스 토큰 생성</strong></a>
     </div>
-    <em>Acrobat Sign API와 함께 사용할 수 있는 액세스 토큰을 생성하는 방법에 대해 알아봅니다</em>
+    <em>Acrobat Sign API와 함께 사용할 수 있는 액세스 토큰을 생성하는 방법에 대해 알아보세요</em>
     <br>
   </td>
 </tr>
@@ -106,7 +106,7 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
     <div>
    <a href="creating-a-transient-document.md"><strong>임시 문서 만들기</strong></a>
     </div>
-    <em>Acrobat Sign AP와 함께 사용할 수 있는 임시 문서를 만드는 방법을 알아봅니다</em>
+    <em>Acrobat Sign AP에서 사용할 수 있는 임시 문서를 만드는 방법을 알아보세요</em>
     <br>
   </td>
   <td>

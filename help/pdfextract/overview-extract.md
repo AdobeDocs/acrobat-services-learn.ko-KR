@@ -35,9 +35,9 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
       <img alt="PDF 구문 분석: PDF 추출 API를 사용하여 JSON 데이터로 작업하면 손쉽게" src="assets/ParsingPDF_1280.png" />
    </a>
     <div>
-   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/parsing-pdf.html"><strong>PDF 구문 분석: PDF 추출 API를 사용하여 JSON 데이터로 작업하면 손쉽게</strong></a>
+   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/parsing-pdf.html"><strong>PDF 구문 분석: PDF 추출 API를 사용하여 JSON 데이터를 사용하여 손쉽게 작업할 수 있습니다</strong></a>
     </div>
-    <em>Adobe PDF Services API의 PDF 추출 서비스를 사용하여 JSON을 구문 분석하는 것처럼 PDF을 쉽게 만드는 방법에 대해 알아봅니다</em>
+    <em>Adobe PDF Services API의 PDF 추출 서비스를 사용하여 JSON을 구문 분석하는 것처럼 PDF을 쉽게 만드는 방법을 알아보세요</em>
     <br>
   </td>
   <td>

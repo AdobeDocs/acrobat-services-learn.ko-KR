@@ -1,6 +1,6 @@
 ---
 title: 이미지 태그 추가
-description: Adobe 문서 생성 태거를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 동적으로 이미지를 문서에 푸시하는 방법을 알아봅니다
+description: Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 이미지를 문서에 동적으로 푸시하는 방법을 알아봅니다
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 ---
 
-# 이미지 태그 추가하기
+# 이미지 태그 추가
 
-Adobe 문서 생성 태거를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 동적으로 이미지를 문서에 푸시하는 방법을 알아봅니다.
+Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 이미지를 문서에 동적으로 푸시하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332114?hidetitle=true)

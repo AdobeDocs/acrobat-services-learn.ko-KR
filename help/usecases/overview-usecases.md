@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Adobe Acrobat Services] API 사용 사례"
-description: 개요 페이지 [!DNL Adobe Acrobat Services] API 사용 사례
+description: ' [!DNL Adobe Acrobat Services] API 사용 사례 개요 페이지'
 feature: Use Cases
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Acrobat Services] API 사용 사례
+# API 사용 사례 [!DNL Adobe Acrobat Services]개
 
-## 무엇을 할 수 있습니까? [!DNL Adobe Acrobat Services] API가 필요합니까?
+## [!DNL Adobe Acrobat Services] API로 무엇을 할 수 있습니까?
 
-자세한 내용 보기 [!DNL Adobe Acrobat Services] API는 이러한 실습형 사용 사례로 비즈니스를 변경할 수 있습니다.
+이러한 실습형 사용 사례를 통해 [!DNL Adobe Acrobat Services] API로 비즈니스를 변경하는 방법에 대해 알아봅니다.
 
-### [!DNL Acrobat Services] API
+### API [!DNL Acrobat Services]개
 
 <table style="table-layout:fixed">
 <tr>
@@ -32,7 +32,7 @@ ht-degree: 0%
     <div>
     <a href="automatelegalworkflows.md"><strong>법적 작업 과정 자동화</strong></a>
     </div>
-    <em>조건부 콘텐츠로 법적 작업 과정을 자동화하는 방법에 대해 알아봅니다.</em>
+    <em>조건부 콘텐츠로 법적 작업 과정을 자동화하는 방법에 대해 알아보세요</em>
     <br>
   </td>
   <td>
@@ -50,9 +50,9 @@ ht-degree: 0%
         <img alt="영업 프로세스 가속화" src="assets/accsales_thumb.png" />
       </a>
       <div>
-      <a href="acceleratesales.md"><strong>영업 프로세스 가속화</strong></a>
+      <a href="acceleratesales.md"><strong>판매 프로세스 가속화</strong></a>
       </div>
-      <em>Document Experiences를 통합하여 판매를 가속화하는 방법을 알아봅니다.</em>
+      <em>문서 경험을 통합하여 판매를 가속화하는 방법 알아보기</em>
       <br>
     </td>
     <td>
@@ -74,7 +74,7 @@ ht-degree: 0%
     <div>
     <a href="nda.md"><strong>NDA 만들기</strong></a>
     </div>
-    <em>공동 작업을 위한 동적 NDA PDF을 만드는 방법 알아보기</em>
+    <em>공동 작업을 위한 동적 NDA PDF을 만드는 방법</em>
     <br>
   </td>
   <td>
@@ -82,9 +82,9 @@ ht-degree: 0%
       <img alt="법적 계약 관리" src="assets/legal_thumb.png" />
     </a>
     <div>
-    <a href="legal.md"><strong>법적 계약 관리</strong></a>
+    <a href="legal.md"><strong>법률 계약 관리</strong></a>
     </div>
-    <em>사용자 정의 데이터 입력으로 법적 문서를 자동으로 생성 및 보호하는 방법에 대해 알아보십시오.</em>
+    <em>사용자 지정 데이터 입력으로 법적 문서를 자동으로 생성하고 보호하는 방법을 알아봅니다.</em>
     <br>
   </td>
   <td>
@@ -94,7 +94,7 @@ ht-degree: 0%
     <div>
     <a href="offer.md"><strong>직원 제안서 관리</strong></a>
     </div>
-    <em>서명을 위해 신규 직원에게 전달할 수 있는 오퍼 레터를 생성하는 방법에 대해 알아봅니다.</em>
+    <em>서명을 위해 신입 사원에게 전달할 수 있는 오퍼 레터를 생성하는 방법에 대해 알아보십시오</em>
     <br>
   </td>
   <td>
@@ -102,9 +102,9 @@ ht-degree: 0%
       <img alt="검색 및 색인 지정" src="assets/searching_thumb.png" />
     </a>
     <div>
-    <a href="searching.md"><strong>검색 및 색인 지정</strong></a>
+    <a href="searching.md"><strong>검색 및 인덱싱</strong></a>
     </div>
-    <em>스캔한 문서에서 검색 가능한 PDF 파일을 만드는 방법 알아보기</em>
+    <em>스캔한 문서에서 검색 가능한 PDF 파일을 만드는 방법</em>
     <br>
   </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
     <div>
     <a href="reviews.md"><strong>검토 및 승인</strong></a>
     </div>
-    <em>팀 간 공동 작업을 위한 문서 검토 및 승인 워크플로우를 빌드하는 방법에 대해 알아봅니다.</em>
+    <em>팀 간 공동 작업을 위한 문서 검토 및 승인 워크플로를 빌드하는 방법에 대해 알아보세요</em>
     <br>
   </td>
   <td>
@@ -124,9 +124,9 @@ ht-degree: 0%
       <img alt="보고서 생성 및 편집" src="assets/report_thumb.png" />
     </a>
     <div>
-    <a href="reportcreation.md"><strong>보고서 생성 및 편집</strong></a>
+    <a href="reportcreation.md"><strong>보고서 작성 및 편집</strong></a>
     </div>
-    <em>고객을 위해 웹 사이트에서 PDF 보고서를 생성하는 방법에 대해 알아보십시오</em>
+    <em>고객을 위해 웹 사이트에서 PDF 보고서를 생성하는 방법을 알아보세요</em>
     <br>
   </td>
   <td>
@@ -136,7 +136,7 @@ ht-degree: 0%
     <div>
     <a href="jobposting.md"><strong>채용 공고</strong></a>
     </div>
-    <em>구직자와 고용주를 위한 부드럽고 일관된 웹 환경을 개발하는 방법에 대해 알아봅니다.</em>
+    <em>구직자와 고용주를 위한 부드럽고 일관된 웹 환경을 개발하는 방법에 대해 알아보세요</em>
     <br>
   </td>
   <td>
@@ -144,9 +144,9 @@ ht-degree: 0%
       <img alt="학생 및 교사 공동 작업" src="assets/edu_thumb.png" />
     </a>
     <div>
-    <a href="educationcollab.md"><strong>학생 및 교사 공동 작업</strong></a>
+    <a href="educationcollab.md"><strong>학생-교사 공동 작업</strong></a>
     </div>
-    <em>교사와 학생이 PDF에서 리소스를 쉽게 공유할 수 있는 온라인 학습 플랫폼을 만드는 방법을 알아봅니다.</em>
+    <em>교사와 학생이 PDF에서 리소스를 쉽게 공유할 수 있는 온라인 학습 플랫폼을 만드는 방법</em>을 살펴보세요.
     <br>
   </td>
 </tr>
@@ -156,9 +156,9 @@ ht-degree: 0%
       <img alt="Node.js 의 계약 워크플로우" src="assets/AWNjs_thumb.png" />
     </a>
     <div>
-    <a href="AgreementWorkflowsNodejs.md"><strong>Node.js 의 계약 워크플로우</strong></a>
+    <a href="AgreementWorkflowsNodejs.md"><strong>Node.js의 계약 워크플로</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] API는 웹 애플리케이션에 PDF 기능을 쉽게 통합합니다.</em>
+    <em>[!DNL Adobe Acrobat Services] API는 웹 응용 프로그램에 PDF 기능을 쉽게 통합합니다.</em>
     <br>
   </td>
   <td>
@@ -166,9 +166,9 @@ ht-degree: 0%
       <img alt="Java의 HR 문서 워크플로우" src="assets/HRWJ_thumb.png" />
     </a>
     <div>
-    <a href="HRAgreementWorkflowsJava.md"><strong>Java의 HR 문서 워크플로우</strong></a>
+    Java의 <a href="HRAgreementWorkflowsJava.md"><strong>HR 문서 워크플로</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] API는 PDF 기능을 HR 웹 애플리케이션에 쉽게 통합합니다.</em>
+    <em>[!DNL Adobe Acrobat Services]개의 API가 HR 웹 응용 프로그램에 PDF 기능을 쉽게 통합합니다.</em>
     <br>
   </td>
   <td>
@@ -176,9 +176,9 @@ ht-degree: 0%
       <img alt="Java에서 재무 문서 워크플로우 관리" src="assets/FAWJ_thumb.png" />
     </a>
     <div>
-    <a href="FinanceWorkflowsJava.md"><strong>Java에서 재무 문서 워크플로우 관리</strong></a>
+    <a href="FinanceWorkflowsJava.md"><strong>Java에서 재무 문서 작업 과정 관리</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다.</em>
+    <em>[!DNL Adobe Acrobat Services]은(는) PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다</em>
     <br>
   </td>
   <td>
@@ -200,7 +200,7 @@ ht-degree: 0%
     <div>
     <a href="invoices.md"><strong>인보이스 처리</strong></a>
     </div>
-    <em>고객 송장을 자동으로 생성, 암호로 보호 및 전달하는 방법에 대해 알아봅니다.</em>
+    <em>고객 송장을 자동으로 생성, 암호로 보호 및 제공하는 방법에 대해 알아보십시오</em>
     <br>
   </td>
   <td>
@@ -232,7 +232,7 @@ ht-degree: 0%
     <div>
     <a href="ddppdfembedapi.md"><strong>디지털 문서 게시</strong></a>
     </div>
-    <em>Adobe PDF Embed API를 사용하여 웹 페이지 내에 포함된 PDF 문서를 표시하는 방법을 알아봅니다</em>
+    <em>Adobe PDF Embed API를 사용하여 웹 페이지에 포함된 PDF 문서를 표시하는 방법을 알아봅니다.</em>
     <br>
   </td>
   <td>

@@ -63,7 +63,7 @@ ht-degree: 0%
     <div>
    <a href="taggeroverview.md"><strong>Adobe 문서 생성 Tagger 개요</strong></a>
     </div>
-    <em>Adobe 문서 생성 API와 함께 사용하도록 설계된 Adobe 문서 생성 Tagger에 대한 개요를 살펴보십시오</em>
+    <em>Adobe 문서 생성 API와 함께 사용하도록 디자인된 Adobe 문서 생성 Tagger에 대한 개요 가져오기</em>
     <br>
   </td>
   <td>
@@ -73,7 +73,7 @@ ht-degree: 0%
     <div>
    <a href="taggeraddtexttags.md"><strong>텍스트 태그 추가</strong></a>
     </div>
-    <em>Adobe 문서 생성 API와 함께 사용할 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법을 알아봅니다</em>
+    <em>Adobe 문서 생성 API에 사용할 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법</em>을 알아봅니다.
     <br>
   </td>
   <td>
@@ -83,7 +83,7 @@ ht-degree: 0%
     <div>
    <a href="taggeraddimagetags.md"><strong>이미지 태그 추가</strong></a>
     </div>
-    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 이미지를 문서에 동적으로 푸시하는 방법을 알아봅니다</em>
+    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하여 Adobe 문서 생성 API를 사용하여 이미지를 문서에 동적으로 푸시하는 방법을 알아봅니다.</em>
     <br>
   </td>
   <td>
@@ -91,9 +91,9 @@ ht-degree: 0%
       <img alt="표 및 목록 태그 추가" src="assets/Taggertables_thumb.png" />
    </a>
     <div>
-   <a href="taggertables.md"><strong>표 및 목록 태그 추가</strong></a>
+   <a href="taggertables.md"><strong>테이블 및 목록 태그 추가</strong></a>
     </div>
-    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 테이블 및 목록 태그를 추가하고 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 테이블 또는 목록 행을 동적으로 추가하는 방법을 알아봅니다.</em>
+    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 표 및 목록 태그를 추가하고 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 표 또는 목록 행을 동적으로 추가하는 방법을 알아봅니다</em>
     <br>
   </td>
 </tr>
@@ -105,7 +105,7 @@ ht-degree: 0%
     <div>
    <a href="taggercalculations.md"><strong>숫자 계산 태그 설정</strong></a>
     </div>
-    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿의 숫자 계산 태그를 설정하여 Adobe 문서 생성 API를 사용하여 데이터 값의 집계 또는 산술을 계산하는 방법을 알아봅니다.</em>
+    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에서 숫자 계산 태그를 설정하여 Adobe 문서 생성 API를 사용하여 데이터 값의 집계 또는 산술을 계산하는 방법을 알아보세요</em>
     <br>
   </td>
   <td>
@@ -115,7 +115,7 @@ ht-degree: 0%
     <div>
    <a href="taggerconditional.md"><strong>조건부 콘텐츠 설정</strong></a>
     </div>
-    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿의 섹션을 설정하고 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 문서의 섹션을 동적으로 포함하거나 제외하는 방법을 알아봅니다.</em>
+    <em>Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에서 섹션을 설정하여 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 문서의 섹션을 동적으로 포함하거나 제외하는 방법을 알아봅니다.</em>
     <br>
   </td>
   <td>

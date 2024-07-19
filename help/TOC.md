@@ -1,7 +1,7 @@
 ---
 user-guide-title: "[!DNL Adobe Acrobat Services]"
 breadcrumb-title: "[!DNL Acrobat Services]"
-user-guide-description: 에 대해 자세히 알아보기 [!DNL Adobe Acrobat Services]
+user-guide-description: ' [!DNL Adobe Acrobat Services]에 대해 자세히 알아보기'
 solution: Acrobat Services
 feature-set: Acrobat Services
 feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API, PDF Accessibility Auto-Tag API, PDF Electronic Seal API, PDF Extract API
@@ -16,7 +16,7 @@ ht-degree: 3%
 ---
 
 
-# [!DNL Adobe Acrobat Services] API TUTORIALS {#tutorials}
+# API Tutorials [!DNL Adobe Acrobat Services]개 {#tutorials}
 
 + [개요](overview.md)
 + PDF 서비스 API {#pdfservices}
@@ -31,7 +31,7 @@ ht-degree: 3%
 + 문서 생성 API {#docgen}
    + [개요](docgen/overview-docgen.md)
    + [문서 생성 자동화](docgen/automate-doc-gen.md)
-   + 템플릿 만들기 {#docgentemplates}
+   + {#docgentemplates} 템플릿 만들기
       + [Adobe 문서 생성 Tagger 개요](docgen/taggeroverview.md)
       + [텍스트 태그 추가](docgen/taggeraddtexttags.md)
       + [이미지 태그 추가](docgen/taggeraddimagetags.md)
@@ -47,13 +47,13 @@ ht-degree: 3%
 + PDF 전자 봉인 API {#eseal}
    + [개요](pdfelectronicseal/overview-electronic-seal.md)
    + [전자 봉인 자동 적용](pdfelectronicseal/automatically-apply-electronic-seal.md)
-+ PDF 포함 API {#pdfembed}
++ PDF Embed API {#pdfembed}
    + [개요](pdfembed/overview-embed.md)
    + [PDF 온라인 환경을 제어하고 분석을 수집하세요.](pdfembed/controlpdfexperience.md)
-+ ACROBAT SIGN API {#acrobatsign}
++ Acrobat Sign API {#acrobatsign}
    + [개요](acrobatsign/overview-sign.md)
    + [Adobe Sign API 시작하기](acrobatsign/signapi.md)
-   + OEM/임베디드 파트너 {#oem}
+   + OEM/포함 파트너 {#oem}
       + [개발자 계정 등록](acrobatsign/sign-up-developer-account.md)
       + [응용 프로그램 만들기](acrobatsign/creating-your-application.md)
       + [임베드 링크 만들기](acrobatsign/creating-an-embed-link.md)

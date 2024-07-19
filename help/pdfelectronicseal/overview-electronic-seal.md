@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Adobe PDF 전자 봉인 API Tutorials
 
-Adobe PDF 전자 봉인 API는 의 특정 TSP(Trust Service Provider)에서 발급한 인증서를 사용하여 문서 규모에 전자 봉인을 적용합니다 [Adobe AATL(Approved Trust List)](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html). 전자 봉인은 문서의 ID 및 무결성을 확인하는 데 유용합니다. 이는 문서의 크기를 전자 봉인하는 데 사용할 수 있으며 PDF 서비스 API에 포함됩니다.
+Adobe PDF 전자 봉인 API는 [Adobe의 AATL(Approved Trust List)](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html)에서 특정 TSP(Trust Service Provider)가 발행한 인증서를 사용하여 문서의 규모에 맞게 전자 봉인을 적용합니다. 전자 봉인은 문서의 ID 및 무결성을 확인하는 데 유용합니다. 이는 문서의 크기를 전자 봉인하는 데 사용할 수 있으며 PDF 서비스 API에 포함됩니다.
 
 <table style="table-layout:fixed">
 <tr>

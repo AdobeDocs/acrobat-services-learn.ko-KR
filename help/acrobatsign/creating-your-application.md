@@ -1,6 +1,6 @@
 ---
 title: 응용 프로그램 만들기
-description: Acrobat Sign에서 응용 프로그램을 만드는 방법 알아보기
+description: Acrobat Sign에서 애플리케이션을 만드는 방법 알아보기
 feature: Acrobat Sign API
 role: Developer
 level: Beginner
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # 응용 프로그램 만들기
 
-Acrobat Sign에서 응용 프로그램을 만드는 방법을 알아봅니다.
+Acrobat Sign에서 애플리케이션을 만드는 방법에 대해 알아봅니다.
 
 >[!NOTE]
 >
->이 튜토리얼은 자사의 응용 프로그램 내에서 서명 프로세스를 구축하고 포함하는 OEM 파트너를 위해 특별히 고안되었습니다.
+>이 튜토리얼은 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 설계되었습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347348?hidetitle=true)
