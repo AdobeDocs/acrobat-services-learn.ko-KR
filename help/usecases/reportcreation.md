@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c74a36116349490af29e66fd81ad59c93174c258
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 간단하게 유지하려면 파일 시스템 기반 업로드 및 처리만 사용합니다. Express.js에서 fs 모듈을 사용하여 디렉터리 아래의 사용 가능한 모든 파일을 나열할 수 있습니다.
 
-동일한 페이지에서 관리자가 고객에게 보고서 파일을 볼 수 있도록 서버에 업로드할 수 있습니다. 이러한 파일은 Microsoft Word, Microsoft Excel, HTML 및 그래픽 파일을 포함한 [기타 데이터 형식]https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf)과 같은 다양한 형식으로 제공됩니다. 관리 페이지는 다음과 같이 표시됩니다.
+동일한 페이지에서 관리자가 고객에게 보고서 파일을 볼 수 있도록 서버에 업로드할 수 있습니다. 이러한 파일은 Microsoft Word, Microsoft Excel, HTML 및 그래픽 파일을 포함한 [기타 데이터 형식](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf)과 같은 다양한 형식으로 제공됩니다. 관리 페이지는 다음과 같이 표시됩니다.
 
 ![관리자 기능 스크린샷](assets/report_2.png)
 
