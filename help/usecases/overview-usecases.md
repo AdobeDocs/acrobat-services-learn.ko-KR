@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8115
 thumbnail: KT-8115.jpg
 exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -152,31 +152,31 @@ ht-degree: 0%
 </tr>
 <tr>
   <td>
-    <a href="AgreementWorkflowsNodejs.md">
+    <a href="agreementworkflowsnodejs.md">
       <img alt="Node.js 의 계약 워크플로우" src="assets/AWNjs_thumb.png" />
     </a>
     <div>
-    <a href="AgreementWorkflowsNodejs.md"><strong>Node.js의 계약 워크플로</strong></a>
+    <a href="agreementworkflowsnodejs.md"><strong>Node.js의 계약 워크플로</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] API는 웹 응용 프로그램에 PDF 기능을 쉽게 통합합니다.</em>
     <br>
   </td>
   <td>
-    <a href="HRAgreementWorkflowsJava.md">
+    <a href="hragreementworkflowsjava.md">
       <img alt="Java의 HR 문서 워크플로우" src="assets/HRWJ_thumb.png" />
     </a>
     <div>
-    Java의 <a href="HRAgreementWorkflowsJava.md"><strong>HR 문서 워크플로</strong></a>
+    Java의 <a href="hragreementworkflowsjava.md"><strong>HR 문서 워크플로</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services]개의 API가 HR 웹 응용 프로그램에 PDF 기능을 쉽게 통합합니다.</em>
     <br>
   </td>
   <td>
-    <a href="FinanceWorkflowsJava.md">
+    <a href="financeworkflowsjava.md">
       <img alt="Java에서 재무 문서 워크플로우 관리" src="assets/FAWJ_thumb.png" />
     </a>
     <div>
-    <a href="FinanceWorkflowsJava.md"><strong>Java에서 재무 문서 작업 과정 관리</strong></a>
+    <a href="financeworkflowsjava.md"><strong>Java에서 재무 문서 작업 과정 관리</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services]은(는) PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다</em>
     <br>

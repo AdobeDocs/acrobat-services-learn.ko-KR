@@ -8,7 +8,7 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: 255a2425fcde4443d8502a92aa0274fac30f7279
+source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 3%
@@ -73,9 +73,9 @@ ht-degree: 3%
    + [보고서 생성 및 편집](usecases/reportcreation.md)
    + [채용 공고](usecases/jobposting.md)
    + [학생 및 교사 공동 작업](usecases/educationcollab.md)
-   + [Node.js 의 계약 워크플로우](usecases/AgreementWorkflowsNodejs.md)
-   + [Java의 HR 문서 워크플로우](usecases/HRAgreementWorkflowsJava.md)
-   + [Java에서 재무 문서 워크플로우 관리](usecases/FinanceWorkflowsJava.md)
+   + [Node.js 의 계약 워크플로우](usecases/agreementworkflowsnodejs.md)
+   + [Java의 HR 문서 워크플로우](usecases/hragreementworkflowsjava.md)
+   + [Java에서 재무 문서 워크플로우 관리](usecases/financeworkflowsjava.md)
    + [인보이스 처리](usecases/invoices.md)
    + [디지털 문서 게시](usecases/ddppdfembedapi.md)
 
