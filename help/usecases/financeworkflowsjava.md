@@ -1,6 +1,6 @@
 ---
 title: Java에서 재무 문서 워크플로우 관리
-description: "[!DNL Adobe Acrobat Services]은(는) PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다."
+description: '[!DNL Adobe Acrobat Services]에서는 PDF 재무 문서에서 데이터를 처리하고 추출하는 데 필요한 모든 도구, 서비스 및 기능을 제공합니다'
 feature: Use Cases
 role: Developer
 level: Intermediate
