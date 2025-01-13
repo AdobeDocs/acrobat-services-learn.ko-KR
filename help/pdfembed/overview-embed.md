@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-8117
 thumbnail: KT-8117.jpg
 exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
-source-git-commit: 5b505cc0dfb066e1b5c95698cc10a0b68086f015
+source-git-commit: 794a87a86a5e75803f86faa5db3fcdce2bcec79a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 # Adobe PDF Embed API 자습서
 
 PDF 포함 API 는 고품질 PDF을 포함하고 공동 작업을 활성화하며 분석을 볼 수 있는 무료 JavaScript API입니다.
-
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -40,7 +39,7 @@ PDF 포함 API 는 고품질 PDF을 포함하고 공동 작업을 활성화하�
                     <p class="is-size-6">Adobe PDF Embed API를 사용하여 모양을 제어하고, 공동 작업을 활성화하고, PDF과 상호 작용하는 방법(페이지 소요 시간 및 검색 포함)에 대한 분석을 수집하는 방법을 알아보십시오</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">읽기</span>
                 </a>
             </div>
         </div>
@@ -49,9 +48,8 @@ PDF 포함 API 는 고품질 PDF을 포함하고 공동 작업을 활성화하�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
-target = "_self" title="프로처럼 웹에서 PDF 쟁탈전" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/media_17a03bc364d9d4b68dc970c4d1680c81f187acfb0.png?width=400&format=webply&optimize=medium" alt="프로처럼 웹에서 PDF 쟁탈전"
+                    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api" title="프로처럼 웹에서 PDF 쟁탈전" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/337602/?quality=12&hidetitle=true&format=jpeg&nocache=1736799089651" alt="프로처럼 웹에서 PDF 쟁탈전"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -59,13 +57,11 @@ target = "_self" title="프로처럼 웹에서 PDF 쟁탈전" target="_blank" re
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
-target = "_self" target="_blank" rel="referrer" title="프로처럼 웹에서 PDF 쟁탈전">프로처럼 웹에서 PDF과 다툼</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api" target="_self" rel="referrer" title="프로처럼 웹에서 PDF 쟁탈전">프로처럼 웹에서 PDF과 다툼</a>
                     </p>
-                    <p class="is-size-6">무료 Adobe PDF Embed API를 사용하여 웹 사이트에서 PDF을 보다 쉽게 사용하는 방법을 알아봅니다</p>
+                    <p class="is-size-6">무료 Adobe PDF Embed API를 사용하여 웹 사이트에서 PDF을 보다 쉽게 사용하는 방법을 살펴보십시오</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
-target = "_self" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
                 </a>
             </div>
