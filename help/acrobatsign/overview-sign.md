@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-11079
 thumbnail: KT-11079.jpg
 exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
-source-git-commit: 63c4b6979a4aaa6698ee00264c4ef59ed6b16148
+source-git-commit: 3df27690c677d8ad51e8f26ea95b5da12694f89a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
@@ -51,9 +51,9 @@ Acrobat Sign API를 사용하면 앱을 만들고 Acrobat Sign UI와 기능을 �
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-## Acrobat Sign Embed 빠른 시작 안내서
+## Acrobat Sign 임베드 빠른 시작 안내서
 
-시작 시 OEM 버전의 Acrobat Sign을 애플리케이션에 임베드하는 방법에 대해 알아봅니다. 이 안내서는 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 제작되었습니다.
+OEM 버전의 Acrobat Sign을 애플리케이션에 임베드하기 시작하는 방법에 대해 알아봅니다. 이 안내서는 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 제작되었습니다.
 
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
