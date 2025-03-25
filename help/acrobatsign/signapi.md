@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8089
 thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
-source-git-commit: 2f01f306f5d13bfbaa61442e0e7a89537a62c33c
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 0%
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 # Adobe Sign API 시작하기
 
-[Acrobat Sign API](https://www.adobe.io/apis/documentcloud/sign.html)는 서명된 계약을 관리하는 방법을 개선하는 좋은 방법입니다. 개발자는 시스템을 Sign API와 쉽게 통합할 수 있으므로 문서를 업로드하고, 서명을 위해 전송하고, 미리 알림을 전송하고, 전자 서명을 수집하는 안정적이고 간편한 방법을 제공합니다.
+[Acrobat Sign API](https://developer.adobe.com/adobesign-api/)는 서명된 계약을 관리하는 방법을 개선하는 좋은 방법입니다. 개발자는 시스템을 Sign API와 쉽게 통합할 수 있으므로 문서를 업로드하고, 서명을 위해 전송하고, 미리 알림을 전송하고, 전자 서명을 수집하는 안정적이고 간편한 방법을 제공합니다.
 
 ## 학습 내용
 
-이 실습용 튜토리얼에서는 개발자가 Sign API를 사용하여 [!DNL Adobe Acrobat Services](으)로 만든 응용 프로그램과 작업 과정을 향상시키는 방법에 대해 설명합니다. [!DNL Acrobat Services]에는 [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html), [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk)(무료) 및 [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)가 포함됩니다.
+이 실습용 튜토리얼에서는 개발자가 Sign API를 사용하여 [!DNL Adobe Acrobat Services]&#x200B;(으)로 만든 응용 프로그램과 작업 과정을 향상시키는 방법에 대해 설명합니다. [!DNL Acrobat Services]에는 [Adobe PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services), [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)&#x200B;(무료) 및 [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)가 포함됩니다.
 
-보다 구체적인 설명을 위해 애플리케이션에 Acrobat Sign API를 포함시켜 보험 양식에 대한 직원 정보와 같은 서명 및 기타 정보를 수집하는 방법을 살펴보세요. 간소화된 HTTP 요청 및 응답이 있는 일반 단계가 사용됩니다. 이러한 요청은 자주 사용하는 언어로 구현할 수 있습니다. [[!DNL Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/)의 조합을 사용하여 PDF을 만들고, 이를 Sign API에 [임시](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) 문서로 업로드하고, 계약 또는 [위젯](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) 작업 과정을 사용하여 최종 사용자 서명을 요청할 수 있습니다.
+보다 구체적인 설명을 위해 애플리케이션에 Acrobat Sign API를 포함시켜 보험 양식에 대한 직원 정보와 같은 서명 및 기타 정보를 수집하는 방법을 살펴보세요. 간소화된 HTTP 요청 및 응답이 있는 일반 단계가 사용됩니다. 이러한 요청은 자주 사용하는 언어로 구현할 수 있습니다. [[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/)의 조합을 사용하여 PDF을 만들고, 이를 Sign API에 [임시](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/overview/terminology.md) 문서로 업로드하고, 계약 또는 [위젯](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/overview/terminology.md) 작업 과정을 사용하여 최종 사용자 서명을 요청할 수 있습니다.
 
 ## PDF 문서 만들기
 
-Microsoft Word 템플릿을 만들고 PDF으로 저장하는 것으로 시작합니다. 또는 문서 생성 API를 사용하여 파이프라인을 자동화하여 Word에서 만든 템플릿을 업로드한 다음 PDF 문서를 생성할 수 있습니다. 문서 생성 API는 [!DNL Acrobat Services]의 일부입니다. [6개월 동안 무료인 다음 문서 트랜잭션당 단 $0.05(종량 과금제)](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)에 지불하십시오.
+Microsoft Word 템플릿을 만들고 PDF으로 저장하는 것으로 시작합니다. 또는 문서 생성 API를 사용하여 파이프라인을 자동화하여 Word에서 만든 템플릿을 업로드한 다음 PDF 문서를 생성할 수 있습니다. 문서 생성 API는 [!DNL Acrobat Services]의 일부입니다. [6개월 동안 무료인 다음 문서 트랜잭션당 단 $0.05(종량 과금제)](https://developer.adobe.com/document-services/pricing/main)에 지불하십시오.
 
 이 예에서 템플릿은 몇 개의 서명자 필드가 있는 간단한 문서에 불과합니다. 일단 필드의 이름을 지정한 다음 나중에 이 튜토리얼에서 실제 필드를 삽입합니다.
 
@@ -276,7 +276,7 @@ Company Name","","","2021-03-07 19:32:59"
 
 서명 또는 승인을 위해 지정된 수신자에게 문서를 보내면 계약이 만들어집니다. API를 사용하여 계약 상태 및 완료 상태를 추적할 수 있습니다.
 
-[임시 문서](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
+[임시 문서](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
@@ -434,10 +434,10 @@ Company Name","CBJCHBCAABAA5Z84zy69q_Ilpuy5DzUAahVfcNZillDt"
 
 Acrobat Sign API를 사용하면 문서, 웹 양식 및 계약을 관리할 수 있습니다. 웹 양식 및 계약을 사용하여 만든 간단하면서도 완전한 워크플로우는 개발자가 모든 언어를 사용하여 웹 양식을 구현할 수 있는 일반적인 방법으로 수행됩니다.
 
-Sign API 작동 방식에 대한 개요는 [API 사용 개발자 안내서](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/api_usage.md)에서 예를 찾을 수 있습니다. 이 설명서에는 문서 전체에서 수행한 많은 단계와 기타 관련 항목에 대한 간단한 도움말이 포함되어 있습니다.
+Sign API 작동 방식에 대한 개요는 [API 사용 개발자 안내서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/api_usage.md)에서 예를 찾을 수 있습니다. 이 설명서에는 문서 전체에서 수행한 많은 단계와 기타 관련 항목에 대한 간단한 도움말이 포함되어 있습니다.
 
-Acrobat Sign API는 [단일 및 다중 사용자 전자 서명 플랜](https://acrobat.adobe.com/kr/ko/sign/pricing/plans.html)의 여러 계층을 통해 사용할 수 있으므로 요구 사항에 가장 적합한 가격 모델을 선택할 수 있습니다. Sign API를 앱에 통합하는 것이 얼마나 쉬운지 알게 되었으므로 푸시 기반 프로그래밍 모델인 [Acrobat Sign Webhooks](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md)와 같은 다른 기능에 관심을 가질 수 있습니다. 앱에서 Acrobat Sign 이벤트를 자주 확인하도록 요구하는 대신 Webhook을 사용하면 이벤트가 발생할 때마다 Sign API가 POST 콜백 요청을 실행하는 HTTP URL을 등록할 수 있습니다. Webhook은 실시간 및 인스턴트 업데이트를 통해 응용 프로그램을 지원하여 강력한 프로그래밍을 활성화합니다.
+Acrobat Sign API는 [단일 및 다중 사용자 전자 서명 플랜](https://acrobat.adobe.com/kr/ko/sign/pricing/plans.html)의 여러 계층을 통해 사용할 수 있으므로 요구 사항에 가장 적합한 가격 모델을 선택할 수 있습니다. Sign API를 앱에 통합하는 것이 얼마나 쉬운지 알게 되었으므로 푸시 기반 프로그래밍 모델인 [Acrobat Sign Webhooks](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/webhooks.md)와 같은 다른 기능에 관심을 가질 수 있습니다. 앱에서 Acrobat Sign 이벤트를 자주 확인하도록 요구하는 대신 Webhook을 사용하면 이벤트가 발생할 때마다 Sign API가 POST 콜백 요청을 실행하는 HTTP URL을 등록할 수 있습니다. Webhook은 실시간 및 인스턴트 업데이트를 통해 응용 프로그램을 지원하여 강력한 프로그래밍을 활성화합니다.
 
-6개월 무료 Adobe PDF Services API 체험판이 종료되는 시점과 무료 Adobe PDF Embed API에 대해서는 [선불 종량제 가격](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)을 확인하십시오.
+6개월 무료 Adobe PDF Services API 체험판이 종료되는 시점과 무료 Adobe PDF Embed API에 대해서는 [선불 종량제 가격](https://developer.adobe.com/document-services/pricing/main)을 확인하십시오.
 
 자동 문서 생성 및 문서 서명과 같은 흥미로운 기능을 앱에 추가하려면 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)을(를) 시작하십시오.

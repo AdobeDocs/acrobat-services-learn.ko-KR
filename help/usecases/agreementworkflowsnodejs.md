@@ -9,7 +9,7 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: 추천 항목
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: f8a31b8f98d99bf1f3787e0f0f19cc9f26e24d8d
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [프로젝트 코드](https://github.com/adobe/pdftools-node-sdk-samples)
 
@@ -294,7 +294,7 @@ PDF이 표시되는 페이지에서 문서를 보관할 `<div />` 요소를 추�
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 ```
 
-필요한 코드의 마지막 비트는 Adobe PDF Embed API JavaScript가 로드되면 문서를 표시하는 함수입니다. adobe_dc_view\_sdk.ready 이벤트를 통해 스크립트가 로드되었다는 알림을 받으면 새 AdobeDC.View 개체를 만듭니다. 이 개체에는 클라이언트 ID와 이전에 만든 요소의 ID가 필요합니다. [Adobe Developer Console](https://console.adobe.io/)에서 클라이언트 ID를 찾습니다. 이전에 자격 증명을 생성할 때 생성한 애플리케이션의 설정을 보면 클라이언트 ID가 표시됩니다.
+필요한 코드의 마지막 비트는 Adobe PDF Embed API JavaScript가 로드되면 문서를 표시하는 함수입니다. adobe_dc_view\_sdk.ready 이벤트를 통해 스크립트가 로드되었다는 알림을 받으면 새 AdobeDC.View 개체를 만듭니다. 이 개체에는 클라이언트 ID와 이전에 만든 요소의 ID가 필요합니다. [Adobe Developer Console](https://developer.adobe.com/console/)에서 클라이언트 ID를 찾습니다. 이전에 자격 증명을 생성할 때 생성한 애플리케이션의 설정을 보면 클라이언트 ID가 표시됩니다.
 
 ![API 클라이언트 키 이미지](assets/AWNjs_6.png)
 
@@ -312,7 +312,7 @@ PDF이 표시되는 페이지에서 문서를 보관할 `<div />` 요소를 추�
 
 문서가 준비되면 Adobe Sign에서 승인을 위해 디지털 서명을 추가할 수 있습니다. 이 기능은 지금까지 사용하던 기능과 약간 다르게 작동합니다. 디지털 서명의 경우 사용자 인증에 OAuth를 사용하도록 애플리케이션을 구성해야 합니다.
 
-응용 프로그램을 설정하는 첫 번째 단계는 [응용 프로그램을 등록](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md)하여 Adobe Sign용 OAuth를 사용하는 것입니다. 로그인하고 나면 *계정*&#x200B;을 클릭하여 응용 프로그램을 만드는 화면으로 이동한 다음 *Adobe Sign API* 섹션을 열고 *API 응용 프로그램*&#x200B;을 클릭하여 등록된 응용 프로그램 목록을 엽니다.
+응용 프로그램을 설정하는 첫 번째 단계는 [응용 프로그램을 등록](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md)하여 Adobe Sign용 OAuth를 사용하는 것입니다. 로그인하고 나면 *계정*&#x200B;을 클릭하여 응용 프로그램을 만드는 화면으로 이동한 다음 *Adobe Sign API* 섹션을 열고 *API 응용 프로그램*&#x200B;을 클릭하여 등록된 응용 프로그램 목록을 엽니다.
 
 ![응용 프로그램 등록의 첫 번째 단계 이미지](assets/AWNjs_9.png)
 
@@ -519,4 +519,4 @@ request(createWebFormRequest, function (error, response) {
 
 호출에 필요한 범위를 확인하거나 호출이 빌드되는 방법을 보려면 [Rest API 설명서](https://secure.na4.adobesign.com/public/docs/restapi/v6)에서 샘플 호출을 빌드할 수 있습니다. [빠른 시작](https://github.com/adobe/pdftools-node-sdk-samples)에서는 [!DNL Adobe Acrobat Services] API 프로세스의 다른 기능과 파일 형식도 보여 줍니다.
 
-애플리케이션에 다양한 PDF 기능을 추가하여 사용자들이 자신의 문서를 빠르고 쉽게 보고 서명할 수 있도록 할 수 있습니다. 시작하려면 오늘 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/)을(를) 확인하십시오.
+애플리케이션에 다양한 PDF 기능을 추가하여 사용자들이 자신의 문서를 빠르고 쉽게 보고 서명할 수 있도록 할 수 있습니다. 시작하려면 오늘 [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 확인하십시오.

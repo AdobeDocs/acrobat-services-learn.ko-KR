@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8096
 thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![사례 영웅 배너 사용](assets/UseCaseOfferHero.jpg)
 
-직원 오퍼 편지는 직원이 귀사에서 처음으로 경험한 내용 중 하나입니다. 따라서 구인 문자가 온브랜드인지 확인해야 하지만 매번 워드 프로세서에서 문자를 처음부터 작성할 필요는 없습니다. [!DNL Adobe Acrobat Services] API는 [신입 사원에게 제안서 작성 및 전달](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html)의 주요 부분을 처리하는 빠르고 쉽고 효과적인 방법을 제공합니다.
+직원 오퍼 편지는 직원이 귀사에서 처음으로 경험한 내용 중 하나입니다. 따라서 구인 문자가 온브랜드인지 확인해야 하지만 매번 워드 프로세서에서 문자를 처음부터 작성할 필요는 없습니다. [!DNL Adobe Acrobat Services] API는 [신입 사원에게 제안서 작성 및 전달](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)의 주요 부분을 처리하는 빠르고 쉽고 효과적인 방법을 제공합니다.
 
 ## 학습 내용
 
@@ -29,21 +29,21 @@ ht-degree: 0%
 
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
-* [문서 생성 Tagger Word 추가 기능](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin)
+* [문서 생성 Tagger Word 추가 기능](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
 
-* [프로젝트 샘플](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html)
+* [프로젝트 샘플](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)
 
 ## 시작하기
 
 [Node.js](https://nodejs.org/)은(는) 프로그래밍 플랫폼입니다. Express 웹 서버와 같은 방대한 라이브러리 세트가 함께 제공됩니다. [Node.js](https://nodejs.org/en/download/)을(를) 다운로드하고 단계에 따라 이 멋진 오픈 소스 개발 환경을 설치하십시오.
 
-Node.js에서 Adobe 문서 생성 API를 사용하려면 [문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) 사이트로 이동하여 계정에 액세스하거나 새 계정을 등록하십시오. 귀하의 계정은 문서 트랜잭션당 단 $0.05에 대해 6개월 동안 [무료 다음 사용한 만큼 지불](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)되므로 안심하고 사용해 보고 회사가 성장하고 있을 때만 결제할 수 있습니다.
+Node.js에서 Adobe 문서 생성 API를 사용하려면 [문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation) 사이트로 이동하여 계정에 액세스하거나 새 계정을 등록하십시오. 귀하의 계정은 문서 트랜잭션당 단 $0.05에 대해 6개월 동안 [무료 다음 사용한 만큼 지불](https://developer.adobe.com/document-services/pricing/main)되므로 안심하고 사용해 보고 회사가 성장하고 있을 때만 결제할 수 있습니다.
 
-[Adobe Developer Console](https://console.adobe.io/)에 로그인한 후 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭합니다. 기본적으로 프로젝트의 이름은 &quot;Project 1&quot;로 지정됩니다. **[!UICONTROL 프로젝트 편집]** 단추를 클릭하고 이름을 &quot;제공 편지 생성기&quot;로 변경합니다. 화면 중앙에는 **[!UICONTROL 새 프로젝트 시작하기]** 섹션이 있습니다. 프로젝트에서 보안을 활성화하려면 다음 단계를 수행하십시오.
+[Adobe Developer Console](https://developer.adobe.com/console/)에 로그인한 후 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭합니다. 기본적으로 프로젝트의 이름은 &quot;Project 1&quot;로 지정됩니다. **[!UICONTROL 프로젝트 편집]** 단추를 클릭하고 이름을 &quot;제공 편지 생성기&quot;로 변경합니다. 화면 중앙에는 **[!UICONTROL 새 프로젝트 시작하기]** 섹션이 있습니다. 프로젝트에서 보안을 활성화하려면 다음 단계를 수행하십시오.
 
 **API 추가**&#x200B;를 클릭합니다. 선택할 수 있는 여러 API가 표시됩니다. **[!UICONTROL 제품별 필터링]** 섹션에서 **[!UICONTROL Document Cloud]**&#x200B;를 선택한 다음 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -57,7 +57,7 @@ Node.js에서 Adobe 문서 생성 API를 사용하려면 [문서 생성 API](htt
 
 ## 프로젝트 설정
 
-코드를 실행할 노드 프로젝트를 설정합니다. 이 예제에서는 [Visual Studio 코드](https://code.visualstudio.com/)(VS 코드)을(를) 편집기로 사용합니다. &quot;letter-generator&quot;라는 폴더를 만들고 VS 코드에서 엽니다. **[!UICONTROL 파일]** 메뉴에서 **[!UICONTROL 터미널]** \> **[!UICONTROL 새 터미널]**&#x200B;을 선택하여 이 폴더에서 셸을 엽니다. 다음을 입력하여 노드가 설치되어 있고 경로에 있는지 확인합니다.
+코드를 실행할 노드 프로젝트를 설정합니다. 이 예제에서는 [Visual Studio 코드](https://code.visualstudio.com/)&#x200B;(VS 코드)을(를) 편집기로 사용합니다. &quot;letter-generator&quot;라는 폴더를 만들고 VS 코드에서 엽니다. **[!UICONTROL 파일]** 메뉴에서 **[!UICONTROL 터미널]** \> **[!UICONTROL 새 터미널]**&#x200B;을 선택하여 이 폴더에서 셸을 엽니다. 다음을 입력하여 노드가 설치되어 있고 경로에 있는지 확인합니다.
 
 ```
 node -v
@@ -239,7 +239,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-거기에는 짐을 풀 수 있는 많은 코드가 있다. 먼저 `documentMergeOperation`을(를) 주요 부분으로 하겠습니다. 이 섹션에서는 JSON 데이터를 가져와 Word 문서 템플릿과 병합합니다. Adobe 사이트의 [예제](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade)를 참조로 사용할 수 있지만, 간단한 예제를 만들어 보겠습니다. Word를 열고 새 빈 문서를 만듭니다. 원하는 만큼 사용자 정의할 수 있지만 적어도 다음과 같은 기능이 있습니다.
+거기에는 짐을 풀 수 있는 많은 코드가 있다. 먼저 `documentMergeOperation`을(를) 주요 부분으로 하겠습니다. 이 섹션에서는 JSON 데이터를 가져와 Word 문서 템플릿과 병합합니다. Adobe 사이트의 [예제](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade)를 참조로 사용할 수 있지만, 간단한 예제를 만들어 보겠습니다. Word를 열고 새 빈 문서를 만듭니다. 원하는 만큼 사용자 정의할 수 있지만 적어도 다음과 같은 기능이 있습니다.
 
 친애하는 X 님,
 
@@ -247,7 +247,7 @@ console.log('Exception encountered while executing operation', err);
 
 시작
 
-프로젝트 루트의 &quot;resources&quot; 폴더에 문서를 &quot;OfferLetter-Template.docx&quot;로 저장합니다. 문서의 Xs 3개를 확인합니다. 해당 Xs는 JSON 정보를 위한 임시 자리 표시자입니다. 이러한 자리 표시자를 대체할 특수 구문을 사용할 수도 있지만 Adobe에서는 이 작업을 단순화하는 Word 추가 기능을 제공합니다. 추가 기능을 설치하려면 Adobe [Document Generation Tagger Word 추가 기능](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin) 사이트로 이동하세요.
+프로젝트 루트의 &quot;resources&quot; 폴더에 문서를 &quot;OfferLetter-Template.docx&quot;로 저장합니다. 문서의 Xs 3개를 확인합니다. 해당 Xs는 JSON 정보를 위한 임시 자리 표시자입니다. 이러한 자리 표시자를 대체할 특수 구문을 사용할 수도 있지만 Adobe에서는 이 작업을 단순화하는 Word 추가 기능을 제공합니다. 추가 기능을 설치하려면 Adobe [Document Generation Tagger Word 추가 기능](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin) 사이트로 이동하세요.
 
 OfferLetter-Template에서 새 **문서 생성** 단추를 클릭합니다. 측면 패널이 열립니다. **시작하기**&#x200B;를 클릭합니다. 샘플 JSON 데이터에 붙여넣을 텍스트 영역이 제공됩니다. JSON의 &quot;offer-data&quot; 스니펫을 위에서 텍스트 영역으로 복사합니다. 다음과 같이 표시됩니다.
 
@@ -263,7 +263,7 @@ OfferLetter-Template에서 새 **문서 생성** 단추를 클릭합니다. 측�
 
 이제 Word 템플릿에는 JSON 형식과 일치하는 마크업이 있습니다. 예를 들어 Word 문서의 시작 부분에 있는 ```{{`offer_letter`.`firstname`}}```은(는) JSON 데이터의 &quot;firstname&quot; 섹션에 있는 값으로 대체됩니다.
 
-`generateLetter` 함수로 돌아갑니다. REST 호출을 보호하려면 프로젝트 루트에서 pdftools-api-credentials.json이라는 이름의 새 파일을 만듭니다. 다음 JSON 데이터에 붙여넣고 [개발자 콘솔](https://console.adobe.io/)의 서비스 계정(JWT) 섹션에서 세부 정보로 조정합니다.
+`generateLetter` 함수로 돌아갑니다. REST 호출을 보호하려면 프로젝트 루트에서 pdftools-api-credentials.json이라는 이름의 새 파일을 만듭니다. 다음 JSON 데이터에 붙여넣고 [개발자 콘솔](https://developer.adobe.com/console/)의 서비스 계정(JWT) 섹션에서 세부 정보로 조정합니다.
 
 ```
 {
@@ -290,9 +290,9 @@ JSON 데이터가 채워진 PDF을 생성하려면 **[!UICONTROL 후보자 세�
 
 ## 다음 단계
 
-바로 그거야! 이건 시작에 불과해 Word 추가 기능의 [문서 생성] 탭에서 [고급] 섹션을 살펴보는 경우 모든 자리 표시자 마커가 연결된 JSON 데이터에서 가져온 것은 아닙니다. 서명 태그를 추가할 수도 있습니다. 이 태그를 사용하면 결과 문서를 가져와서 [Adobe Sign](https://acrobat.adobe.com/ca/en/sign.html)에 업로드하여 새 직원에게 전달하고 서명할 수 있습니다. Adobe Sign API 시작하기 를 참조하여 방법을 알아보십시오. 이 프로세스는 JWT 토큰으로 보호된 REST 호출을 사용하기 때문에 비슷합니다.
+바로 그거야! 이건 시작에 불과해 Word 추가 기능의 [문서 생성] 탭에서 [고급] 섹션을 살펴보는 경우 모든 자리 표시자 마커가 연결된 JSON 데이터에서 가져온 것은 아닙니다. 서명 태그를 추가할 수도 있습니다. 이 태그를 사용하면 결과 문서를 가져와서 [Adobe Sign](https://www.adobe.com/ca/sign.html)에 업로드하여 새 직원에게 전달하고 서명할 수 있습니다. Adobe Sign API 시작하기 를 참조하여 방법을 알아보십시오. 이 프로세스는 JWT 토큰으로 보호된 REST 호출을 사용하기 때문에 비슷합니다.
 
-위에서 제공된 단일 문서 예제는 조직에서 여러 위치에 걸쳐 직원의 [계절적 채용을 증가](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html)해야 하는 경우 응용 프로그램의 기반으로 사용할 수 있습니다. 입증된 바와 같이, 주요 흐름은 온라인 애플리케이션을 통해 후보자들로부터 데이터를 가져오는 것이다. 이 데이터는 오퍼 레터의 필드를 채우고 전자 서명을 위해 보내는 데 사용됩니다.
+위에서 제공된 단일 문서 예제는 조직에서 여러 위치에 걸쳐 직원의 [계절적 채용을 증가](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)해야 하는 경우 응용 프로그램의 기반으로 사용할 수 있습니다. 입증된 바와 같이, 주요 흐름은 온라인 애플리케이션을 통해 후보자들로부터 데이터를 가져오는 것이다. 이 데이터는 오퍼 레터의 필드를 채우고 전자 서명을 위해 보내는 데 사용됩니다.
 
-[!DNL Adobe Acrobat Services]은(는) 6개월 동안 무료로 사용할 수 있으며, 문서 트랜잭션당 단 $0.05의 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 사용할 수 있으므로 이를 통해 비즈니스가 성장함에 따라 구인 공고 워크플로를 확장할 수 있습니다. [시작하기](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-나만의 템플릿을 만들고 [개발자 계정에 등록](https://www.adobe.io/)하세요.
+[!DNL Adobe Acrobat Services]은(는) 6개월 동안 무료로 사용할 수 있으며, 문서 트랜잭션당 단 $0.05의 [종량제](https://developer.adobe.com/document-services/pricing/main)를 사용할 수 있으므로 이를 통해 비즈니스가 성장함에 따라 구인 공고 워크플로를 확장할 수 있습니다. [시작하기](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+나만의 템플릿을 만들고 [개발자 계정에 등록](https://developer.adobe.com/)하세요.

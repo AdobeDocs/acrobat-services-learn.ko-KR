@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -21,14 +21,14 @@ ht-degree: 0%
 
 교육기관에서는 학습자료를 학생들과 공유하기 위해 PDF 문서를 활용한다. PDF은 교사를 위한 상호 교환 가능한 문서 형식을 제공합니다.
 
-[Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) 및 [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html)를 앱에 통합하면 교사와 학생이 단일 플랫폼을 사용하여 가르치고 배울 수 있습니다. 예를 들어 앱에서 학생들이 과제 및 보고서 카드에 대해 질문하고 그룹 과제에 대해 공동 작업을 수행할 수 있도록 할 수 있습니다.
+[Adobe PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services) 및 [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)를 앱에 통합하면 교사와 학생이 단일 플랫폼을 사용하여 가르치고 배울 수 있습니다. 예를 들어 앱에서 학생들이 과제 및 보고서 카드에 대해 질문하고 그룹 과제에 대해 공동 작업을 수행할 수 있도록 할 수 있습니다.
 
 PDF 서비스 API에 액세스하기 위한 Node.js 애플리케이션용 공식 SDK가 있습니다. 이를 통해 Microsoft Word 또는 Microsoft Excel과 같은 문서를 다음으로 변환할 수 있습니다
-PDF. 또한 여러 보고서 결합, 페이지 재정렬, PDF 보호 등의 고급 작업을 수행할 수 있습니다. 자세한 내용은 [제품 설명서](https://www.adobe.io/apis/documentcloud/dcsdk/)를 확인하십시오.
+PDF. 또한 여러 보고서 결합, 페이지 재정렬, PDF 보호 등의 고급 작업을 수행할 수 있습니다. 자세한 내용은 [제품 설명서](https://developer.adobe.com/document-services/homepage/)를 확인하십시오.
 
 ## 학습 내용
 
-이 실습형 튜토리얼에서는 [교사와 학생이 PDF에서 리소스를 쉽게 공유](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html)할 수 있는 온라인 학습 플랫폼을 만드는 방법을 배웁니다. 이 자습서는 Node.js JavaScript 런타임(Node.js) 및 PDF 서비스를 사용하여 만든 [학습 포털](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers)을 사용합니다.
+이 실습형 튜토리얼에서는 [교사와 학생이 PDF에서 리소스를 쉽게 공유](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration)할 수 있는 온라인 학습 플랫폼을 만드는 방법을 배웁니다. 이 자습서는 Node.js JavaScript 런타임(Node.js) 및 PDF 서비스를 사용하여 만든 [학습 포털](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers)을 사용합니다.
 
 학습 포털에는 다음과 같은 기능이 있습니다.
 
@@ -67,7 +67,7 @@ PDF. 또한 여러 보고서 결합, 페이지 재정렬, PDF 보호 등의 고�
 학생들은 모든 유형의 단일 또는 여러 문서를 Microsoft Word, Excel, PowerPoint뿐만 아니라 기타 인기 있는 텍스트 및 이미지 파일 유형과 같은 PDF으로 변환할 수 있습니다. 학습 포털은 PDF 서비스를 사용하여 파일을 PDF으로 변환합니다.
 
 자신만의 학습 포털을 만들려면 먼저 자신만의 자격 증명을 만들어야 합니다. [등록](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 대상
-PDF 서비스 API를 6개월 동안 무료로 사용하고 최대 1,000건의 문서 트랜잭션을 사용할 수 있습니다. 이후 클래스가 할당량을 늘림에 따라 문서 트랜잭션당 단 \$0.05의 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)가 제공됩니다.
+PDF 서비스 API를 6개월 동안 무료로 사용하고 최대 1,000건의 문서 트랜잭션을 사용할 수 있습니다. 이후 클래스가 할당량을 늘림에 따라 문서 트랜잭션당 단 \$0.05의 [종량제](https://developer.adobe.com/document-services/pricing/main)가 제공됩니다.
 
 학생이 대시보드에서 문서를 선택하면 다음 항목이 표시됩니다.
 
@@ -171,7 +171,7 @@ PDF 문서에서 주석을 사용하려면 인수 `showAnnotationTools` : true�
 
 학생들이 온라인 플랫폼을 어떻게 활용하고 있는지 교사와 학교가 확인하는 것이 중요하다. 이는 교사가 학생들이 과제를 더 잘 수행할 수 있도록 돕는 자원을 학생들에게 지원하는 데 도움이 된다. PDF 임베드 API는 사용자가 문서를 열고 읽고 닫는 경우 등 발생하는 모든 이벤트를 측정하는 데 사용할 수 있는 분석과 통합됩니다. 교사는 PDF 서비스 API를 사용하여 인쇄, 다운로드 및 파일 수정을 비활성화하여 학업 무결성을 유지할 수도 있습니다.
 
-[Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics.html) 라이선스가 있으면 [즉시 사용 가능한 통합](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#adobe-analytics)을 사용할 수 있습니다. 그렇지 않으면 콜백을 사용하여 PDF 서비스를 [Google](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#google-analytics)과 같은 다른 분석 공급자와 통합합니다.
+[Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) 라이선스가 있으면 [즉시 사용 가능한 통합](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics)을 사용할 수 있습니다. 그렇지 않으면 콜백을 사용하여 PDF 서비스를 [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics)과 같은 다른 분석 공급자와 통합합니다.
 
 문서 이벤트 측정을 사용하려면 Adobe DC View 인스턴스와 함께 `registerCallback` 메서드를 사용하여 이벤트 처리기를 연결합니다. 문서를 열거나 페이지를 읽는 등의 기본 측정 단위를 콘솔에 표시할 수 있습니다. 메트릭을 로그에 저장하거나 다른 분석 저장소에 게시할 수도 있습니다.
 
@@ -197,7 +197,7 @@ adobeDCView.registerCallback(
 
 이 화면 캡처는 학생이 할당 파일을 열고 첫 페이지를 읽었으며(추가 페이지로 스크롤하지 않았거나 문서에 한 페이지만 있는 경우) 파일을 다운로드했음을 나타냅니다. 이러한 측정 단위를 수집하여 분석을 수행하고 학생들의 행동을 연구할 수 있습니다.
 
-또한 [Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)은(는) PDF 포함 API와 통합되므로 Adobe Analytics 제품군에 대한 구독이 있는 경우 구독에 메트릭을 게시할 수 있습니다. Adobe Analytics에 측정 단위를 게시하려면 Embed API 생성자에 PDF ID를 전달하기만 하면 됩니다. (PDF 서비스 API 자격 증명이 아닌 PDF Embed API 자격 증명을 사용해야 합니다.)
+또한 [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html)은(는) PDF 포함 API와 통합되므로 Adobe Analytics 제품군에 대한 구독이 있는 경우 구독에 메트릭을 게시할 수 있습니다. Adobe Analytics에 측정 단위를 게시하려면 Embed API 생성자에 PDF ID를 전달하기만 하면 됩니다. (PDF 서비스 API 자격 증명이 아닌 PDF Embed API 자격 증명을 사용해야 합니다.)
 
 다음은 PDF Embed API 생성자로 suite ID를 전달하는 방법을 보여 주는 샘플 코드입니다.
 
@@ -211,8 +211,8 @@ var adobeDCView = new AdobeDC.View({
 
 ## 다음 단계
 
-이 실습용 튜토리얼에서는 PDF 서비스 API 및 PDF 포함 API를 사용하여 학습 포털을 만들어 [학생과 교사 간의 효율적인 공동 작업](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html)을 촉진하는 방법을 검토했습니다. 교사는 이 포털을 통해 학습 자료를 모든 형식으로 업로드하고 PDF 서비스 API를 사용하여 PDF으로 변환할 수 있습니다. 그런 다음 학생들은 PDF Embed API를 사용하여 이러한 PDF을 미리 볼 수 있습니다.
+이 실습용 튜토리얼에서는 PDF 서비스 API 및 PDF 포함 API를 사용하여 학습 포털을 만들어 [학생과 교사 간의 효율적인 공동 작업](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration)을 촉진하는 방법을 검토했습니다. 교사는 이 포털을 통해 학습 자료를 모든 형식으로 업로드하고 PDF 서비스 API를 사용하여 PDF으로 변환할 수 있습니다. 그런 다음 학생들은 PDF Embed API를 사용하여 이러한 PDF을 미리 볼 수 있습니다.
 
 이제 PDF 보고서에 주석을 달고, 주석을 보관하고, PDF 보고서 사용을 추적하는 방법을 이해하셨다면 이제 프로젝트에 이러한 솔루션을 직접 구현할 수 있습니다.
 
-[!DNL Adobe Acrobat Services] API를 사용하여 웹 사이트에서 사용자 친화적이고 인터랙티브한 PDF 경험을 만들 수 있습니다. 6개월 동안 Adobe PDF Services API를 무료로 사용한 다음 AWS 또는 직접 계약을 통해 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)만 문서 트랜잭션당 \$0.05에 사용할 수 있습니다. 제한 시간 없이 Adobe PDF 임베드 무료 사용. 지금 [시작](https://www.adobe.com/go/dcsdks_credentials)하려면 무료 계정을 만드세요.
+[!DNL Adobe Acrobat Services] API를 사용하여 웹 사이트에서 사용자 친화적이고 인터랙티브한 PDF 경험을 만들 수 있습니다. 6개월 동안 Adobe PDF Services API를 무료로 사용한 다음 AWS 또는 직접 계약을 통해 [종량제](https://developer.adobe.com/document-services/pricing/main)만 문서 트랜잭션당 \$0.05에 사용할 수 있습니다. 제한 시간 없이 Adobe PDF 임베드 무료 사용. 지금 [시작](https://www.adobe.com/go/dcsdks_credentials)하려면 무료 계정을 만드세요.

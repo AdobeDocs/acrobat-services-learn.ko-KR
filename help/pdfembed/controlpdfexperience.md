@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
 **필요한 항목**
 
 * 튜토리얼 리소스 [다운로드](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial)
-* Adobe ID [여기서 받기](https://accounts.adobe.com/kr/)
+* Adobe ID [여기서 받기](https://account.adobe.com/ko/)
 * 웹 서버(노드 JS, PHP 등)
 * HTML / JavaScript / CSS에 대한 작업 지식
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ### 자격 증명 가져오기
 
-1. [Adobe.io 웹 사이트](https://www.adobe.io/)로 이동합니다.
+1. [Adobe.io 웹 사이트](https://developer.adobe.com/)로 이동합니다.
 1. 매력적인 문서 환경 빌드에서 **[!UICONTROL 자세히 알아보기]**&#x200B;를 클릭합니다.
 
    ![자세히 알아보기 단추의 스크린샷](assets/ControlPDF_1.png)
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 활용할 코드를 만들었습니다. 코드를 직접 사용할 수도 있지만 데모는 튜토리얼 리소스 컨텍스트에 있습니다. 샘플 코드 [여기](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial)를 다운로드하세요.
 
-1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://www.adobe.io/apis/documentcloud/dcsdk/)(으)로 이동합니다.
+1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://developer.adobe.com/document-services/homepage/)&#x200B;(으)로 이동합니다.
 
    [!DNL Adobe Acrobat Services] 웹 사이트의 ![스크린샷](assets/ControlPDF_6.png)
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 PDF Embed API의 일부로 사용할 수 있는 다양한 JavaScript 이벤트가 있습니다. [!DNL Adobe Acrobat Services] 설명서에서 액세스할 수 있습니다.
 
-1. [설명서](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) 사이트로 이동합니다.
+1. [설명서](https://developer.adobe.com/document-services/docs/overview) 사이트로 이동합니다.
 1. API의 일부로 사용할 수 있는 다양한 이벤트 유형을 검토합니다. 이는 참조에 유용하며 향후 프로젝트에도 도움이 됩니다.
 
    ![참조 가이드의 스크린샷](assets/ControlPDF_17.png)
@@ -279,7 +279,7 @@ Adobe Analytics 지원을 뷰어에 추가하려면 웹 사이트에 설명된 �
 >
 >웹 페이지 헤더의 페이지에 Adobe Analytics이 이미 로드되어 있어야 합니다.
 
-[Adobe Analytics 설명서](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/howtodata.html#adobe-analytics)(으)로 이동하여 웹 페이지에서 이미 Adobe Analytics을 사용하는지 검토합니다. 지침에 따라 reportSuite를 설정합니다.
+[Adobe Analytics 설명서](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/howtodata.html#adobe-analytics)&#x200B;(으)로 이동하여 웹 페이지에서 이미 Adobe Analytics을 사용하는지 검토합니다. 지침에 따라 reportSuite를 설정합니다.
 
 ### Google Analytics
 
@@ -326,4 +326,4 @@ Adobe PDF Embed API 는 Adobe Analytics과 즉시 통합 가능합니다. 그러
 
 ## 추가 리소스
 
-[여기](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)에서 추가 리소스를 찾을 수 있습니다.
+[여기](https://developer.adobe.com/document-services/docs/overview)에서 추가 리소스를 찾을 수 있습니다.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-6677
 thumbnail: KT-6677.jpg
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -103,6 +103,6 @@ PDF은 기본적으로 출력 디렉토리인 출력에서 지정된 위치에 �
 
 * PDF 서비스 API [설명서](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* PDF 서비스 API 질문에 대한 [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197)
+* PDF 서비스 API 질문에 대한 [FAQ](https://community.adobe.com/t5/contentarchivals/contentarchivedpage/message-uid/10726197)
 
 * 라이선스 및 가격에 대한 질문은 [문의하기](https://www.adobe.com/go/pdftoolsapi_requestform)

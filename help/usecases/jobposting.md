@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 여러 사용자가 함께 웹 사이트를 운영하는 경우 모든 사용자에게 원활한 경험을 제공하는 경험을 디자인하는 것이 중요합니다.
 
-다음 시나리오를 상상해 보십시오. 고용주가 [채용 공고를 업로드](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html)할 수 있는 웹 사이트가 있습니다. 구직자는 게시물과 관련된 모든 문서를 일관된 형식으로 쉽게 볼 수 있어 편리하다. 그러나 고용주들은 어떤 파일 형식으로든 정보를 첨부하는 것이 편리하다. 두 유형의 사용자 모두에게 편의를 제공하기 위해 업로드된 모든 문서를 자동으로 PDF으로 변환하고 게시물에 인라인 임베드할 수 있습니다.
+다음 시나리오를 상상해 보십시오. 고용주가 [채용 공고를 업로드](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting)할 수 있는 웹 사이트가 있습니다. 구직자는 게시물과 관련된 모든 문서를 일관된 형식으로 쉽게 볼 수 있어 편리하다. 그러나 고용주들은 어떤 파일 형식으로든 정보를 첨부하는 것이 편리하다. 두 유형의 사용자 모두에게 편의를 제공하기 위해 업로드된 모든 문서를 자동으로 PDF으로 변환하고 게시물에 인라인 임베드할 수 있습니다.
 
 ## 학습 내용
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 ## Adobe API 자격 증명 생성 중
 
-먼저, Adobe PDF Embed API(무료 사용) 및 Adobe PDF Services API(6개월 무료, 이후 문서 트랜잭션당 \$0.05에 대해 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)에 대해 [자격 증명을 만들어야](https://www.adobe.com/go/dcsdks_credentials) 합니다. PDF 서비스 API에 대한 자격 증명을 만들 때 &quot;개인화된 코드 샘플 만들기&quot; 옵션을 선택합니다. ZIP 파일을 저장하고 pdftools-api-credentials.json 및 private.key를 Node.js Express 프로젝트의 루트 디렉터리로 추출합니다.
+먼저, Adobe PDF Embed API(무료 사용) 및 Adobe PDF Services API(6개월 무료, 이후 문서 트랜잭션당 \$0.05에 대해 [종량제](https://developer.adobe.com/document-services/pricing/main)에 대해 [자격 증명을 만들어야](https://www.adobe.com/go/dcsdks_credentials) 합니다. PDF 서비스 API에 대한 자격 증명을 만들 때 &quot;개인화된 코드 샘플 만들기&quot; 옵션을 선택합니다. ZIP 파일을 저장하고 pdftools-api-credentials.json 및 private.key를 Node.js Express 프로젝트의 루트 디렉터리로 추출합니다.
 
-또한 사용 가능한 Embed API에 대한 API 키가 필요합니다. [프로젝트](https://console.adobe.io/projects)에서 만든 프로젝트로 이동합니다. 그런 다음 **프로젝트에 추가**&#x200B;를 클릭하고 **API**&#x200B;를 선택합니다. 마지막으로 **Embed API PDF**&#x200B;를 클릭합니다.
+또한 사용 가능한 Embed API에 대한 API 키가 필요합니다. [프로젝트](https://developer.adobe.com/console/projects)에서 만든 프로젝트로 이동합니다. 그런 다음 **프로젝트에 추가**&#x200B;를 클릭하고 **API**&#x200B;를 선택합니다. 마지막으로 **Embed API PDF**&#x200B;를 클릭합니다.
 
 PDF Embed API의 도메인을 지정합니다. API 키는 public이어야 합니다(브라우저에서 실행한 코드에서 확인). 도메인을 지정하면 다른 도메인의 다른 사용자가 API 키를 사용할 수 없습니다.
 
-&quot;localhost&quot;는 도메인으로 사용할 수 없습니다. &quot;testing.local&quot;과 같은 도메인을 지정하고 컴퓨터에서 hosts 파일을 편집하여 해당 도메인을 사용자 컴퓨터인 127.0.0.1로 리디렉션합니다. 그런 다음 localhost:3000에서 응용 프로그램을 테스트하는 대신 testing.local:3000에서 테스트할 수 있습니다. 완료되면 프로젝트 페이지에서 PDF Embed API에 대한 API 키를 찾습니다.
+&quot;localhost&quot;는 도메인으로 사용할 수 없습니다. &quot;testing.local&quot;과 같은 도메인을 지정하고 컴퓨터에서 호스트 파일을 편집하여 해당 도메인을 사용자 컴퓨터인 127.0.0.1(으)로 리디렉션하십시오. 그런 다음 localhost:3000에서 응용 프로그램을 테스트하는 대신 testing.local:3000에서 테스트할 수 있습니다. 완료되면 프로젝트 페이지에서 PDF Embed API에 대한 API 키를 찾습니다.
 
 ## 업로드 양식 및 핸들러 추가
 
@@ -274,7 +274,7 @@ views/ 디렉터리에서 다음 내용으로 job.jade 파일을 만듭니다.
 
 ## 다음 단계
 
-이 실습형 튜토리얼에서는 [!DNL Acrobat Services]과(와) 함께 Node.js를 사용하여 다양한 형식으로 업로드된 [채용 공고](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html)를 PDF으로 변환하는 방법을 살펴보았습니다. 그 결과 PDF이 웹 페이지에 포함됩니다. 이제 웹사이트에 동일한 기능을 추가하여 고용주가 구직자가 찾을 수 있는 직무 설명, 브로셔 등을 손쉽게 업로드할 수 있습니다. 이러한 역량들은 모든 사람들이 자신의 꿈의 직업을 찾는 데 필요한 정보를 얻을 수 있도록 도와준다.
+이 실습형 튜토리얼에서는 [!DNL Acrobat Services]과(와) 함께 Node.js를 사용하여 다양한 형식으로 업로드된 [채용 공고](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting)를 PDF으로 변환하는 방법을 살펴보았습니다. 그 결과 PDF이 웹 페이지에 포함됩니다. 이제 웹사이트에 동일한 기능을 추가하여 고용주가 구직자가 찾을 수 있는 직무 설명, 브로셔 등을 손쉽게 업로드할 수 있습니다. 이러한 역량들은 모든 사람들이 자신의 꿈의 직업을 찾는 데 필요한 정보를 얻을 수 있도록 도와준다.
 
 [!DNL Acrobat Services]을(를) 사용하면 웹 사이트 또는 앱에 주요 문서 처리 기능을 추가할 수 있습니다. 이러한 API로 수행할 수 있는 작업에 대해 자세히 알아보려면 다음 quickstart 설명서를 참조하십시오.
 
@@ -282,4 +282,4 @@ views/ 디렉터리에서 다음 내용으로 job.jade 파일을 만듭니다.
 
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-웹 사이트에 친숙한 문서 처리 기능을 추가하려면 [무료 체험판에 등록](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요. Adobe PDF Embed API는 항상 무료로 사용할 수 있으며 Adobe PDF Services API는 6개월 동안 무료입니다. 그러면 문서 트랜잭션당 \$0.05만 지불하면 비즈니스가 성장함에 따라 [사용한 만큼 지불](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)할 수 있습니다.
+웹 사이트에 친숙한 문서 처리 기능을 추가하려면 [무료 체험판에 등록](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요. Adobe PDF Embed API는 항상 무료로 사용할 수 있으며 Adobe PDF Services API는 6개월 동안 무료입니다. 그러면 문서 트랜잭션당 \$0.05만 지불하면 비즈니스가 성장함에 따라 [사용한 만큼 지불](https://developer.adobe.com/document-services/pricing/main)할 수 있습니다.

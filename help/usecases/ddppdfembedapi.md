@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 전자 문서는 어디에나 있습니다. 사실 전 세계적으로 [조 개의 PDF](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world)이 있을 것이며, 이 숫자는 매일 증가합니다. 웹 페이지에 PDF 뷰어를 포함하면 HTML 및 CSS를 다시 디자인하거나 웹 사이트 액세스를 방해하지 않고도 문서를 볼 수 있습니다.
 
-인기 있는 시나리오를 살펴보겠습니다. 회사에서 [웹 사이트에 백서](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)를 게시합니다.
+인기 있는 시나리오를 살펴보겠습니다. 회사에서 [웹 사이트에 백서](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)를 게시합니다.
 자신의 앱과 서비스에 대한 컨텍스트를 제공합니다. 이 웹사이트의 마케터는 사용자가 PDF 기반 콘텐츠와 상호 작용하는 방식을 더 잘 이해하고 웹 페이지 및 브랜드와 통합하기를 원합니다. 백서를 다운로드할 수 있는 사용자를 제어하여 [제어된 콘텐츠](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.)로 게시하기로 결정했습니다.
 
 ## 학습 내용
 
-이 실습용 튜토리얼에서는 [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html)를 사용하여 웹 페이지에 포함된 PDF 문서를 표시하는 방법을 살펴보세요. 이 API는 무료이고 사용하기 쉽습니다. 다음 예제에서는 일부 JavaScript, Node.js, Express.js, HTML 및 CSS를 사용합니다. [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)에서 전체 프로젝트 코드를 볼 수 있습니다.
+이 실습용 튜토리얼에서는 [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 웹 페이지에 포함된 PDF 문서를 표시하는 방법을 살펴보세요. 이 API는 무료이고 사용하기 쉽습니다. 다음 예제에서는 일부 JavaScript, Node.js, Express.js, HTML 및 CSS를 사용합니다. [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)에서 전체 프로젝트 코드를 볼 수 있습니다.
 
 ## 관련 API 및 리소스
 
@@ -126,7 +126,7 @@ res.render('index', { title: 'Embedding PDF', papers: papers });
 
 ![백서 축소판 스크린샷](assets/ddp_4.png)
 
-다음 섹션에서는 웹 사이트 개선 및 [PDF 포함 API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html)를 사용하여 웹 페이지에 PDF 문서를 표시하는 방법을 설명합니다. PDF Embed API는 무료로 사용할 수 있으며 API 자격 증명을 얻기만 하면 됩니다.
+다음 섹션에서는 웹 사이트 개선 및 [PDF 포함 API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 웹 페이지에 PDF 문서를 표시하는 방법을 설명합니다. PDF Embed API는 무료로 사용할 수 있으며 API 자격 증명을 얻기만 하면 됩니다.
 
 ## PDF Embed API 자격 증명 가져오기
 
@@ -547,16 +547,16 @@ console.log(event);
 
 ![코드 스크린샷](assets/ddp_16.png)
 
-이 데이터를 [Adobe Analytics](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=view) 또는 다른 분석 도구로 보낼 수 있습니다.
+이 데이터를 [Adobe Analytics](https://developer.adobe.com/document-services/docs/overview/pdf-embed-api) 또는 다른 분석 도구로 보낼 수 있습니다.
 
 ## 다음 단계
 
 [!DNL Acrobat Services] API는 개발자가 PDF 중심 작업 과정을 사용하여 디지털 출판 문제를 쉽게 해결할 수 있도록 지원합니다. 샘플 Node 웹 앱을 만들어 백서 컬렉션을 표시하는 방법을 살펴보았습니다. 그런 다음 [무료 API 자격 증명](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)을 획득하고, 네 가지 [임베드 모드](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) 중 하나로 표시될 수 있는 백서에 대한 제한된 액세스를 빌드합니다.
 
-이 워크플로를 함께 사용하면 [가상 마케터](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)가 백서 다운로드에 대한 대가로 잠재 고객 연락처 정보를 수집하고 PDF과 상호 작용하는 사용자에 대한 통계를 볼 수 있습니다. 이러한 기능을 웹 사이트에 통합하여 사용자 참여를 유도하고 모니터링할 수 있습니다.
+이 워크플로를 함께 사용하면 [가상 마케터](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)가 백서 다운로드에 대한 대가로 잠재 고객 연락처 정보를 수집하고 PDF과 상호 작용하는 사용자에 대한 통계를 볼 수 있습니다. 이러한 기능을 웹 사이트에 통합하여 사용자 참여를 유도하고 모니터링할 수 있습니다.
 
 angular 또는 React 개발자인 경우 PDF Embed API를 React 및 Angular 프로젝트와 통합하는 방법을 특징으로 하는 [추가 샘플](https://github.com/adobe/pdf-embed-api-samples)을 사용해 보십시오.
 
-Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[착빙](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)으로 Adobe PDF Services API를 사용해 보십시오.
+Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main)[착빙](https://developer.adobe.com/document-services/pricing/main)으로 Adobe PDF Services API를 사용해 보십시오.
 
 지금 [!DNL Adobe Acrobat Services]개의 API로 [시작](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요.

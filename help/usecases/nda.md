@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8098
 thumbnail: KT-8098.jpg
 exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-[!DNL Adobe Acrobat Services]을(를) 사용하면 동적 데이터를 사용하여 즉석에서 PDF 문서를 생성할 수 있습니다. [!DNL Acrobat Services]은(는) [NDA 생성](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html)을 자동화하는 Adobe 문서 생성 API를 포함한 PDF 도구 모음을 제공합니다.
+[!DNL Adobe Acrobat Services]을(를) 사용하면 동적 데이터를 사용하여 즉석에서 PDF 문서를 생성할 수 있습니다. [!DNL Acrobat Services]은(는) [NDA 생성](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/nda-creation)을 자동화하는 Adobe 문서 생성 API를 포함한 PDF 도구 모음을 제공합니다.
 
-* [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [Adobe 문서 생성 Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
@@ -93,7 +93,7 @@ Word에서 문서 생성 추가 기능의 ![스크린샷](assets/nda_1.png)
 
 ## 태그 만들기
 
-언제든지 템플릿을 만들거나 [기존 템플릿](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade)을 Microsoft Word로 가져올 수 있습니다. 문서를 설정한 후에는 추가 기능에서 해당 토큰을 클릭하여 각 필드에 태그를 추가합니다.
+언제든지 템플릿을 만들거나 [기존 템플릿](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade)을 Microsoft Word로 가져올 수 있습니다. 문서를 설정한 후에는 추가 기능에서 해당 토큰을 클릭하여 각 필드에 태그를 추가합니다.
 
 Microsoft Word 파일의 다음 템플릿:
 
@@ -173,7 +173,7 @@ res.status(500).render("crash", { error: error });
 
 GitHub에서 [전체 샘플 코드](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample)를 볼 수 있습니다.
 
-이 코드는 [!DNL Adobe Acrobat Services] SDK에 대한 API 호출에서 JSON 문서와 Microsoft Word 템플릿을 사용합니다. 이에 대한 응답으로 출력을 수신하고 앱의 파일 시스템에 저장합니다. 생성된 문서를 전자 메일을 통해 클라이언트에게 전달하거나 무료 [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html)를 사용하여 브라우저 내에서 미리 보기를 표시할 수 있습니다.
+이 코드는 [!DNL Adobe Acrobat Services] SDK에 대한 API 호출에서 JSON 문서와 Microsoft Word 템플릿을 사용합니다. 이에 대한 응답으로 출력을 수신하고 앱의 파일 시스템에 저장합니다. 생성된 문서를 전자 메일을 통해 클라이언트에게 전달하거나 무료 [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 브라우저 내에서 미리 보기를 표시할 수 있습니다.
 
 이 호출은 다음 NDA 문서를 만듭니다.
 
@@ -181,13 +181,13 @@ NDA 문서 미리 보기의 ![스크린샷](assets/nda_6.png)
 
 [!DNL Adobe Acrobat Services] API가 콘텐츠를 삽입하여 PDF 문서를 만듭니다. 이러한 도구가 없으면 Office 문서를 처리하고 원시 PDF 파일 형식으로 작업할 코드를 작성해야 할 수 있습니다. Adobe PDF Services를 사용하면 단일 API 호출로 이러한 모든 단계를 수행할 수 있습니다.
 
-이제 [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)를 사용하여 NDA에서 서명을 요청하고 마지막으로 서명된 문서를 모든 당사자에게 전달합니다. Adobe Sign은 Webhook을 사용하여 [알림을 보냅니다](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md). 이 Webhook을 듣고 NDA 상태를 가져올 수 있습니다.
+이제 [Adobe Sign API](https://developer.adobe.com/adobesign-api/)를 사용하여 NDA에서 서명을 요청하고 마지막으로 서명된 문서를 모든 당사자에게 전달합니다. Adobe Sign은 Webhook을 사용하여 [알림을 보냅니다](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/webhooks.md). 이 Webhook을 듣고 NDA 상태를 가져올 수 있습니다.
 
-Adobe Sign 프로세스에 대한 자세한 설명은 [설명서를 참조하거나](https://www.adobe.io/apis/documentcloud/sign/docs.html) 이 자세한 블로그 게시물을 읽어 보십시오.
+Adobe Sign 프로세스에 대한 자세한 설명은 [설명서를 참조하거나](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html) 이 자세한 블로그 게시물을 읽어 보십시오.
 
 ## 다음 단계
 
-이 실습용 튜토리얼에서는 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿 및 JSON 데이터 파일을 사용하여 PDF 문서를 동적으로 생성했습니다. 추가 기능을 사용하면 각 당사자에 대해 사용자 지정된 [NDA](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html)를 자동으로 만든 다음 Sign API를 사용하여 서명을 수집할 수 있습니다.
+이 실습용 튜토리얼에서는 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿 및 JSON 데이터 파일을 사용하여 PDF 문서를 동적으로 생성했습니다. 추가 기능을 사용하면 각 당사자에 대해 사용자 지정된 [NDA](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/nda-creation)를 자동으로 만든 다음 Sign API를 사용하여 서명을 수집할 수 있습니다.
 
-이러한 기술을 사용하여 자신의 NDA 또는 기타 문서를 동적으로 생성하여 팀이 생산적인 작업에 집중할 수 있도록 합니다. [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html)을(를) 탐색하여 선택한 언어 및 런타임에 대한 API와 SDK를 찾으면 PDF 함수를 응용 프로그램에 직접 추가하여 PDF 문서를 빠르게 만들 수 있습니다. 6개월 무료 체험판으로 [시작](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-문서 트랜잭션당 $0.05에 대해서만 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 받으세요.
+이러한 기술을 사용하여 자신의 NDA 또는 기타 문서를 동적으로 생성하여 팀이 생산적인 작업에 집중할 수 있도록 합니다. [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/apis/pdf-services)을(를) 탐색하여 선택한 언어 및 런타임에 대한 API와 SDK를 찾으면 PDF 함수를 응용 프로그램에 직접 추가하여 PDF 문서를 빠르게 만들 수 있습니다. 6개월 무료 체험판으로 [시작](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+문서 트랜잭션당 $0.05에 대해서만 [종량제](https://developer.adobe.com/document-services/pricing/main)를 받으세요.

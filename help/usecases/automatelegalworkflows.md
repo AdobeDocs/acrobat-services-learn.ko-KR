@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10202
 thumbnail: KT-10202.jpg
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: c74a36116349490af29e66fd81ad59c93174c258
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '2826'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    ![자격 증명의 스크린샷](assets/automatelegal_2.png)
 
-1. **[!UICONTROL Microsoft Word 추가 기능 받기]**&#x200B;를 선택하거나 [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654)(으)로 이동하여 설치하십시오.
+1. **[!UICONTROL Microsoft Word 추가 기능 받기]**&#x200B;를 선택하거나 [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654)&#x200B;(으)로 이동하여 설치하십시오.
 
    >[!NOTE]
    >
@@ -362,7 +362,7 @@ var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".docx");
 
 ## 서명을 위해 계약 보내기
 
-[Adobe Acrobat Sign](https://www.adobe.com/kr/sign.html)을 사용하면 한 명 이상의 수신자에게 계약을 보내 문서를 보고 서명하도록 할 수 있습니다. 서명할 문서를 전송하기 위한 사용하기 쉬운 사용자 환경과 함께 Word, PDF, HTML 및 기타 형식을 가져와 서명을 위해 전송할 수 있는 REST API도 사용할 수 있습니다.
+[Adobe Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html)을 사용하면 한 명 이상의 수신자에게 계약을 보내 문서를 보고 서명하도록 할 수 있습니다. 서명할 문서를 전송하기 위한 사용하기 쉬운 사용자 환경과 함께 Word, PDF, HTML 및 기타 형식을 가져와 서명을 위해 전송할 수 있는 REST API도 사용할 수 있습니다.
 
 아래 예에서는 REST API 설명서 페이지를 사용하여 이전에 생성된 문서를 가져와 서명을 위해 전송하는 방법을 설명합니다. 먼저 Acrobat Sign 웹 인터페이스를 통해 수행하는 방법과 REST API를 사용하여 수행하는 방법에 대해 알아봅니다.
 
@@ -420,7 +420,7 @@ Acrobat Sign 계정이 없는 경우 개발자 계정을 등록하고 설명서�
 
 ## 자격 증명 가져오기
 
-1. [Acrobat Sign REST 설명서](https://secure.na1.adobesign.com/public/docs/restapi/v6)(으)로 이동합니다.
+1. [Acrobat Sign REST 설명서](https://secure.na1.adobesign.com/public/docs/restapi/v6)&#x200B;(으)로 이동합니다.
 1. *transientDocuments* 및 [POST /transientDocuments](https://benprojecteddemo.na1.adobesign.com/public/docs/restapi/v6#!/transientDocuments/createTransientDocument)을 확장합니다.
 1. **[!UICONTROL OAUTH ACCESS-TOKEN]**&#x200B;을 선택합니다.
 

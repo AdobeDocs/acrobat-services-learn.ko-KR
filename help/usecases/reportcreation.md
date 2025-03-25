@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: c74a36116349490af29e66fd81ad59c93174c258
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 금융, 교육, 마케팅 및 기타 산업에서는 PDF을 사용하여 고객 및 이해 관계자와 데이터를 공유합니다. PDF을 사용하면 표, 그래픽 및 대화형 콘텐츠가 포함된 리치 문서를 누구나 볼 수 있는 형식으로 쉽게 공유할 수 있습니다. [!DNL Adobe Acrobat Services] API를 사용하면 이러한 회사에서 Microsoft Word, Microsoft Excel, 그래픽 및 기타 다양한 문서 형식에서 공유 가능한 PDF 보고서를 생성할 수 있습니다.
 
-[소셜 미디어 추적 회사를 운영](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html)한다고 가정해 보세요. 고객은 사이트의 암호로 보호된 부분에 로그인하여 캠페인 분석을 봅니다. 종종 경영진, 주주, 기부자 또는 기타 이해 관계자들과 이러한 통계를 공유하려고 합니다. 다운로드 가능한 PDF 문서는 고객이 숫자, 그래프 등을 공유할 수 있는 좋은 방법입니다.
+[소셜 미디어 추적 회사를 운영](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation)한다고 가정해 보세요. 고객은 사이트의 암호로 보호된 부분에 로그인하여 캠페인 분석을 봅니다. 종종 경영진, 주주, 기부자 또는 기타 이해 관계자들과 이러한 통계를 공유하려고 합니다. 다운로드 가능한 PDF 문서는 고객이 숫자, 그래프 등을 공유할 수 있는 좋은 방법입니다.
 
-[PDF 서비스 API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html)를 웹 사이트에 통합하면 이동 중에 각 고객에 대한 PDF 보고서를 생성할 수 있습니다. PDF을 만든 다음 이를 하나의 편리한 보고서로 결합하여 고객이 다운로드하고 관련자에게 전달할 수 있습니다.
+[PDF 서비스 API](https://developer.adobe.com/document-services/apis/pdf-services)를 웹 사이트에 통합하면 이동 중에 각 고객에 대한 PDF 보고서를 생성할 수 있습니다. PDF을 만든 다음 이를 하나의 편리한 보고서로 결합하여 고객이 다운로드하고 관련자에게 전달할 수 있습니다.
 
 ## 학습 내용
 
@@ -92,7 +92,7 @@ PDF 서비스 SDK를 사용하여 데이터 입력에서 PDF 보고서를 만듭
 $ npm install --save @adobe/documentservices-pdftools-node-sdk
 ```
 
-시작하기 전에 API 자격 증명이 있어야 합니다. [Adobe에서 무료](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred). 문서 트랜잭션당 \$0.05만 지불하고 [!DNL Acrobat Services] 계정을 6개월 동안 [무료 사용한 다음 선불 결제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)하세요.
+시작하기 전에 API 자격 증명이 있어야 합니다. [Adobe에서 무료](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred). 문서 트랜잭션당 \$0.05만 지불하고 [!DNL Acrobat Services] 계정을 6개월 동안 [무료 사용한 다음 선불 결제](https://developer.adobe.com/document-services/pricing/main)하세요.
 
 아카이브 파일을 다운로드하고 자격 증명과 개인 키에 대한 JSON 파일의 압축을 풉니다. 샘플 프로젝트에서 파일을 src 디렉토리에 배치합니다.
 
@@ -217,6 +217,6 @@ res.status(500).render("crash", { error: error });
 
 이 실습에서는 고객이 PDF 서비스 API를 사용하여 공유하기 쉬운 PDF으로 관련 보고서를 다운로드하는 방법을 살펴보았습니다. PDF 보고 및 읽기 서비스를 위한 PDF 서비스 API의 강력한 기능을 보여 주기 위해 Node.js 애플리케이션을 만들었습니다. 이 애플리케이션은 고객이 단일 보고서 문서를 다운로드하거나 여러 문서를 결합하여 단일 PDF 보고서로 병합하는 방법을 시연했습니다.
 
-이 Adobe 기반 응용 프로그램은 [소셜 미디어 대시보드 고객](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html)이 장치에 Microsoft Office 또는 기타 소프트웨어가 설치되어 있는지 여부에 관계없이 필요한 보고서를 가져오고 공유할 수 있도록 도와줍니다. 자신의 응용 프로그램에서도 동일한 기술을 사용하여 사용자가 문서를 보고, 결합하고, 다운로드하는 데 도움을 줄 수 있습니다. 또는 Adobe의 다른 많은 API를 확인하여 서명 등을 추가하고 추적해 보세요.
+이 Adobe 기반 응용 프로그램은 [소셜 미디어 대시보드 고객](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation)이 장치에 Microsoft Office 또는 기타 소프트웨어가 설치되어 있는지 여부에 관계없이 필요한 보고서를 가져오고 공유할 수 있도록 도와줍니다. 자신의 응용 프로그램에서도 동일한 기술을 사용하여 사용자가 문서를 보고, 결합하고, 다운로드하는 데 도움을 줄 수 있습니다. 또는 Adobe의 다른 많은 API를 확인하여 서명 등을 추가하고 추적해 보세요.
 
-시작하려면 무료 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 계정을 요청한 다음 직원 및 고객을 위한 매력적인 보고 경험을 만드십시오. 6개월 동안 무료로 계정을 사용한 다음 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 통해 마케팅 활동을 늘리세요. 문서 트랜잭션당 단 \$0.05입니다.
+시작하려면 무료 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 계정을 요청한 다음 직원 및 고객을 위한 매력적인 보고 경험을 만드십시오. 6개월 동안 무료로 계정을 사용한 다음 [종량제](https://developer.adobe.com/document-services/pricing/main)를 통해 마케팅 활동을 늘리세요. 문서 트랜잭션당 단 \$0.05입니다.

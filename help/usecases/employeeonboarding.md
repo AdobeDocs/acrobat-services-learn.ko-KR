@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10203
 thumbnail: KT-10203.jpg
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -35,9 +35,9 @@ API는 아니지만 개발자는 웹 페이지에서 문서를 일관되고 유�
 
 ## Acrobat Sign 소개
 
-[Acrobat Sign](https://www.adobe.com/kr/sign.html)은(는) 전자 서명 서비스의 세계 선두주자입니다. 여러 개의 서명을 포함하여 다양한 작업 과정을 사용하여 서명을 받을 문서를 보낼 수 있습니다. Acrobat Sign은 서명 및 추가 정보가 필요한 워크플로우도 지원합니다. 이러한 모든 기능은 유연한 저작 시스템을 갖춘 강력한 대시보드에서 지원됩니다.
+[Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html)은(는) 전자 서명 서비스의 세계 선두주자입니다. 여러 개의 서명을 포함하여 다양한 작업 과정을 사용하여 서명을 받을 문서를 보낼 수 있습니다. Acrobat Sign은 서명 및 추가 정보가 필요한 워크플로우도 지원합니다. 이러한 모든 기능은 유연한 저작 시스템을 갖춘 강력한 대시보드에서 지원됩니다.
 
-[!DNL Acrobat Services]과(와) 마찬가지로 Acrobat Sign에는 개발자가 대시보드와 사용하기 쉬운 REST 기반 API를 통해 서명 프로세스를 테스트할 수 있는 [무료 체험판](https://www.adobe.com/sign.html#sign_free_trial)이 있습니다.
+[!DNL Acrobat Services]과(와) 마찬가지로 Acrobat Sign에는 개발자가 대시보드와 사용하기 쉬운 REST 기반 API를 통해 서명 프로세스를 테스트할 수 있는 [무료 체험판](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial)이 있습니다.
 
 ## 온보딩 시나리오
 
@@ -192,7 +192,7 @@ combineFilesOperation.execute(executionContext)
 
 ## 서명 프로세스
 
-온보딩 프로세스의 최종 중단에서 직원은 자신이 내부에 정의된 모든 정책을 읽고 동의한다는 내용의 계약에 서명해야 합니다. [Acrobat Sign](https://www.adobe.com/kr/sign.html)은(는) [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html)를 통해 자동화된 워크플로와 통합을 포함하여 다양한 워크플로 및 통합을 지원합니다. 대략적으로 말하면, 시나리오의 마지막 부분은 다음과 같이 완성될 수 있다:
+온보딩 프로세스의 최종 중단에서 직원은 자신이 내부에 정의된 모든 정책을 읽고 동의한다는 내용의 계약에 서명해야 합니다. [Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html)은(는) [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html)를 통해 자동화된 워크플로와 통합을 포함하여 다양한 워크플로 및 통합을 지원합니다. 대략적으로 말하면, 시나리오의 마지막 부분은 다음과 같이 완성될 수 있다:
 
 먼저 서명이 필요한 양식이 포함된 문서를 디자인합니다. 이 작업에는 Adobe Sign 사용자 대시보드에서 설계된 시각적 개체를 포함하여 다양한 방법이 있습니다. 또 다른 옵션은 문서 생성 Word 추가 기능을 사용하여 태그를 삽입하는 것입니다. 이 예에서는 서명과 날짜를 요청합니다.
 
@@ -206,6 +206,6 @@ combineFilesOperation.execute(executionContext)
 
 ## 직접 경험해 보기
 
-이 문서에 설명된 모든 것은 지금 테스트될 수 있습니다. [!DNL Adobe Acrobat Services] API [무료 체험판](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html)에서는 현재 6개월 동안 1,000개의 무료 요청을 제공합니다. Acrobat Sign [무료 체험판](https://www.adobe.com/sign.html#sign_free_trial)을 사용하면 워터마크가 있는 계약을 테스트할 목적으로 보낼 수 있습니다.
+이 문서에 설명된 모든 것은 지금 테스트될 수 있습니다. [!DNL Adobe Acrobat Services] API [무료 체험판](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html)에서는 현재 6개월 동안 1,000개의 무료 요청을 제공합니다. Acrobat Sign [무료 체험판](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial)을 사용하면 워터마크가 있는 계약을 테스트할 목적으로 보낼 수 있습니다.
 
-궁금한 점이 있으십니까? [지원 포럼](https://community.adobe.com/t5/document-services-apis/ct-p/ct-Document-Cloud-SDK)은 Adobe 개발자와 지원 담당자가 매일 모니터링합니다. 일반적으로 더 많은 영감을 얻으려면 다음 [종이 클립](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) 에피소드를 꼭 잡으세요. 뉴스와 데모, 고객과의 상담이 있는 정기적인 라이브 미팅이 있다.
+궁금한 점이 있으십니까? [지원 포럼](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK)은 Adobe 개발자와 지원 담당자가 매일 모니터링합니다. 일반적으로 더 많은 영감을 얻으려면 다음 [종이 클립](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) 에피소드를 꼭 잡으세요. 뉴스와 데모, 고객과의 상담이 있는 정기적인 라이브 미팅이 있다.

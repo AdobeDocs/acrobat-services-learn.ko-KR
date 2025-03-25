@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![사례 영웅 배너 사용](assets/UseCaseReviewsHero.jpg)
 
-코로나19 팬데믹 기간 동안 많은 기업에서 원격 교차 팀 협력이 필요해졌습니다. [디지털 문서 공유 및 검토](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html)는 팀과 교차 기능 리소스에 대해 일련의 과제를 제시합니다.
+코로나19 팬데믹 기간 동안 많은 기업에서 원격 교차 팀 협력이 필요해졌습니다. [디지털 문서 공유 및 검토](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval)는 팀과 교차 기능 리소스에 대해 일련의 과제를 제시합니다.
 
 이러한 문제에는 다양한 파일 형식의 문서를 공유하고, 콘텐츠를 효과적으로 검토하고 댓글을 달며, 최신 편집 내용과 동기화하는 문제 등이 포함됩니다. [!DNL Adobe Acrobat Services] API는 응용 프로그램 개발자가 사용자를 위해 이러한 문제를 해결할 수 있도록 설계되었습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## Adobe API 자격 증명 생성 중
 
-코드를 시작하기 전에 Adobe PDF Embed API 및 Adobe PDF Services API에 대해 [자격 증명을 만들어야](https://www.adobe.com/go/dcsdks_credentials) 합니다. PDF Embed API는 무료로 사용할 수 있습니다. PDF 서비스 API는 6개월 동안 무료로 사용할 수 있으며 문서 트랜잭션당 단 \$0.05의 [종량제 플랜](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)으로 전환할 수 있습니다.
+코드를 시작하기 전에 Adobe PDF Embed API 및 Adobe PDF Services API에 대해 [자격 증명을 만들어야](https://www.adobe.com/go/dcsdks_credentials) 합니다. PDF Embed API는 무료로 사용할 수 있습니다. PDF 서비스 API는 6개월 동안 무료로 사용할 수 있으며 문서 트랜잭션당 단 \$0.05의 [종량제 플랜](https://developer.adobe.com/document-services/pricing/main)으로 전환할 수 있습니다.
 
 PDF 서비스 API에 대한 자격 증명을 만들 때 **개인화된 코드 샘플 만들기** 옵션을 선택하고 해당 언어에 대해 Node.js를 선택합니다. ZIP 파일을 저장하고 pdftools-api-credentials.json 및 private.key를 Node.js Express 프로젝트의 루트 디렉터리로 추출합니다.
 
@@ -101,7 +101,7 @@ Node.js 및 Express 프로젝트가 &quot;public&quot;이라는 폴더에서 정
 
 문서 워크플로우의 첫 번째 부분에서는 최종 사용자가 공유할 문서를 업로드해야 합니다. 이 기능을 활성화하려면 업로드 기능을 추가하고 다양한 문서 파일 형식을 PDF으로 통합하여 검토 프로세스를 준비할 수 있습니다.
 
-먼저 [PDF 서비스 API용 예제 코드 조각](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html)을 기반으로 문서를 PDF으로 변환하는 함수를 만듭니다. 이 예는 또한 광학 문자 인식(OCR), 암호 보호 및 제거, 압축 등 다른 중요한 기능에 대한 스니펫을 보여 줍니다.
+먼저 [PDF 서비스 API용 예제 코드 조각](https://developer.adobe.com/document-services/apis/pdf-services)을 기반으로 문서를 PDF으로 변환하는 함수를 만듭니다. 이 예는 또한 광학 문자 인식(OCR), 암호 보호 및 제거, 압축 등 다른 중요한 기능에 대한 스니펫을 보여 줍니다.
 
 ```
 function fileToPDF( filename, outputFilename, callback ) {
@@ -443,8 +443,8 @@ PDF 조합 코드는 PDF 생성 코드와 유사하지만 CombineFiles 작업을
 
 ## 다음 단계
 
-이 실습용 튜토리얼에서는 [!DNL Acrobat Services] API가 [문서 공유 및 검토 워크플로](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html)를 웹 응용 프로그램에 통합하는 방법을 보여 주었습니다. 이 애플리케이션을 사용하면 원격 작업자들이 파일을 공유하고 팀원들과 협업할 수 있어 재택근무 중인 직원과 계약자들에게 특히 도움이 된다.
+이 실습용 튜토리얼에서는 [!DNL Acrobat Services] API가 [문서 공유 및 검토 워크플로](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval)를 웹 응용 프로그램에 통합하는 방법을 보여 주었습니다. 이 애플리케이션을 사용하면 원격 작업자들이 파일을 공유하고 팀원들과 협업할 수 있어 재택근무 중인 직원과 계약자들에게 특히 도움이 된다.
 
 이러한 기술을 사용하여 앱에서 공동 작업을 활성화하거나 GitHub에서 [PDF 서비스 노드 SDK 샘플](https://github.com/adobe/pdftools-node-sdk-samples) 및 [PDF 포함 API 샘플](https://github.com/adobe/pdf-embed-api-samples)을 탐색하여 Adobe의 API를 사용하는 다른 방법에 대한 영감을 얻을 수 있습니다.
 
-내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 개발자 계정을 등록합니다. Adobe PDF Embed에 무료로 액세스하고, 다른 API에 대한 6개월 무료 체험판을 사용해 보십시오. 체험판 사용 후 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [사용한 만큼 지불](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)할 수 있습니다.
+내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 개발자 계정을 등록합니다. Adobe PDF Embed에 무료로 액세스하고, 다른 API에 대한 6개월 무료 체험판을 사용해 보십시오. 체험판 사용 후 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [사용한 만큼 지불](https://developer.adobe.com/document-services/pricing/main)할 수 있습니다.

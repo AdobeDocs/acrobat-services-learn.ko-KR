@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [프로젝트 코드](https://github.com/dawidborycki/adobe-sign)
 
 ## API 자격 증명 생성 중
 
-Adobe PDF Services API 무료 체험판에 등록하여 시작합니다. [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [웹 사이트](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)(으)로 이동하고 *새 자격 증명 만들기*&#x200B;에서 *시작하기* 단추를 클릭합니다. 무료 체험판에서는 6개월에 걸쳐 사용할 수 있는 1,000개의 문서 트랜잭션이 제공됩니다. 다음 페이지(아래 참조)에서 서비스(PDF 서비스 API)를 선택하고 자격 증명 이름(예: HRDocumentWFCredentials)을 설정한 다음 설명을 입력합니다.
+Adobe PDF Services API 무료 체험판에 등록하여 시작합니다. [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [웹 사이트](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)&#x200B;(으)로 이동하고 *새 자격 증명 만들기*&#x200B;에서 *시작하기* 단추를 클릭합니다. 무료 체험판에서는 6개월에 걸쳐 사용할 수 있는 1,000개의 문서 트랜잭션이 제공됩니다. 다음 페이지(아래 참조)에서 서비스(PDF 서비스 API)를 선택하고 자격 증명 이름(예: HRDocumentWFCredentials)을 설정한 다음 설명을 입력합니다.
 
 언어(이 예제의 경우 Java)를 선택하고 *개인화된 코드 샘플 만들기*&#x200B;를 선택합니다. 마지막 단계에서는 코드 샘플에 API 내에서 앱을 인증하기 위한 개인 키와 함께 사용하는 미리 채워진 pdftools-api-credentials.json 파일이 이미 포함되어 있는지 확인합니다.
 
@@ -392,9 +392,9 @@ public void downloadContract(HttpServletResponse response)
 
 먼저 [개발자 계정](https://acrobat.adobe.com/kr/ko/sign/developer-form.html)을 등록합니다.
 
-[Adobe Sign 포털](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md)에서 CLIENT 응용 프로그램을 만듭니다.
+[Adobe Sign 포털](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md)에서 CLIENT 응용 프로그램을 만듭니다.
 
-[여기](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) 및 [여기](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp)에 설명된 대로 응용 프로그램에 대한 OAuth를 구성하십시오. 클라이언트 ID와 클라이언트 시크릿을 기록합니다. 그런 다음 `https://www.google.com`을(를) 리디렉션 URI로 사용하고 다음 범위를 사용할 수 있습니다.
+[여기](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) 및 [여기](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp)에 설명된 대로 응용 프로그램에 대한 OAuth를 구성하십시오. 클라이언트 ID와 클라이언트 시크릿을 기록합니다. 그런 다음 `https://www.google.com`을(를) 리디렉션 URI로 사용하고 다음 범위를 사용할 수 있습니다.
 
 * user_login: self
 
@@ -602,4 +602,4 @@ System.out.println("Agreement sent, ID: " + agreementCreationResponse.getId());
 
 예를 들어 수신자가 원격으로 안전하게 서명할 수 있는 양식을 만들 수 있습니다. 여러 개의 서명이 필요한 경우 워크플로우에서 일련의 사용자에게 양식을 자동으로 라우팅할 수도 있습니다. 직원 온보딩 경험이 개선되어 인사부에서 여러분을 사랑할 것입니다.
 
-[[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/)을(를) 확인하여 지금 응용 프로그램에 많은 PDF 기능을 추가하세요.
+[[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 확인하여 지금 응용 프로그램에 많은 PDF 기능을 추가하세요.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Ensure that the content of your package.json file is similar to this code snippe
 
 이러한 API는 클라우드 기반 웹 서비스 세트를 통해 PDF 콘텐츠의 생성, 조작 및 변형을 자동화합니다.
 
-자격 증명을 얻으려면 [등록](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK)하고 워크플로를 완료해야 합니다. PDF Embed API는 무료로 사용할 수 있습니다. PDF 서비스 API 및 문서 생성 API는 6개월간 무료입니다. 체험 기간이 종료되면 문서 트랜잭션당 단 $0.05의 비용으로 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 사용할 수 있습니다. 회사가 성장하고 더 많은 계약을 처리할 때만 비용을 지불합니다.
+자격 증명을 얻으려면 [등록](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK)하고 워크플로를 완료해야 합니다. PDF Embed API는 무료로 사용할 수 있습니다. PDF 서비스 API 및 문서 생성 API는 6개월간 무료입니다. 체험 기간이 종료되면 문서 트랜잭션당 단 $0.05의 비용으로 [종량제](https://developer.adobe.com/document-services/pricing/main)를 사용할 수 있습니다. 회사가 성장하고 더 많은 계약을 처리할 때만 비용을 지불합니다.
 
 ![자격 증명을 만드는 스크린샷](assets/searching_1.png)
 
@@ -431,4 +431,4 @@ res.download(download.link);
 [!DNL Acrobat Services] API를 사용하는 방법을 잘 이해하셨으므로 연습으로 기술을 향상할 수 있습니다. 이 자습서에 사용된 리포지토리를 복제하고 방금 배운 몇 가지 기술을 시험해 볼 수 있습니다. 더 나은 방법은 [!DNL Acrobat Services] API의 무제한 가능성을 탐색하면서 이 응용 프로그램을 다시 빌드하는 것입니다.
 
 내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)에 등록
-개발자 계정. 6개월 무료 체험 기간 및 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 받을 수 있습니다.
+개발자 계정. 6개월 무료 체험 기간 및 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [종량제](https://developer.adobe.com/document-services/pricing/main)를 받을 수 있습니다.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8145
 thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 사업이 호황일 때는 좋지만 그 모든 송장을 준비할 때가 되면 생산성이 떨어집니다. 수동으로 송장을 생성하는 것은 시간이 많이 소요되고, 오류를 만들거나 잠재적으로 손실을 입히거나 잘못된 금액으로 고객을 화나게 할 위험이 있습니다.
 
-예를 들어 Danielle은 의료 공급 회사의 [회계 부서](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [에서 근무합니다](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). 월말이라 여러 시스템에서 정보를 빼내 정확성을 다시 점검하고 청구서에 서식을 지정하는 일을 하고 있습니다. 이러한 모든 작업이 끝난 후 그녀는 마침내 문서를 PDF으로 변환하고(따라서 특정 소프트웨어를 구매하지 않고도 누구나 볼 수 있음) 각 고객에게 개별적으로 발행된 송장을 보낼 준비가 되었습니다.
+예를 들어 Danielle은 의료 공급 회사의 [회계 부서](https://developer.adobe.com/document-services/use-cases/financial/invoices) [에서 근무합니다](https://developer.adobe.com/document-services/use-cases/financial/invoices). 월말이라 여러 시스템에서 정보를 빼내 정확성을 다시 점검하고 청구서에 서식을 지정하는 일을 하고 있습니다. 이러한 모든 작업이 끝난 후 그녀는 마침내 문서를 PDF으로 변환하고(따라서 특정 소프트웨어를 구매하지 않고도 누구나 볼 수 있음) 각 고객에게 개별적으로 발행된 송장을 보낼 준비가 되었습니다.
 
 월별 인보이스 발행이 완료되더라도 Danielle은 해당 인보이스를 피할 수 없습니다. 일부 고객은 비월간 결제 주기를 사용하고 있으므로 항상 누군가를 위한 인보이스를 만들고 있습니다. 때때로 고객이 송장을 편집하고 부족하게 지불합니다. Danielle은 이 인보이스 불일치 문제를 해결하는 데 시간을 보냅니다. 이대로라면 그녀는 모든 일을 따라잡기 위해 조수를 고용해야 한다!
 
@@ -37,9 +37,9 @@ Danielle에게 필요한 것은 월말에 일괄 처리하고 다른 시간에�
 
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [프로젝트 코드](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
 
@@ -107,7 +107,7 @@ Microsoft Word 문서의 ![태그 스크린샷](assets/invoices_5.png)
 
 Adobe PDF Services Node.js SDK(software development kit)를 사용하여 Microsoft Word 및 JSON 문서를 결합합니다. 문서 생성 API를 사용하여 송장을 생성하려면 Node.js 애플리케이션을 구축하십시오.
 
-PDF 서비스 API에는 문서 생성 서비스가 포함되어 있으므로 두 서비스에 동일한 자격 증명을 사용할 수 있습니다. [6개월 무료 체험판](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)을 즐기고 문서 트랜잭션당 $0.05만 지불하십시오.
+PDF 서비스 API에는 문서 생성 서비스가 포함되어 있으므로 두 서비스에 동일한 자격 증명을 사용할 수 있습니다. [6개월 무료 체험판](https://developer.adobe.com/document-services/pricing/main)을 즐기고 문서 트랜잭션당 $0.05만 지불하십시오.
 
 다음은 PDF 병합 코드입니다.
 
@@ -143,7 +143,7 @@ async function compileDocFile(json, inputFile, outputPdf) {
 } 
 ```
 
-이 코드는 입력 JSON 문서와 입력 템플릿 파일에서 정보를 가져옵니다. 그런 다음 문서 병합 작업을 만들어 파일을 단일 PDF 보고서로 결합합니다. 마지막으로 API 자격 증명으로 작업을 실행합니다. 이러한 자격 증명이 없는 경우 [자격 증명 만들기](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getting-credentials)(문서 생성 및 PDF 서비스 API는 동일한 자격 증명을 사용함).
+이 코드는 입력 JSON 문서와 입력 템플릿 파일에서 정보를 가져옵니다. 그런 다음 문서 병합 작업을 만들어 파일을 단일 PDF 보고서로 결합합니다. 마지막으로 API 자격 증명으로 작업을 실행합니다. 이러한 자격 증명이 없는 경우 [자격 증명 만들기](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getting-credentials)&#x200B;(문서 생성 및 PDF 서비스 API는 동일한 자격 증명을 사용함).
 
 Express 라우터 내에서 이 코드를 사용하여 문서 요청을 처리합니다.
 
@@ -224,11 +224,11 @@ async function applyPassword(password, inputFile, outputFile) {
 
 ## 다음 단계
 
-이 실습용 튜토리얼에서는 [인보이스 작성](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html)을 통해 Danielle이 계정을 관리하는 데 도움이 되는 간단한 앱을 만들었습니다. PDF 서비스 API 및 문서 생성 SDK를 사용하여 Microsoft Word 템플릿을 JSON 문서의 고객 주문 정보로 채우고 PDF 송장을 만들었습니다. 그런 다음 [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)에서 암호 보호 서비스를 사용하여 각 문서를 암호로 보호했습니다.
+이 실습용 튜토리얼에서는 [인보이스 작성](https://developer.adobe.com/document-services/use-cases/financial/invoices)을 통해 Danielle이 계정을 관리하는 데 도움이 되는 간단한 앱을 만들었습니다. PDF 서비스 API 및 문서 생성 SDK를 사용하여 Microsoft Word 템플릿을 JSON 문서의 고객 주문 정보로 채우고 PDF 송장을 만들었습니다. 그런 다음 [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)에서 암호 보호 서비스를 사용하여 각 문서를 암호로 보호했습니다.
 
 Danielle은 자동으로 인보이스를 생성할 수 있으며 인보이스를 편집하는 고객에 대해 걱정할 필요가 없으므로 모든 수동 작업을 지원하는 도우미를 고용할 필요가 없습니다. 그녀는 여분의 시간을 사용하여 지불 계정 파일에서 비용 절감을 찾을 수 있습니다.
 
-지금까지 이 기능이 얼마나 간단한지 살펴보았으므로 다른 Adobe 도구를 사용하여 이 간단한 앱을 확장하여 웹 사이트에 인보이스를 임베드할 수 있습니다. 예를 들어 고객은 언제든지 송장 또는 잔액을 볼 수 있습니다. [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html)는 무료로 사용할 수 있습니다. 인사부 또는 영업부로 이동하여 계약을 자동화하고 전자 서명을 수집할 수도 있습니다.
+지금까지 이 기능이 얼마나 간단한지 살펴보았으므로 다른 Adobe 도구를 사용하여 이 간단한 앱을 확장하여 웹 사이트에 인보이스를 임베드할 수 있습니다. 예를 들어 고객은 언제든지 송장 또는 잔액을 볼 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)는 무료로 사용할 수 있습니다. 인사부 또는 영업부로 이동하여 계약을 자동화하고 전자 서명을 수집할 수도 있습니다.
 
-모든 가능성을 탐색하고 나만의 편리한 응용 프로그램을 빌드하려면 지금 바로 시작할 수 있는 무료 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 계정을 만드세요. 6개월 무료 체험 후 [선불 결제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)
+모든 가능성을 탐색하고 나만의 편리한 응용 프로그램을 빌드하려면 지금 바로 시작할 수 있는 무료 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 계정을 만드세요. 6개월 무료 체험 후 [선불 결제](https://developer.adobe.com/document-services/pricing/main)
 비즈니스 규모에 따라 문서 트랜잭션당 단 $0.05에 불과합니다.

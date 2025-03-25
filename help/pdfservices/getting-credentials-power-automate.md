@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10382
 thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
@@ -116,7 +116,7 @@ Power Automate 작업을 시작하려면 먼저 <https://powerautomate.microsoft
 
 위의 스크린샷과 같이 작업 계정으로 전환하거나 새 조직 계정을 설정할 수 있습니다. 작업이 완료되면 Adobe PDF Services 작업을 추가할 수 있습니다.
 
-[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/create-workflow-power-automate.html)를 참조하십시오.
+[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate)를 참조하십시오.
 
 ## 추가 리소스
 

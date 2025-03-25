@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 영업 제안은 고객 인수를 위한 비즈니스 여정의 첫 번째 단계입니다. 모든 것이 그렇듯, 첫인상은 계속된다. 따라서 고객과의 첫 번째 상호 작용은 비즈니스에 대한 기대치를 설정합니다. 당신의 제안은 간결하고 정확하며 편리해야 합니다.
 
-계약서와 제안서는 문서 구조 내에 서로 다른 유형의 데이터를 포함하고 있다. 동적 데이터(클라이언트 이름, 견적 금액 등)와 정적 데이터(확정 기능, 팀 프로필 및 표준 SOW 약관과 같은 비대화형 텍스트)가 모두 포함됩니다. 영업 제안과 같은 템플릿 문서를 작성할 때는 대개 비대화형 템플릿의 프로젝트 세부 정보를 수동으로 바꾸는 것과 같은 단조로운 작업이 수반됩니다. 이 튜토리얼에서는 동적 데이터와 워크플로우를 사용하여 [영업 제안을 작성](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html)하기 위한 효율적인 프로세스를 만듭니다.
+계약서와 제안서는 문서 구조 내에 서로 다른 유형의 데이터를 포함하고 있다. 동적 데이터(클라이언트 이름, 견적 금액 등)와 정적 데이터(확정 기능, 팀 프로필 및 표준 SOW 약관과 같은 비대화형 텍스트)가 모두 포함됩니다. 영업 제안과 같은 템플릿 문서를 작성할 때는 대개 비대화형 템플릿의 프로젝트 세부 정보를 수동으로 바꾸는 것과 같은 단조로운 작업이 수반됩니다. 이 튜토리얼에서는 동적 데이터와 워크플로우를 사용하여 [영업 제안을 작성](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/sales-proposals-and-contracts)하기 위한 효율적인 프로세스를 만듭니다.
 
 ## 학습 내용
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 * [npm](https://www.npmjs.com/get-npm)
 
-* [[!DNL Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/)
+* [[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/)
 
-* [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [Adobe 문서 생성 Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 이제 도구가 설치되었으므로 문제 해결을 시작할 수 있습니다. 제안서에는 각 클라이언트에 고유한 정적 콘텐츠와 동적 콘텐츠가 모두 있습니다. 제안할 때마다 두 가지 유형의 데이터가 모두 필요하기 때문에 병목 현상이 발생합니다. 정적 텍스트를 입력하는 데 시간이 많이 소요되므로 이를 자동화하고 각 클라이언트의 동적 데이터만 수동으로 처리합니다.
 
-먼저 [Microsoft Forms](https://www.office.com/launch/forms?auth=1)(또는 선호하는 양식 작성기)에서 데이터 캡처 양식을 만듭니다. 이 양식은 영업 제안에 추가된 클라이언트의 동적 데이터를 위한 것입니다. 이 양식을 질문으로 채워 회사 이름, 날짜, 주소, 프로젝트 범위, 가격 및 추가 설명과 같이 고객에게 필요한 세부 정보를 가져옵니다. 자신의 양식을 작성하려면 이 [form](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjazjBLZtrQAAAAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy)을 사용하십시오. 목표는 잠재적 클라이언트가 양식을 작성한 다음 응답을 JSON 파일로 내보내어 워크플로우의 다음 부분으로 전달되는 것입니다.
+먼저 [Microsoft Forms](https://www.office.com/launch/forms?auth=1)&#x200B;(또는 선호하는 양식 작성기)에서 데이터 캡처 양식을 만듭니다. 이 양식은 영업 제안에 추가된 클라이언트의 동적 데이터를 위한 것입니다. 이 양식을 질문으로 채워 회사 이름, 날짜, 주소, 프로젝트 범위, 가격 및 추가 설명과 같이 고객에게 필요한 세부 정보를 가져옵니다. 자신의 양식을 작성하려면 이 [form]&#x200B;(https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjazjBLZtrQAAAAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy)을 사용하십시오. 목표는 잠재적 클라이언트가 양식을 작성한 다음 응답을 JSON 파일로 내보내어 워크플로우의 다음 부분으로 전달되는 것입니다.
 
 일부 양식 작성자는 데이터를 CSV 파일로만 내보낼 수 있도록 합니다. 따라서 생성된 CSV 파일을 JSON 파일로 [변환](http://csvjson.com/csv2json)하는 것이 유용할 수 있습니다.
 
-정적 데이터는 모든 영업 제안서에서 재사용됩니다. 따라서 Microsoft Word의 판매 제안 템플릿을 사용하여 정적 텍스트를 제공할 수 있습니다. 이 [템플릿](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2)을 사용할 수 있지만 직접 만들거나 [Adobe 템플릿](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)을 사용할 수 있습니다.
+정적 데이터는 모든 영업 제안서에서 재사용됩니다. 따라서 Microsoft Word의 판매 제안 템플릿을 사용하여 정적 텍스트를 제공할 수 있습니다. 이 [템플릿](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2)을 사용할 수 있지만 직접 만들거나 [Adobe 템플릿](https://developer.adobe.com/document-services/apis/doc-generation)을 사용할 수 있습니다.
 
 이제 클라이언트에 대한 고유한 판매 제안을 만들려면 JSON 형식의 클라이언트의 동적 데이터와 Microsoft Word 템플릿의 정적 텍스트를 모두 사용하는 것이 필요합니다. [!DNL Acrobat Services] API는 두 API를 병합하고 서명할 수 있는 PDF을 생성하는 데 사용됩니다.
 
@@ -79,7 +79,7 @@ Word 문서에 태그를 추가하는 ![스크린샷](assets/sales_4.png)
 
 ## API 사용
 
-[!DNL Acrobat Services] API [홈페이지](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 ](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
+[!DNL Acrobat Services] API [홈페이지](https://developer.adobe.com/document-services/apis/doc-generation)&#x200B;(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 ](https://developer.adobe.com/document-services/pricing/main) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
 
 **PDF 서비스 API**&#x200B;를 선택한 서비스로 선택하고 아래와 같이 다른 세부 정보를 입력합니다.
 
@@ -137,12 +137,12 @@ console.log('Exception encountered while executing operation', err);
 
 이 코드는 [!DNL Acrobat Services]을(를) 사용하여 만든 태그를 사용하여 Microsoft 양식에서 JSON 파일을 가져옵니다. 그런 다음 Microsoft Word에서 만든 영업 제안 템플릿에 데이터를 병합하여 새로운 PDF을 생성합니다. PDF은 새로 생성된 파일에 저장됩니다./output 폴더입니다.
 
-또한 이 코드는 [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)를 사용하여 두 회사가 생성된 판매 제안에 서명하도록 합니다. 이 API에 대한 자세한 설명은 이 블로그 게시물 을 참조하십시오.
+또한 이 코드는 [Adobe Sign API](https://developer.adobe.com/adobesign-api/)를 사용하여 두 회사가 생성된 판매 제안에 서명하도록 합니다. 이 API에 대한 자세한 설명은 이 블로그 게시물 을 참조하십시오.
 
 ## 다음 단계
 
-자동화가 필요한 비효율적이고 지루한 프로세스를 시작했습니다. 모든 클라이언트에 대한 문서를 수동으로 만드는 것부터 [판매 제안 프로세스](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html)를 자동화하고 단순화하는 능률적인 워크플로를 만드는 것으로 바뀌었습니다.
+자동화가 필요한 비효율적이고 지루한 프로세스를 시작했습니다. 모든 클라이언트에 대한 문서를 수동으로 만드는 것부터 [판매 제안 프로세스](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/sales-proposals-and-contracts)를 자동화하고 단순화하는 능률적인 워크플로를 만드는 것으로 바뀌었습니다.
 
 Microsoft Forms을 사용하면 클라이언트에서 고유한 제안에 사용할 중요한 데이터를 얻을 수 있습니다. Microsoft Word에서 영업 제안 템플릿을 만들어 매번 다시 만들지 않을 정적 텍스트를 제공했습니다. 그런 다음 [!DNL Acrobat Services]개의 API를 사용하여 양식과 템플릿의 데이터를 병합하고 더 효율적인 방식으로 고객을 위한 판매 제안 PDF을 만들었습니다.
 
-이 실습형 튜토리얼에서는 이러한 API로 가능한 것을 간단히 훑어볼 뿐입니다. 더 많은 솔루션을 찾으려면 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) API 페이지를 방문하세요. 이 도구들은 모두 6개월 동안 무료로 사용할 수 있습니다. 그런 다음 [종량제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) 플랜에서 문서 트랜잭션당 $0.05만 지불하면 팀이 판매 파이프라인에 더 많은 잠재 고객을 추가하는 경우에만 지불합니다.
+이 실습형 튜토리얼에서는 이러한 API로 가능한 것을 간단히 훑어볼 뿐입니다. 더 많은 솔루션을 찾으려면 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) API 페이지를 방문하세요. 이 도구들은 모두 6개월 동안 무료로 사용할 수 있습니다. 그런 다음 [종량제](https://developer.adobe.com/document-services/pricing/main) 플랜에서 문서 트랜잭션당 $0.05만 지불하면 팀이 판매 파이프라인에 더 많은 잠재 고객을 추가하는 경우에만 지불합니다.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -19,29 +19,29 @@ ht-degree: 0%
 
 ![사례 영웅 배너 사용](assets/UseCaseLegalHero.jpg)
 
-디지털화에는 문제가 따릅니다. 현재 대부분의 조직에는 작성, 편집, 승인 및 다른 당사자가 서명해야 하는 [법률 계약](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html)의 다양한 유형이 있습니다. 이러한 법적 계약은 종종 고유한 사용자 정의 및 브랜딩을 필요로 합니다. 조직이 보안을 유지하기 위해 로그인한 후 보호된 형식으로 저장해야 할 수도 있습니다. 이러한 모든 작업을 수행하려면 강력한 문서 생성 및 관리 솔루션이 필요합니다.
+디지털화에는 문제가 따릅니다. 현재 대부분의 조직에는 작성, 편집, 승인 및 다른 당사자가 서명해야 하는 [법률 계약](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/legal-contracts)의 다양한 유형이 있습니다. 이러한 법적 계약은 종종 고유한 사용자 정의 및 브랜딩을 필요로 합니다. 조직이 보안을 유지하기 위해 로그인한 후 보호된 형식으로 저장해야 할 수도 있습니다. 이러한 모든 작업을 수행하려면 강력한 문서 생성 및 관리 솔루션이 필요합니다.
 
 많은 솔루션은 일부 문서 생성을 제공하지만 특정 시나리오에만 적용되는 조항과 같은 데이터 입력 및 조건부 논리를 사용자 정의할 수 없습니다. 이러한 문서가 광범위해짐에 따라 기업의 법적 템플릿을 수동으로 업데이트하는 작업은 까다롭고 오류가 발생하기 쉽습니다. 이러한 프로세스를 자동화해야 할 필요성이 상당합니다.
 
 ## 학습 내용
 
-이 실습형 튜토리얼에서는 문서에 사용자 지정 입력 필드를 생성하는 [[!DNL Adobe Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)의 기능을 살펴봅니다. 또한 생성된 문서를 보호된 휴대용 문서 형식(PDF)으로 쉽게 변환하여 데이터를 조작하지 못하도록 하는 방법을 살펴봅니다.
+이 실습형 튜토리얼에서는 문서에 사용자 지정 입력 필드를 생성하는 [[!DNL Adobe Acrobat Services] API](https://developer.adobe.com/document-services/apis/doc-generation)의 기능을 살펴봅니다. 또한 생성된 문서를 보호된 휴대용 문서 형식(PDF)으로 쉽게 변환하여 데이터를 조작하지 못하도록 하는 방법을 살펴봅니다.
 
 이 튜토리얼에서는 약정의 PDF 변환을 살펴볼 때 약간의 프로그래밍을 제공합니다. 효과적으로 따라 하려면 [Microsoft Word](https://www.microsoft.com/en-us/download/office.aspx) 및 [Node.js](https://nodejs.org/)이(가) PC에 설치되어 있어야 합니다. Node.js 및 [ES6 구문](https://www.w3schools.com/js/js_es6.asp)에 대한 기본 이해도 권장합니다.
 
 ## 관련 API 및 리소스
 
-* [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [프로젝트 코드](https://github.com/agavitalis/adobe_legal_contracts.git)
 
 ## 템플릿 문서 만들기
 
-Microsoft Word 응용 프로그램을 사용하거나 Adobe의 [샘플 Word 템플릿](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade)을 다운로드하여 법률 문서를 만들 수 있습니다. 여전히 Microsoft Word용 [Adobe 문서 생성 Tagger 추가 기능](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin)과 같은 일부 도우미 도구를 사용하지 않고 입력을 사용자 정의하고 이러한 문서에 디지털 서명하는 것은 쉽지 않습니다.
+Microsoft Word 응용 프로그램을 사용하거나 Adobe의 [샘플 Word 템플릿](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade)을 다운로드하여 법률 문서를 만들 수 있습니다. 여전히 Microsoft Word용 [Adobe 문서 생성 Tagger 추가 기능](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)과 같은 일부 도우미 도구를 사용하지 않고 입력을 사용자 정의하고 이러한 문서에 디지털 서명하는 것은 쉽지 않습니다.
 
 Document Generation Tagger는 태그를 사용하여 문서를 매끄럽게 사용자 지정할 수 있도록 만들어진 Microsoft Word 추가 기능입니다. JSON 데이터를 사용하여 동적으로 채워지는 문서 템플릿에서 동적 필드를 만들 수 있습니다.
 
@@ -175,7 +175,7 @@ npm install express body-parser morgan multer hbs path config mongoose
 
 이러한 코드 조각에서는 해당 뷰에 대한 핸들 템플릿 엔진을 포함하여 응용 프로그램 종속성을 설치했습니다.
 
-이 자습서의 주요 초점은 [[!DNL Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/)를 사용하여 문서를 PDF으로 변환하는 것입니다. 따라서 이 Node.js 애플리케이션을 빌드하는 방법에 대한 단계별 프로세스는 없습니다. 그러나 [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git)에서 전체 작업 Node.js 응용 프로그램 코드를 검색할 수 있습니다.
+이 자습서의 주요 초점은 [[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/)를 사용하여 문서를 PDF으로 변환하는 것입니다. 따라서 이 Node.js 애플리케이션을 빌드하는 방법에 대한 단계별 프로세스는 없습니다. 그러나 [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git)에서 전체 작업 Node.js 응용 프로그램 코드를 검색할 수 있습니다.
 
 ## Node.js 애플리케이션에 [!DNL Adobe Acrobat Services] API 통합
 
@@ -187,7 +187,7 @@ npm install express body-parser morgan multer hbs path config mongoose
 
 * Adobe 문서 생성 API
 
-[!DNL Acrobat Services] API를 사용하려면 자격 증명이 필요합니다(PDF Embed API 자격 증명과 다름). 유효한 자격 증명이 없는 경우 [등록](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK)하고 아래 화면 캡처에 나와 있는 대로 워크플로를 완료하십시오. [6개월 무료 체험판 및 선불 결제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 이용하세요. 문서 트랜잭션당 단 $0.05입니다.
+[!DNL Acrobat Services] API를 사용하려면 자격 증명이 필요합니다(PDF Embed API 자격 증명과 다름). 유효한 자격 증명이 없는 경우 [등록](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK)하고 아래 화면 캡처에 나와 있는 대로 워크플로를 완료하십시오. [6개월 무료 체험판 및 선불 결제](https://developer.adobe.com/document-services/pricing/main)를 이용하세요. 문서 트랜잭션당 단 $0.05입니다.
 
 ![새 자격 증명을 만드는 스크린샷](assets/legal_6.png)
 
@@ -197,7 +197,7 @@ npm install express body-parser morgan multer hbs path config mongoose
 
 ## PDF 문서 만들기
 
-[!DNL Acrobat Services] API는 Microsoft Office 문서(Word, Excel, PowerPoint) 및 기타 [지원되는 파일 형식](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf)(예: .txt, .rtf, .bmp, .jpeg, gif, .tiff, .png)에서 PDF 만들기를 지원합니다. Acrobat 서비스 API를 사용하여 법적 약정을 다른 파일 형식에서 PDF으로 쉽게 변환할 수 있습니다.
+[!DNL Acrobat Services] API는 Microsoft Office 문서(Word, Excel, PowerPoint) 및 기타 [지원되는 파일 형식](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf)&#x200B;(예: .txt, .rtf, .bmp, .jpeg, gif, .tiff, .png)에서 PDF 만들기를 지원합니다. Acrobat 서비스 API를 사용하여 법적 약정을 다른 파일 형식에서 PDF으로 쉽게 변환할 수 있습니다.
 
 Adobe 문서 생성 API를 사용하면 Word 파일 또는 PDF으로 변환할 수 있습니다. 예를 들어, Word 템플릿을 사용하여 계약서를 생성할 수 있습니다. 여기에는 편집된 텍스트를 표시하는 redlining도 포함됩니다. 그런 다음 암호를 PDF으로 변환하고 PDF 서비스 API를 사용하여 암호로 문서를 보호하고 서명을 위해 전송하는 등의 작업을 수행합니다.
 
@@ -284,7 +284,7 @@ module.exports = { createPDF, createPDFPost };
 
 이 기능은 변환된 PDF 문서를 보기/출력 디렉토리에 저장하며, 여기서 PC에 다운로드할 수 있습니다.
 
-자유 PDF 임베드 API를 사용하여 변형된 PDF 파일을 미리 볼 수도 있습니다. PDF 포함 API를 사용하면 Adobe 자격 증명 [여기](https://www.adobe.com/go/dcsdks_credentials)(사용자의 [!DNL Acrobat Services] 자격 증명과 다름)을 생성하고 API에 액세스할 수 있는 허용된 도메인을 등록할 수 있습니다. 프로세스를 따르고 응용 프로그램에 대한 PDF Embed API 자격 증명을 생성합니다. 데모 [여기](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf)를 확인할 수도 있습니다. 데모를 사용하면 코드를 쉽게 생성하여 빠르게 시작할 수 있습니다.
+자유 PDF 임베드 API를 사용하여 변형된 PDF 파일을 미리 볼 수도 있습니다. PDF 포함 API를 사용하면 Adobe 자격 증명 [여기](https://www.adobe.com/go/dcsdks_credentials)&#x200B;(사용자의 [!DNL Acrobat Services] 자격 증명과 다름)을 생성하고 API에 액세스할 수 있는 허용된 도메인을 등록할 수 있습니다. 프로세스를 따르고 응용 프로그램에 대한 PDF Embed API 자격 증명을 생성합니다. 데모 [여기](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf)를 확인할 수도 있습니다. 데모를 사용하면 코드를 쉽게 생성하여 빠르게 시작할 수 있습니다.
 
 응용 프로그램으로 돌아가서 응용 프로그램의 보기 폴더에 list.hbs 및 preview.hbs 파일을 만들고 아래의 코드 조각을 list.hbs 및 preview.hbs 파일에 각각 붙여넣습니다.
 
@@ -424,8 +424,8 @@ PDF 미리 보기의 ![스크린샷](assets/legal_8.png)
 이 실습용 튜토리얼에서는 문서 생성 Tagger Microsoft Word 추가 기능을 사용하여 문서에 태그를 지정했습니다. 그런 다음 [!DNL Acrobat Services] API를 Node.js 애플리케이션에 통합하고
 PDF이 지정된 문서를 다운로드 가능한 PDF 형식으로 변환했지만, 사용자가 직접 태그를 지정하는 법적 계약서를 만들 수도 있었습니다. 마지막으로, Adobe PDF Embed API 를 사용하여 확인 및 서명을 위해 생성된 PDF을 미리 보았습니다.
 
-완성된 응용 프로그램을 사용하면 동적 필드로 [법률 계약 템플릿](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html)에 태그를 지정하고, 이를 PDF으로 변환하고, 미리 보고, [!DNL Acrobat Services] API를 사용하여 서명하는 것이 훨씬 쉬워집니다. 팀은 고유한 계약을 만드는 데 시간을 들이지 않고 자동으로 각 고객에게 올바른 계약을 보내고 비즈니스를 성장시키는 데 더 많은 시간을 투자할 수 있습니다.
+완성된 응용 프로그램을 사용하면 동적 필드로 [법률 계약 템플릿](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/legal-contracts)에 태그를 지정하고, 이를 PDF으로 변환하고, 미리 보고, [!DNL Acrobat Services] API를 사용하여 서명하는 것이 훨씬 쉬워집니다. 팀은 고유한 계약을 만드는 데 시간을 들이지 않고 자동으로 각 고객에게 올바른 계약을 보내고 비즈니스를 성장시키는 데 더 많은 시간을 투자할 수 있습니다.
 
-조직은 완벽하고 사용하기 쉽도록 [!DNL Adobe Acrobat Services]개의 API를 사용합니다. 무엇보다도 [6개월 무료 체험 후 선불 결제](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)를 즐길 수 있습니다. 사용한 만큼만 지불하면 됩니다. 또한 PDF Embed API는 항상 무료입니다.
+조직은 완벽하고 사용하기 쉽도록 [!DNL Adobe Acrobat Services]개의 API를 사용합니다. 무엇보다도 [6개월 무료 체험 후 선불 결제](https://developer.adobe.com/document-services/pricing/main)를 즐길 수 있습니다. 사용한 만큼만 지불하면 됩니다. 또한 PDF Embed API는 항상 무료입니다.
 
 문서 흐름을 개선하여 생산성을 높일 준비가 되셨습니까? 지금 [시작하기](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html).

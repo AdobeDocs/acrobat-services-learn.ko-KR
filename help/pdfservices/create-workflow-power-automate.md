@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 ### 필요한 항목
 
 * Adobe PDF 서비스에 대한 **평가판 또는 프로덕션 자격 증명**
-Microsoft Power Automate [여기](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/getting-credentials-power-automate.html)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
+Microsoft Power Automate [여기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
 * **프리미엄 커넥터가 포함된 Microsoft Power Automate**
 Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types)의 라이선스 수준을 확인하는 방법에 대해 알아보십시오.
 * **OneDrive**
@@ -46,7 +46,7 @@ Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/po
 
 ### 자격 증명 가져오기
 
-이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/getting-credentials-power-automate.html)을 참조하세요.
+이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)을 참조하세요.
 
 ## 1부: 새 플로우 만들기 및 Word를 PDF으로 변환
 
@@ -54,7 +54,7 @@ Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/po
 
 이 부분에서는 인스턴트 플로우를 사용하여 [Microsoft Power Automate](https://flow.microsoft.com)에서 새 플로우를 만들고, 매개 변수를 추가하고, OneDrive에서 파일을 가져와 PDF으로 변환합니다.
 
-1. [Microsoft Power Automate](https://flow.microsoft.com)(으)로 이동하고 사용자의 자격 증명으로 로그인합니다.
+1. [Microsoft Power Automate](https://flow.microsoft.com)&#x200B;(으)로 이동하고 사용자의 자격 증명으로 로그인합니다.
 1. 사이드바에서 **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
 
    ![만들기 단추](assets/createButtonPowerAutomate.png)
