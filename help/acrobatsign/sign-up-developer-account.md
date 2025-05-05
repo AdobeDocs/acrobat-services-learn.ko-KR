@@ -23,4 +23,4 @@ Sign 및 API 기능으로 완전히 활성화된 Acrobat Sign 개발자 계정�
 >
 >이 튜토리얼은 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 설계되었습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/347347?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3445925?hidetitle=true&captions=kor)

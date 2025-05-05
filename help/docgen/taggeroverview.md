@@ -19,4 +19,4 @@ ht-degree: 2%
 
 Adobe 문서 생성 API와 함께 사용하도록 설계된 Adobe 문서 생성 Tagger에 대한 개요를 확인합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332120?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411722?hidetitle=true&captions=kor)

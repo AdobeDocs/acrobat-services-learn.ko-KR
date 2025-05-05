@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿의 숫자 계산 태그를 설정하여 Adobe 문서 생성 API를 사용하여 데이터 값의 집계 또는 산술을 계산하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332118?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411747?hidetitle=true&captions=kor)

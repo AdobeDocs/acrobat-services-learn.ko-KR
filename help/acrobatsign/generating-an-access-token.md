@@ -23,4 +23,4 @@ Acrobat Sign API와 함께 사용할 수 있는 액세스 토큰을 생성하는
 >
 >이 튜토리얼은 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 설계되었습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/347350?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3444196?hidetitle=true&captions=kor)

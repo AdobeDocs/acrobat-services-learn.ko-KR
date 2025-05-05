@@ -18,4 +18,4 @@ ht-degree: 0%
 
 AI를 사용하여 규모에 맞게 액세스 가능성을 위해 자동으로 태그를 지정하는 방법을 알아봅니다. 자동으로 태그를 지정함으로써 규정 준수에 소요되는 시간과 비용을 줄일 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428310?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3446266?hidetitle=true&captions=kor)

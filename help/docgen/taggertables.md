@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 테이블 및 목록 태그를 추가하고 Adobe 문서 생성 API를 사용하여 데이터를 기반으로 테이블 또는 목록 행을 동적으로 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332115?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411728?hidetitle=true&captions=kor)

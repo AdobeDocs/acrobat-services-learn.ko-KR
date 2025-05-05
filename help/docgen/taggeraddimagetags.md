@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 이미지 태그를 추가하고 Adobe 문서 생성 API를 사용하여 이미지를 문서에 동적으로 푸시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332114?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411734?hidetitle=true&captions=kor)

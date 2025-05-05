@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Adobe 문서 생성 API와 함께 사용할 Adobe 문서 생성 Tagger를 사용하여 Microsoft Word 템플릿에 텍스트 태그를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3409661?hidetitle=true&captions=kor)
