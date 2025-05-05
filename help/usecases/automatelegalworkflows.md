@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 샘플 코드를 다운로드할 언어를 선택합니다(예: Node.js).
 1. **[!UICONTROL 개발자 약관]**&#x200B;에 동의하려면 선택하세요.
-1. **[!UICONTROL 자격 증명 만들기]**를 선택합니다.
+1. **[!UICONTROL 자격 증명 만들기]**&#x200B;를 선택합니다.
 샘플 파일, pdfservices-api-credentials.json 및 인증을 위한 private.key가 포함된 ZIP 파일로 파일이 컴퓨터에 다운로드됩니다.
 
    ![자격 증명의 스크린샷](assets/automatelegal_2.png)

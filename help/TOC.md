@@ -31,7 +31,7 @@ ht-degree: 3%
 + 문서 생성 API {#docgen}
    + [개요](docgen/overview-docgen.md)
    + [문서 생성 자동화](docgen/automate-doc-gen.md)
-   + {#docgentemplates} 템플릿 만들기
+   + 템플릿 만들기{#docgentemplates}
       + [Adobe 문서 생성 Tagger 개요](docgen/taggeroverview.md)
       + [텍스트 태그 추가](docgen/taggeraddtexttags.md)
       + [이미지 태그 추가](docgen/taggeraddimagetags.md)
