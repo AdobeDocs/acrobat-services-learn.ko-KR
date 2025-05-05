@@ -171,7 +171,7 @@ PDF 문서에서 주석을 사용하려면 인수 `showAnnotationTools` : true�
 
 학생들이 온라인 플랫폼을 어떻게 활용하고 있는지 교사와 학교가 확인하는 것이 중요하다. 이는 교사가 학생들이 과제를 더 잘 수행할 수 있도록 돕는 자원을 학생들에게 지원하는 데 도움이 된다. PDF 임베드 API는 사용자가 문서를 열고 읽고 닫는 경우 등 발생하는 모든 이벤트를 측정하는 데 사용할 수 있는 분석과 통합됩니다. 교사는 PDF 서비스 API를 사용하여 인쇄, 다운로드 및 파일 수정을 비활성화하여 학업 무결성을 유지할 수도 있습니다.
 
-[Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) 라이선스가 있으면 [즉시 사용 가능한 통합](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics)을 사용할 수 있습니다. 그렇지 않으면 콜백을 사용하여 PDF 서비스를 [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics)과 같은 다른 분석 공급자와 통합합니다.
+[Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) 라이선스가 있으면 [즉시 사용 가능한 통합](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics)을 사용할 수 있습니다. 그렇지 않으면 콜백을 사용하여 PDF 서비스를 [Google](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics)과 같은 다른 분석 공급자와 통합합니다.
 
 문서 이벤트 측정을 사용하려면 Adobe DC View 인스턴스와 함께 `registerCallback` 메서드를 사용하여 이벤트 처리기를 연결합니다. 문서를 열거나 페이지를 읽는 등의 기본 측정 단위를 콘솔에 표시할 수 있습니다. 메트릭을 로그에 저장하거나 다른 분석 저장소에 게시할 수도 있습니다.
 

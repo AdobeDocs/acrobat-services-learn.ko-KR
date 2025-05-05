@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## 콘텐츠 작가 가이드 설명서
 
-자세한 내용은 [콘텐츠 작가 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+자세한 내용은 [콘텐츠 작가 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko).
 
 ## 질문이 있습니까?
 

@@ -422,7 +422,7 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 \&lt;YOUR_CODE\> 및 api_access_point에 지정된 값을 확인합니다.
 
-액세스 토큰을 제공하는 HTTP POST 요청을 보내려면 클라이언트 ID, \&lt;YOUR_CODE\> 및 api_access_point 값을 사용합니다. [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) 또는 cURL을 사용할 수 있습니다.
+액세스 토큰을 제공하는 HTTP POST 요청을 보내려면 클라이언트 ID, \&lt;YOUR_CODE\> 및 api_access_point 값을 사용합니다. [Postman](https://helpx.adobe.com/kr/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) 또는 cURL을 사용할 수 있습니다.
 
 ```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"

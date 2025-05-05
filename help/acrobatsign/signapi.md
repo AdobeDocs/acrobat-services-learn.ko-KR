@@ -276,7 +276,7 @@ Company Name","","","2021-03-07 19:32:59"
 
 서명 또는 승인을 위해 지정된 수신자에게 문서를 보내면 계약이 만들어집니다. API를 사용하여 계약 상태 및 완료 상태를 추적할 수 있습니다.
 
-[임시 문서](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
+[임시 문서](https://helpx.adobe.com/kr/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1

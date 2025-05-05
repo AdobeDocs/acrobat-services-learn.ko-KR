@@ -26,11 +26,11 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
 <!-- Comment -->
 <!-- CARDS
 
-* https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
+* https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
   {target = _self}
   {title = Automate content extraction}
   {description = Learn how to automate the extraction of content from a PDF documents using the PDF Extract API}
-  {image = https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium}
+  {image = https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium}
   {cta = Watch}
 
 -->
@@ -42,8 +42,8 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="콘텐츠 추출 자동화" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium" alt="콘텐츠 추출 자동화"
+                    <a href="https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="콘텐츠 추출 자동화" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium" alt="콘텐츠 추출 자동화"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -51,11 +51,11 @@ Adobe Sensei의 머신 러닝으로 구동되는 웹 서비스를 통해 모든 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="콘텐츠 추출 자동화">콘텐츠 추출 자동화</a>
+                        <a href="https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="콘텐츠 추출 자동화">콘텐츠 추출 자동화</a>
                     </p>
                     <p class="is-size-6">PDF 추출 API를 사용하여 PDF 문서에서 콘텐츠 추출을 자동화하는 방법을 알아보십시오</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
                 </a>
             </div>
