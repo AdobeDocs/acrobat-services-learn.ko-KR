@@ -102,7 +102,7 @@ PDF은 출력에 지정된 위치에 생성되며, 기본적으로 pdfServicesSd
 
 ## 리소스 및 다음 단계
 
-* 추가 도움말 및 지원은 Adobe [[!DNL Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) 커뮤니티 포럼에서 확인하십시오
+* 추가 도움말 및 지원은 Adobe [[!DNL Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) 커뮤니티 포럼에서 확인하십시오
 
 PDF 서비스 API [설명서](https://www.adobe.com/go/pdftoolsapi_doc)
 

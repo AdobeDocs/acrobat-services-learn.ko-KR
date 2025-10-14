@@ -302,7 +302,7 @@ PDF이 표시되는 페이지에서 문서를 보관할 `<div />` 요소를 추�
 
 [Adobe PDF Embed API 데모](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf)를 사용하면 PDF 문서 포함에 대한 기타 다양한 옵션을 미리 볼 수 있습니다.
 
-![PDF 옵션 포함 이미지 ](assets/AWNjs_7.png)
+![PDF 옵션 포함 이미지 &#x200B;](assets/AWNjs_7.png)
 
 다양한 옵션을 켜거나 끌 수 있으며 렌더링 방식을 즉시 확인할 수 있습니다. 원하는 조합을 찾으면 *\&lt;/\> 코드 생성* 버튼을 클릭하여 해당 옵션을 사용하여 실제 HTML 코드를 생성합니다.
 

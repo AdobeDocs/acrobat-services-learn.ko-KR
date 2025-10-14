@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 학습 내용
 
-이 실습용 튜토리얼에서는 [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 웹 페이지에 포함된 PDF 문서를 표시하는 방법을 살펴보세요. 이 API는 무료이고 사용하기 쉽습니다. 다음 예제에서는 일부 JavaScript, Node.js, Express.js, HTML 및 CSS를 사용합니다. [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)에서 전체 프로젝트 코드를 볼 수 있습니다.
+이 실습용 튜토리얼에서는 [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 웹 페이지에 포함된 PDF 문서를 표시하는 방법을 살펴보세요. 이 API는 무료이고 사용하기 쉽습니다. 다음 예제에서는 일부 JavaScript, Node.js, Express.js, HTML 및 CSS를 사용합니다. [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)에서 전체 프로젝트 코드를 볼 수 있습니다.
 
 ## 관련 API 및 리소스
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [프로젝트 코드](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
+* [프로젝트 코드](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
 ## 노드 웹 앱 만들기
 
