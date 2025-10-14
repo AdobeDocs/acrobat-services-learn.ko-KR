@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -136,7 +136,7 @@ const fileUpload = require( "express-fileupload" );
 app.use( fileUpload() );
 ```
 
-이제 `/upload `끝점을 추가하고 업로드된 파일을 동일한 파일 이름을 사용하여 임시 보관함 폴더에 저장합니다. 그런 다음 이전에 작성한 함수를 호출하여 동일한 문서의 PDF 파일이 PDF 형식이 아닌 경우 해당 파일을 만듭니다. 업로드된 원본 문서의 이름을 기반으로 새 PDF 파일의 파일 이름을 생성할 수 있습니다.
+이제 `/upload` 끝점을 추가하고 업로드된 파일을 동일한 파일 이름을 사용하여 임시 보관함 폴더에 저장합니다. 그런 다음 이전에 작성한 함수를 호출하여 동일한 문서의 PDF 파일이 PDF 형식이 아닌 경우 해당 파일을 만듭니다. 업로드된 원본 문서의 이름을 기반으로 새 PDF 파일의 파일 이름을 생성할 수 있습니다.
 
 ```
 // Create a PDF file from an uploaded file

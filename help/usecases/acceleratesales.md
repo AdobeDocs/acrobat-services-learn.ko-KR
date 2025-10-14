@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -39,12 +39,12 @@ ht-degree: 0%
 
 1. 샘플 코드를 다운로드할 언어를 선택합니다(예: Node.js).
 1. **[!UICONTROL 개발자 약관]**&#x200B;에 동의하려면 선택하세요.
-1. **[!UICONTROL 자격 증명 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 자격 증명 만들기]**를 선택합니다.
 샘플 파일, pdfservices-api-credentials.json 및 인증을 위한 private.key가 포함된 ZIP 파일로 파일이 컴퓨터에 다운로드됩니다.
 
    ![자격 증명의 스크린샷](assets/accsales_2.png)
 
-1. **[!UICONTROL Microsoft Word 추가 기능 받기]**&#x200B;를 선택하거나 [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654)(으)로 이동하여 설치하십시오.
+1. **[!UICONTROL Microsoft Word 추가 기능 받기]**&#x200B;를 선택하거나 [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654)&#x200B;(으)로 이동하여 설치하십시오.
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    ![태그 삽입 스크린샷](assets/accsales_5.png)
 
-   태그가 JSON의 경로 아래에 있으므로 이 프로세스는 {{company.name}}이라는 태그를 배치합니다.
+   태그가 JSON의 경로 아래에 있으므로 이 프로세스는 `{{company.name}}`이라는 태그를 배치합니다.
 
    ```
    {
@@ -189,7 +189,7 @@ Microsoft Word의 다른 테이블과 마찬가지로 스타일, 크기 및 기�
 1. *[!UICONTROL 계산 유형 선택]*&#x200B;에서 **[!UICONTROL 집계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 유형 선택]*&#x200B;에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 레코드 선택]*&#x200B;에서 **[!UICONTROL ReferencesOrder]**&#x200B;를 선택합니다.
-1. *[!UICONTROL 집계를 수행할 항목 선택]&#x200B;**에서 &#x200B;** [!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
+1. *[!UICONTROL 집계를 수행할 항목 선택]**에서 **[!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 계산 삽입]**&#x200B;을 선택합니다.
 
 이 프로세스에는 값의 합계를 제공하는 계산 태그가 삽입됩니다. JSONata 계산을 사용하여 더 많은 고급 계산을 수행할 수 있습니다. 예를 들면 다음과 같습니다.
@@ -272,6 +272,7 @@ Adobe Acrobat Sign을 사용하면 문서에 전자 서명을 캡처할 수 있�
 ![문서의 서명 태그 스크린샷](assets/accsales_15.png)
 
 Acrobat Sign은 날짜 필드와 같이 배치할 수 있는 여러 유형의 필드를 제공합니다.
+
 1. *필드* 유형에서 **[!UICONTROL 날짜]**&#x200B;를 선택합니다.
 1. 커서를 문서의 날짜 위치 위로 이동합니다.
 1. **[!UICONTROL Adobe Sign 텍스트 태그 삽입]**&#x200B;을 선택합니다.
