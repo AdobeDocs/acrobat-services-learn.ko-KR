@@ -197,7 +197,7 @@ adobeDCView.registerCallback(
 
 이 화면 캡처는 학생이 할당 파일을 열고 첫 페이지를 읽었으며(추가 페이지로 스크롤하지 않았거나 문서에 한 페이지만 있는 경우) 파일을 다운로드했음을 나타냅니다. 이러한 측정 단위를 수집하여 분석을 수행하고 학생들의 행동을 연구할 수 있습니다.
 
-또한 [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html)은(는) PDF 포함 API와 통합되므로 Adobe Analytics 제품군에 대한 구독이 있는 경우 구독에 메트릭을 게시할 수 있습니다. Adobe Analytics에 측정 단위를 게시하려면 Embed API 생성자에 PDF ID를 전달하기만 하면 됩니다. (PDF 서비스 API 자격 증명이 아닌 PDF Embed API 자격 증명을 사용해야 합니다.)
+또한 [Adobe Analytics](https://business.adobe.com/kr/products/adobe-analytics.html)은(는) PDF 포함 API와 통합되므로 Adobe Analytics 제품군에 대한 구독이 있는 경우 구독에 메트릭을 게시할 수 있습니다. Adobe Analytics에 측정 단위를 게시하려면 Embed API 생성자에 PDF ID를 전달하기만 하면 됩니다. (PDF 서비스 API 자격 증명이 아닌 PDF Embed API 자격 증명을 사용해야 합니다.)
 
 다음은 PDF Embed API 생성자로 suite ID를 전달하는 방법을 보여 주는 샘플 코드입니다.
 
