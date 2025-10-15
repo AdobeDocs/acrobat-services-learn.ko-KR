@@ -8,10 +8,10 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
+source-git-commit: 3dda76423509e444defc962c12a26c835d63cafa
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 + 문서 생성 API {#docgen}
    + [개요](docgen/overview-docgen.md)
    + [문서 생성 자동화](docgen/automate-doc-gen.md)
-   + 템플릿 만들기{#docgentemplates}
+   + 템플릿 만들기 {#docgentemplates}
       + [Adobe 문서 생성 Tagger 개요](docgen/taggeroverview.md)
       + [텍스트 태그 추가](docgen/taggeraddtexttags.md)
       + [이미지 태그 추가](docgen/taggeraddimagetags.md)
@@ -47,13 +47,13 @@ ht-degree: 3%
 + PDF 전자 봉인 API {#eseal}
    + [개요](pdfelectronicseal/overview-electronic-seal.md)
    + [전자 봉인 자동 적용](pdfelectronicseal/automatically-apply-electronic-seal.md)
-+ PDF Embed API {#pdfembed}
++ PDF 포함 API {#pdfembed}
    + [개요](pdfembed/overview-embed.md)
    + [PDF 온라인 환경을 제어하고 분석을 수집하세요.](pdfembed/controlpdfexperience.md)
 + Acrobat Sign API {#acrobatsign}
    + [개요](acrobatsign/overview-sign.md)
    + [Adobe Sign API 시작하기](acrobatsign/signapi.md)
-   + OEM/포함 파트너 {#oem}
+   + OEM/임베디드 파트너 {#oem}
       + [개발자 계정 등록](acrobatsign/sign-up-developer-account.md)
       + [응용 프로그램 만들기](acrobatsign/creating-your-application.md)
       + [임베드 링크 만들기](acrobatsign/creating-an-embed-link.md)
@@ -78,4 +78,4 @@ ht-degree: 3%
    + [Java에서 재무 문서 워크플로우 관리](usecases/financeworkflowsjava.md)
    + [인보이스 처리](usecases/invoices.md)
    + [디지털 문서 게시](usecases/ddppdfembedapi.md)
-
++ [테스트용 숨겨진 파일](hidden-file.md)
