@@ -1,10 +1,10 @@
 ---
-source-git-commit: e3d558d753cfc578a4ebcc6b261ab47dcc5f3a54
+source-git-commit: 345d62fbdbe12f2c369ea073ce8e6e942bdad9c9
 workflow-type: tm+mt
-source-wordcount: '5'
-ht-degree: 20%
+source-wordcount: '14'
+ht-degree: 0%
 
 ---
-# 보관됨
+# 문서 서비스
 
-GitHub 클라우드로 마이그레이션됨: <https://github.com/Adobe-Enterprise-Docs/acrobat-services-learn.en>
+DC SDK 문서 서비스를 위한 홈(예: FAQ, 자습서 등)
