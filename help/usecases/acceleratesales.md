@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 샘플 코드를 다운로드할 언어를 선택합니다(예: Node.js).
 1. **[!UICONTROL 개발자 약관]**&#x200B;에 동의하려면 선택하세요.
-1. **[!UICONTROL 자격 증명 만들기]**를 선택합니다.
+1. **[!UICONTROL 자격 증명 만들기]**&#x200B;를 선택합니다.
 샘플 파일, pdfservices-api-credentials.json 및 인증을 위한 private.key가 포함된 ZIP 파일로 파일이 컴퓨터에 다운로드됩니다.
 
    ![자격 증명의 스크린샷](assets/accsales_2.png)
@@ -189,7 +189,7 @@ Microsoft Word의 다른 테이블과 마찬가지로 스타일, 크기 및 기�
 1. *[!UICONTROL 계산 유형 선택]*&#x200B;에서 **[!UICONTROL 집계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 유형 선택]*&#x200B;에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 레코드 선택]*&#x200B;에서 **[!UICONTROL ReferencesOrder]**&#x200B;를 선택합니다.
-1. *[!UICONTROL 집계를 수행할 항목 선택]**에서 **[!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
+1. *[!UICONTROL 집계를 수행할 항목 선택]&#x200B;**에서 &#x200B;** [!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 계산 삽입]**&#x200B;을 선택합니다.
 
 이 프로세스에는 값의 합계를 제공하는 계산 태그가 삽입됩니다. JSONata 계산을 사용하여 더 많은 고급 계산을 수행할 수 있습니다. 예를 들면 다음과 같습니다.

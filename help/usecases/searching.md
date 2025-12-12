@@ -141,7 +141,7 @@ Ensure that the content of your package.json file is similar to this code snippe
 
 가입을 완료하면 API 자격 증명이 포함된 코드 샘플이 PC에 다운로드됩니다. 이 코드 샘플을 추출하고 private.key 및 pdftools-api-credentials.json 파일을 응용 프로그램의 루트 디렉터리에 배치합니다.
 
-이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 [ 명령을 실행하여 ](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)PDF 서비스 Node.js SDK` npm install --save @adobe/documentservices-pdftools-node-sdk `을(를) 설치합니다.
+이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 [&#x200B; 명령을 실행하여 &#x200B;](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)PDF 서비스 Node.js SDK` npm install --save @adobe/documentservices-pdftools-node-sdk `을(를) 설치합니다.
 
 ## PDF 만들기
 
