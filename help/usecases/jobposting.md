@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## Adobe API 자격 증명 생성 중
 
-먼저, Adobe PDF Embed API(무료 사용) 및 Adobe PDF Services API(6개월 무료, 이후 문서 트랜잭션당 \$0.05에 대해 [종량제](https://developer.adobe.com/document-services/pricing/main)에 대해 [자격 증명을 만들어야](https://www.adobe.com/go/dcsdks_credentials) 합니다. PDF 서비스 API에 대한 자격 증명을 만들 때 &quot;개인화된 코드 샘플 만들기&quot; 옵션을 선택합니다. ZIP 파일을 저장하고 pdftools-api-credentials.json 및 private.key를 Node.js Express 프로젝트의 루트 디렉터리로 추출합니다.
+먼저, Adobe PDF Embed API(무료 사용) 및 Adobe PDF Services API(6개월 무료, 이후 문서 트랜잭션당 \$0.05에 대해 [종량제](https://www.adobe.com/go/dcsdks_credentials)에 대해 [자격 증명을 만들어야](https://developer.adobe.com/document-services/pricing/main) 합니다. PDF 서비스 API에 대한 자격 증명을 만들 때 &quot;개인화된 코드 샘플 만들기&quot; 옵션을 선택합니다. ZIP 파일을 저장하고 pdftools-api-credentials.json 및 private.key를 Node.js Express 프로젝트의 루트 디렉터리로 추출합니다.
 
 또한 사용 가능한 Embed API에 대한 API 키가 필요합니다. [프로젝트](https://developer.adobe.com/console/projects)에서 만든 프로젝트로 이동합니다. 그런 다음 **프로젝트에 추가**&#x200B;를 클릭하고 **API**&#x200B;를 선택합니다. 마지막으로 **Embed API PDF**&#x200B;를 클릭합니다.
 
@@ -283,3 +283,4 @@ views/ 디렉터리에서 다음 내용으로 job.jade 파일을 만듭니다.
 * [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 웹 사이트에 친숙한 문서 처리 기능을 추가하려면 [무료 체험판에 등록](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요. Adobe PDF Embed API는 항상 무료로 사용할 수 있으며 Adobe PDF Services API는 6개월 동안 무료입니다. 그러면 문서 트랜잭션당 \$0.05만 지불하면 비즈니스가 성장함에 따라 [사용한 만큼 지불](https://developer.adobe.com/document-services/pricing/main)할 수 있습니다.
+

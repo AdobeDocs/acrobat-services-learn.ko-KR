@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7482
 thumbnail: KT-7482.jpg
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 학습 내용
 
-이 실습용 튜토리얼에서는 [!DNL Java Spring Boot]개 응용 프로그램에 대해 [!DNL Adobe Acrobat Services]개의 API를 사용하는 방법을 알아봅니다. PDF 문서에서 콘텐츠를 추출하고 Excel과 같은 다른 데이터 형식으로 변환하며 여러 PDF을 결합하고 암호를 통해 리소스를 보호하는 MVC(model-view-controller) 앱을 빌드할 수 있습니다. 이 자습서에서는 [PDF 포함 API](https://developer.adobe.com/document-services/apis/pdf-embed) Adobe을 사용하여 PDF 문서를 처리하고 웹 사이트에 표시하는 방법을 설명합니다.
+이 실습용 튜토리얼에서는 [!DNL Adobe Acrobat Services]개 응용 프로그램에 대해 [!DNL Java Spring Boot]개의 API를 사용하는 방법을 알아봅니다. PDF 문서에서 콘텐츠를 추출하고 Excel과 같은 다른 데이터 형식으로 변환하며 여러 PDF을 결합하고 암호를 통해 리소스를 보호하는 MVC(model-view-controller) 앱을 빌드할 수 있습니다. 이 자습서에서는 [PDF 포함 API](https://developer.adobe.com/document-services/apis/pdf-embed) Adobe을 사용하여 PDF 문서를 처리하고 웹 사이트에 표시하는 방법을 설명합니다.
 
 ## 관련 API 및 리소스
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 설정
 
-[!DNL Adobe Acrobat Services]은(는) 인증 시스템을 사용하여 리소스 액세스를 제어합니다. 서비스에 액세스하려면 조직 또는 애플리케이션에 대한 Adobe에서 API 키를 요청해야 합니다. API 키가 있는 경우 다음 섹션으로 계속합니다. 새 API 키를 만들려면 [!DNL Acrobat Services] 사이트에서 [시작하기](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)를 방문하세요. 최대 6개월 동안 사용할 수 있는 1,000개의 문서 트랜잭션을 제공하는 무료 평가판을 사용하여 키를 만들 수 있습니다.
+[!DNL Adobe Acrobat Services]은(는) 인증 시스템을 사용하여 리소스 액세스를 제어합니다. 서비스에 액세스하려면 조직 또는 애플리케이션에 대한 Adobe에서 API 키를 요청해야 합니다. API 키가 있는 경우 다음 섹션으로 계속합니다. 새 API 키를 만들려면 [ 사이트에서 ](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)시작하기[!DNL Acrobat Services]를 방문하세요. 최대 6개월 동안 사용할 수 있는 1,000개의 문서 트랜잭션을 제공하는 무료 평가판을 사용하여 키를 만들 수 있습니다.
 
 이 튜토리얼을 따라 하려면 두 가지 API 키 세트가 필요합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * Adobe PDF 포함 API
 
-자격 증명을 만든 후 PDF 서비스 API 자격 증명과 개인 키를 리소스 섹션 내의 [!DNL Spring Boot] 응용 프로그램에 복사합니다. [!DNL Adobe Acrobat Services] 웹 사이트에서 [Maven 및 Gradle 라이브러리 및 종속성](https://developer.adobe.com/document-services/docs/overview/pdf-services-api)에 대해 자세히 알아보십시오. 계속하기 전에 필요한 모든 패키지 및 라이브러리를 설정했는지 확인하십시오.
+자격 증명을 만든 후 PDF 서비스 API 자격 증명과 개인 키를 리소스 섹션 내의 [!DNL Spring Boot] 응용 프로그램에 복사합니다. [ 웹 사이트에서 ](https://developer.adobe.com/document-services/docs/overview/pdf-services-api)Maven 및 Gradle 라이브러리 및 종속성[!DNL Adobe Acrobat Services]에 대해 자세히 알아보십시오. 계속하기 전에 필요한 모든 패키지 및 라이브러리를 설정했는지 확인하십시오.
 
 PDF 서비스 API 자격 증명에 대한 ![디렉터리 위치 스크린샷](assets/FAWJ_1.png)
 
@@ -200,3 +200,4 @@ PDF 임베드 API 는 PDF을 미리 볼 수 있을 뿐만 아니라 보고서에
 [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 살펴보고 Adobe PDF Services가 비즈니스에 어떤 역할을 하는지 확인하십시오. SDK에서 사용할 수 있는 더 많은 기능에 대해 알아보려면 [GitHub 저장소](https://github.com/adobe/pdftools-java-sdk-samples)에서 샘플을 참조하고 [PDF 포함 API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 응용 프로그램 내에 PDF을 빠르게 표시하는 방법을 살펴보세요.
 
 문서를 쉽게 결합하고 조작하고 금융 고객을 위한 유용한 PDF 보고서를 만들려면 지금 무료 [Adobe 개발자 계정](https://developer.adobe.com/document-services/homepage/)에 등록하여 시작하십시오.
+

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10203
 thumbnail: KT-10203.jpg
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -209,3 +209,4 @@ combineFilesOperation.execute(executionContext)
 이 문서에 설명된 모든 것은 지금 테스트될 수 있습니다. [!DNL Adobe Acrobat Services] API [무료 체험판](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html)에서는 현재 6개월 동안 1,000개의 무료 요청을 제공합니다. Acrobat Sign [무료 체험판](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial)을 사용하면 워터마크가 있는 계약을 테스트할 목적으로 보낼 수 있습니다.
 
 궁금한 점이 있으십니까? [지원 포럼](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK)은 Adobe 개발자와 지원 담당자가 매일 모니터링합니다. 일반적으로 더 많은 영감을 얻으려면 다음 [종이 클립](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) 에피소드를 꼭 잡으세요. 뉴스와 데모, 고객과의 상담이 있는 정기적인 라이브 미팅이 있다.
+

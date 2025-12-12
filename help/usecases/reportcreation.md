@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -220,3 +220,4 @@ res.status(500).render("crash", { error: error });
 이 Adobe 기반 응용 프로그램은 [소셜 미디어 대시보드 고객](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation)이 장치에 Microsoft Office 또는 기타 소프트웨어가 설치되어 있는지 여부에 관계없이 필요한 보고서를 가져오고 공유할 수 있도록 도와줍니다. 자신의 응용 프로그램에서도 동일한 기술을 사용하여 사용자가 문서를 보고, 결합하고, 다운로드하는 데 도움을 줄 수 있습니다. 또는 Adobe의 다른 많은 API를 확인하여 서명 등을 추가하고 추적해 보세요.
 
 시작하려면 무료 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 계정을 요청한 다음 직원 및 고객을 위한 매력적인 보고 경험을 만드십시오. 6개월 동안 무료로 계정을 사용한 다음 [종량제](https://developer.adobe.com/document-services/pricing/main)를 통해 마케팅 활동을 늘리세요. 문서 트랜잭션당 단 \$0.05입니다.
+

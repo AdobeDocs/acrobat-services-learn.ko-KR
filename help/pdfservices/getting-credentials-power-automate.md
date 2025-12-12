@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10382
 thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Microsoft Power Automate 자격 증명 가져오기
 
-[Microsoft Power Automate](https://powerautomate.microsoft.com/ko-kr/)는 시민 개발자와 개발자가 코드를 작성하지 않고도 비즈니스를 개선할 수 있는 강력한 자동화 프로세스를 만들 수 있는 강력한 방법을 제공합니다. [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services)의 일부로 [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/) 커넥터를 통해 사용자는 Microsoft Power Automate 내의 Adobe PDF Services API에서 사용할 수 있는 모든 작업을 수행할 수 있습니다.
+[Microsoft Power Automate](https://powerautomate.microsoft.com/ko-kr/)는 시민 개발자와 개발자가 코드를 작성하지 않고도 비즈니스를 개선할 수 있는 강력한 자동화 프로세스를 만들 수 있는 강력한 방법을 제공합니다. [](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/)의 일부로 [[!DNL Adobe Acrobat Services]Adobe PDF Services](https://developer.adobe.com/document-services) 커넥터를 통해 사용자는 Microsoft Power Automate 내의 Adobe PDF Services API에서 사용할 수 있는 모든 작업을 수행할 수 있습니다.
 
 이 튜토리얼에서는 Adobe PDF 서비스를 사용하거나 테스트하기 위해 자격 증명을 받는 방법에 대해 알아봅니다. 체험판 사용자인지 기존 고객인지에 따라 이 튜토리얼에서는 자격 증명을 얻는 적절한 단계를 안내합니다.
 
@@ -116,7 +116,7 @@ Power Automate 작업을 시작하려면 먼저 <https://powerautomate.microsoft
 
 위의 스크린샷과 같이 작업 계정으로 전환하거나 새 조직 계정을 설정할 수 있습니다. 작업이 완료되면 Adobe PDF Services 작업을 추가할 수 있습니다.
 
-[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate)를 참조하십시오.
+[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate)를 참조하십시오.
 
 ## 추가 리소스
 
@@ -127,3 +127,4 @@ Power Automate 작업을 시작하려면 먼저 <https://powerautomate.microsoft
 * 실시간 비디오 콘텐츠 [종이 클립](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF)에는 Power Automate 사용을 시연하는 비디오도 포함되어 있습니다.
 * [Adobe 기술 블로그](https://medium.com/adobetech/tagged/microsoft-power-automate)에는 Power Automate를 사용한 작업에 대한 많은 문서가 있습니다.
 * 마지막으로 핵심 [PDF 서비스](https://developer.adobe.com/document-services/docs/overview/) 설명서도 참조해야 합니다.
+

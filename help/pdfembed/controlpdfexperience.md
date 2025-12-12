@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://developer.adobe.com/document-services/homepage/)&#x200B;(으)로 이동합니다.
 
-   [!DNL Adobe Acrobat Services] 웹 사이트의 ![스크린샷](assets/ControlPDF_6.png)
+   ![ 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
 
 1. 탐색 모음에서 **[!UICONTROL API]**&#x200B;를 클릭한 다음 드롭다운 링크에서 **[!UICONTROL PDF 포함 API]** 페이지로 이동합니다.
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 엽니다.
 
-1. **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**&#39;라는 주석 아래에서 18행의 `<head>`에 스크립트 코드를 붙여넣습니다.
+1. `<head>`TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG **&#39;라는 주석 아래에서 18행의**&#x200B;에 스크립트 코드를 붙여넣습니다.
 
    스크립트 코드를 붙여넣을 위치의 ![스크린샷](assets/ControlPDF_13.png)
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 다시 엽니다.
 
-1. **TODO: 연습 1: PDF 포함 API 코드 삽입**&#x200B;이라는 주석 아래 67행의 `<body>`에 `<div>` 코드를 붙여넣습니다.
+1. `<div>`TODO: 연습 1: PDF 포함 API 코드 삽입`<body>`이라는 주석 아래 67행의 **에** 코드를 붙여넣습니다.
 
    ![코드를 붙여넣을 위치의 스크린샷](assets/ControlPDF_15.png)
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 다시 엽니다.
 
-1. `<div>` 태그 아래의 68행에 있는 파일의 `<body>`에 `<script>` 코드를 붙여넣습니다.
+1. `<script>` 태그 아래의 68행에 있는 파일의 `<body>`에 `<div>` 코드를 붙여넣습니다.
 
 1. 이전에 만든 clientID 변수를 포함하도록 동일한 **index.html** 파일의 70행을 수정합니다.
 
@@ -327,3 +327,4 @@ Adobe PDF Embed API 는 Adobe Analytics과 즉시 통합 가능합니다. 그러
 ## 추가 리소스
 
 [여기](https://developer.adobe.com/document-services/docs/overview)에서 추가 리소스를 찾을 수 있습니다.
+
