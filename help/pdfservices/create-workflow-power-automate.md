@@ -31,7 +31,7 @@ ht-degree: 1%
 ### 필요한 항목
 
 * Adobe PDF 서비스에 대한 **평가판 또는 프로덕션 자격 증명**
-Microsoft Power Automate [여기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
+Microsoft Power Automate [여기](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
 * **프리미엄 커넥터가 포함된 Microsoft Power Automate**
 Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types)의 라이선스 수준을 확인하는 방법에 대해 알아보십시오.
 * **OneDrive**
@@ -46,7 +46,7 @@ Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/po
 
 ### 자격 증명 가져오기
 
-이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)을 참조하세요.
+이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)을 참조하세요.
 
 ## 1부: 새 플로우 만들기 및 Word를 PDF으로 변환
 

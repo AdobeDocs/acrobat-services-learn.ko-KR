@@ -116,7 +116,7 @@ Power Automate 작업을 시작하려면 먼저 <https://powerautomate.microsoft
 
 위의 스크린샷과 같이 작업 계정으로 전환하거나 새 조직 계정을 설정할 수 있습니다. 작업이 완료되면 Adobe PDF Services 작업을 추가할 수 있습니다.
 
-[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate)를 참조하십시오.
+[!DNL Adobe Acrobat Services]을(를) 사용하여 첫 번째 Microsoft Power Automate 플로우를 만드는 방법에 대한 자세한 내용은 [Microsoft Power Automate에서 첫 번째 워크플로우 만들기](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate)를 참조하십시오.
 
 ## 추가 리소스
 
