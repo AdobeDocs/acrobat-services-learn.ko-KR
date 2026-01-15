@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -603,4 +603,3 @@ System.out.println("Agreement sent, ID: " + agreementCreationResponse.getId());
 예를 들어 수신자가 원격으로 안전하게 서명할 수 있는 양식을 만들 수 있습니다. 여러 개의 서명이 필요한 경우 워크플로우에서 일련의 사용자에게 양식을 자동으로 라우팅할 수도 있습니다. 직원 온보딩 경험이 개선되어 인사부에서 여러분을 사랑할 것입니다.
 
 [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 확인하여 지금 응용 프로그램에 많은 PDF 기능을 추가하세요.
-

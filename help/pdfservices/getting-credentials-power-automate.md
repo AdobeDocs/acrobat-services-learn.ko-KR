@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10382
 thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
@@ -127,4 +127,3 @@ Power Automate 작업을 시작하려면 먼저 <https://powerautomate.microsoft
 * 실시간 비디오 콘텐츠 [종이 클립](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF)에는 Power Automate 사용을 시연하는 비디오도 포함되어 있습니다.
 * [Adobe 기술 블로그](https://medium.com/adobetech/tagged/microsoft-power-automate)에는 Power Automate를 사용한 작업에 대한 많은 문서가 있습니다.
 * 마지막으로 핵심 [PDF 서비스](https://developer.adobe.com/document-services/docs/overview/) 설명서도 참조해야 합니다.
-

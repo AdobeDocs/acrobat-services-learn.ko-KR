@@ -9,7 +9,7 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: 추천 항목
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 0%
@@ -520,5 +520,3 @@ request(createWebFormRequest, function (error, response) {
 호출에 필요한 범위를 확인하거나 호출이 빌드되는 방법을 보려면 [Rest API 설명서](https://secure.na4.adobesign.com/public/docs/restapi/v6)에서 샘플 호출을 빌드할 수 있습니다. [빠른 시작](https://github.com/adobe/pdftools-node-sdk-samples)에서는 [!DNL Adobe Acrobat Services] API 프로세스의 다른 기능과 파일 형식도 보여 줍니다.
 
 애플리케이션에 다양한 PDF 기능을 추가하여 사용자들이 자신의 문서를 빠르고 쉽게 보고 서명할 수 있도록 할 수 있습니다. 시작하려면 오늘 [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 확인하십시오.
-
-

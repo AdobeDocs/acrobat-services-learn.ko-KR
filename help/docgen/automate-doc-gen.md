@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 jira: KT-15030
 exl-id: fca9c193-0d0c-4775-98b4-cd048fc97969
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -19,4 +19,3 @@ ht-degree: 0%
 Microsoft Power Automate에서 Adobe PDF Services 커넥터를 사용하여 문서 생성 API를 호출하여 자동으로 문서를 대규모로 생성하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428227?hidetitle=true)
-

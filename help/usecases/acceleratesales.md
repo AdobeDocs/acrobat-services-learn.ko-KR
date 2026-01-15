@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -370,10 +370,11 @@ documentMergeOperation.execute(executionContext)
 * /src 폴더의 샘플 스크립트를 사용하여 PDF 활용 방법을 확인하십시오
 * 최신 팁과 요령을 보려면 [Adobe 기술 블로그](https://medium.com/adobetech/tagged/adobe-document-cloud)를 팔로우하세요.
 * [종이 클립(월간 라이브 스트림)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF)을 구독하여 [!DNL Adobe Acrobat Services] 사용 자동화에 대해 알아보십시오.
+
 =======
+
 * [설명서](https://developer.adobe.com/document-services/docs/overview/)에서 자세히 알아보기
 * Adobe Experience League에서 더 많은 튜토리얼 보기
 * /src 폴더의 샘플 스크립트를 사용하여 PDF 활용 방법을 확인하십시오
 * 최신 팁과 요령을 보려면 [Adobe 기술 블로그](https://medium.com/adobetech/tagged/adobe-document-cloud)를 팔로우하세요.
 * [종이 클립(월간 라이브 스트림)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF)을 구독하여 [!DNL Adobe Acrobat Services] 사용 자동화에 대해 알아보세요.
-

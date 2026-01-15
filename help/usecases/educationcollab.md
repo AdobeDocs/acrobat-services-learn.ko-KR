@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -216,4 +216,3 @@ var adobeDCView = new AdobeDC.View({
 이제 PDF 보고서에 주석을 달고, 주석을 보관하고, PDF 보고서 사용을 추적하는 방법을 이해하셨다면 이제 프로젝트에 이러한 솔루션을 직접 구현할 수 있습니다.
 
 [!DNL Adobe Acrobat Services] API를 사용하여 웹 사이트에서 사용자 친화적이고 인터랙티브한 PDF 경험을 만들 수 있습니다. 6개월 동안 Adobe PDF Services API를 무료로 사용한 다음 AWS 또는 직접 계약을 통해 [종량제](https://developer.adobe.com/document-services/pricing/main)만 문서 트랜잭션당 \$0.05에 사용할 수 있습니다. 제한 시간 없이 Adobe PDF 임베드 무료 사용. 지금 [시작](https://www.adobe.com/go/dcsdks_credentials)하려면 무료 계정을 만드세요.
-

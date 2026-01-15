@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -146,4 +146,3 @@ console.log('Exception encountered while executing operation', err);
 Microsoft Forms을 사용하면 클라이언트에서 고유한 제안에 사용할 중요한 데이터를 얻을 수 있습니다. Microsoft Word에서 영업 제안 템플릿을 만들어 매번 다시 만들지 않을 정적 텍스트를 제공했습니다. 그런 다음 [!DNL Acrobat Services]개의 API를 사용하여 양식과 템플릿의 데이터를 병합하고 더 효율적인 방식으로 고객을 위한 판매 제안 PDF을 만들었습니다.
 
 이 실습형 튜토리얼에서는 이러한 API로 가능한 것을 간단히 훑어볼 뿐입니다. 더 많은 솔루션을 찾으려면 [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) API 페이지를 방문하세요. 이 도구들은 모두 6개월 동안 무료로 사용할 수 있습니다. 그런 다음 [종량제](https://developer.adobe.com/document-services/pricing/main) 플랜에서 문서 트랜잭션당 $0.05만 지불하면 팀이 판매 파이프라인에 더 많은 잠재 고객을 추가하는 경우에만 지불합니다.
-

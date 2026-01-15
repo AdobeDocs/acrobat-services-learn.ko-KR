@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7482
 thumbnail: KT-7482.jpg
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -200,4 +200,3 @@ PDF 임베드 API 는 PDF을 미리 볼 수 있을 뿐만 아니라 보고서에
 [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/)을(를) 살펴보고 Adobe PDF Services가 비즈니스에 어떤 역할을 하는지 확인하십시오. SDK에서 사용할 수 있는 더 많은 기능에 대해 알아보려면 [GitHub 저장소](https://github.com/adobe/pdftools-java-sdk-samples)에서 샘플을 참조하고 [PDF 포함 API](https://developer.adobe.com/document-services/apis/pdf-embed)를 사용하여 응용 프로그램 내에 PDF을 빠르게 표시하는 방법을 살펴보세요.
 
 문서를 쉽게 결합하고 조작하고 금융 고객을 위한 유용한 PDF 보고서를 만들려면 지금 무료 [Adobe 개발자 계정](https://developer.adobe.com/document-services/homepage/)에 등록하여 시작하십시오.
-
