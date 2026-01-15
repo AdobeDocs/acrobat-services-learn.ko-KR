@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Ensure that the content of your package.json file is similar to this code snippe
 
 가입을 완료하면 API 자격 증명이 포함된 코드 샘플이 PC에 다운로드됩니다. 이 코드 샘플을 추출하고 private.key 및 pdftools-api-credentials.json 파일을 응용 프로그램의 루트 디렉터리에 배치합니다.
 
-이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 [&#x200B; 명령을 실행하여 &#x200B;](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)PDF 서비스 Node.js SDK` npm install --save @adobe/documentservices-pdftools-node-sdk `을(를) 설치합니다.
+이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 [ 명령을 실행하여 ](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)PDF 서비스 Node.js SDK` npm install --save @adobe/documentservices-pdftools-node-sdk `을(를) 설치합니다.
 
 ## PDF 만들기
 
@@ -432,4 +432,3 @@ res.download(download.link);
 
 내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)에 등록
 개발자 계정. 6개월 무료 체험 기간 및 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [종량제](https://developer.adobe.com/document-services/pricing/main)를 받을 수 있습니다.
-

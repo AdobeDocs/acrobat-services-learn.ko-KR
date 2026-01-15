@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://developer.adobe.com/document-services/homepage/)&#x200B;(으)로 이동합니다.
 
-   ![&#x200B; 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
+   ![ 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
 
 1. 탐색 모음에서 **[!UICONTROL API]**&#x200B;를 클릭한 다음 드롭다운 링크에서 **[!UICONTROL PDF 포함 API]** 페이지로 이동합니다.
 
@@ -327,4 +327,3 @@ Adobe PDF Embed API 는 Adobe Analytics과 즉시 통합 가능합니다. 그러
 ## 추가 리소스
 
 [여기](https://developer.adobe.com/document-services/docs/overview)에서 추가 리소스를 찾을 수 있습니다.
-

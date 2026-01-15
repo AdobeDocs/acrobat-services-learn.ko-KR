@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-11073
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -23,5 +23,4 @@ ht-degree: 0%
 >
 >이 튜토리얼은 애플리케이션 내에서 서명 프로세스를 구축하고 임베드하는 OEM 파트너를 위해 특별히 설계되었습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445415?captions=kor&hidetitle=true){transcript=true}
-
+>[!VIDEO](https://video.tv.adobe.com/v/347349?hidetitle=true){transcript=true}

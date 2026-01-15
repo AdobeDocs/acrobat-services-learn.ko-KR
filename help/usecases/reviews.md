@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -448,4 +448,3 @@ PDF 조합 코드는 PDF 생성 코드와 유사하지만 CombineFiles 작업을
 이러한 기술을 사용하여 앱에서 공동 작업을 활성화하거나 GitHub에서 [PDF 서비스 노드 SDK 샘플](https://github.com/adobe/pdftools-node-sdk-samples) 및 [PDF 포함 API 샘플](https://github.com/adobe/pdf-embed-api-samples)을 탐색하여 Adobe의 API를 사용하는 다른 방법에 대한 영감을 얻을 수 있습니다.
 
 내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) 개발자 계정을 등록합니다. Adobe PDF Embed에 무료로 액세스하고, 다른 API에 대한 6개월 무료 체험판을 사용해 보십시오. 체험판 사용 후 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [사용한 만큼 지불](https://developer.adobe.com/document-services/pricing/main)할 수 있습니다.
-
