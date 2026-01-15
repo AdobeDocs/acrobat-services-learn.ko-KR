@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 설정
 
-[!DNL Adobe Acrobat Services]은(는) 인증 시스템을 사용하여 리소스 액세스를 제어합니다. 서비스에 액세스하려면 조직 또는 애플리케이션에 대한 Adobe에서 API 키를 요청해야 합니다. API 키가 있는 경우 다음 섹션으로 계속합니다. 새 API 키를 만들려면 [ 사이트에서 ](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)시작하기[!DNL Acrobat Services]를 방문하세요. 최대 6개월 동안 사용할 수 있는 1,000개의 문서 트랜잭션을 제공하는 무료 평가판을 사용하여 키를 만들 수 있습니다.
+[!DNL Adobe Acrobat Services]은(는) 인증 시스템을 사용하여 리소스 액세스를 제어합니다. 서비스에 액세스하려면 조직 또는 애플리케이션에 대한 Adobe에서 API 키를 요청해야 합니다. API 키가 있는 경우 다음 섹션으로 계속합니다. 새 API 키를 만들려면 [&#x200B; 사이트에서 &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)시작하기[!DNL Acrobat Services]를 방문하세요. 최대 6개월 동안 사용할 수 있는 1,000개의 문서 트랜잭션을 제공하는 무료 평가판을 사용하여 키를 만들 수 있습니다.
 
 이 튜토리얼을 따라 하려면 두 가지 API 키 세트가 필요합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * Adobe PDF 포함 API
 
-자격 증명을 만든 후 PDF 서비스 API 자격 증명과 개인 키를 리소스 섹션 내의 [!DNL Spring Boot] 응용 프로그램에 복사합니다. [ 웹 사이트에서 ](https://developer.adobe.com/document-services/docs/overview/pdf-services-api)Maven 및 Gradle 라이브러리 및 종속성[!DNL Adobe Acrobat Services]에 대해 자세히 알아보십시오. 계속하기 전에 필요한 모든 패키지 및 라이브러리를 설정했는지 확인하십시오.
+자격 증명을 만든 후 PDF 서비스 API 자격 증명과 개인 키를 리소스 섹션 내의 [!DNL Spring Boot] 응용 프로그램에 복사합니다. [&#x200B; 웹 사이트에서 &#x200B;](https://developer.adobe.com/document-services/docs/overview/pdf-services-api)Maven 및 Gradle 라이브러리 및 종속성[!DNL Adobe Acrobat Services]에 대해 자세히 알아보십시오. 계속하기 전에 필요한 모든 패키지 및 라이브러리를 설정했는지 확인하십시오.
 
 PDF 서비스 API 자격 증명에 대한 ![디렉터리 위치 스크린샷](assets/FAWJ_1.png)
 

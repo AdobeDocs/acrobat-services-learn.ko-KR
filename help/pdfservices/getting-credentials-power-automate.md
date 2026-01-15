@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Microsoft Power Automate 자격 증명 가져오기
 
-[Microsoft Power Automate](https://powerautomate.microsoft.com/ko-kr/)는 시민 개발자와 개발자가 코드를 작성하지 않고도 비즈니스를 개선할 수 있는 강력한 자동화 프로세스를 만들 수 있는 강력한 방법을 제공합니다. [](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/)의 일부로 [[!DNL Adobe Acrobat Services]Adobe PDF Services](https://developer.adobe.com/document-services) 커넥터를 통해 사용자는 Microsoft Power Automate 내의 Adobe PDF Services API에서 사용할 수 있는 모든 작업을 수행할 수 있습니다.
+[Microsoft Power Automate](https://powerautomate.microsoft.com/ko-kr/)는 시민 개발자와 개발자가 코드를 작성하지 않고도 비즈니스를 개선할 수 있는 강력한 자동화 프로세스를 만들 수 있는 강력한 방법을 제공합니다. [&#128279;](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/)의 일부로 [[!DNL Adobe Acrobat Services]Adobe PDF Services](https://developer.adobe.com/document-services) 커넥터를 통해 사용자는 Microsoft Power Automate 내의 Adobe PDF Services API에서 사용할 수 있는 모든 작업을 수행할 수 있습니다.
 
 이 튜토리얼에서는 Adobe PDF 서비스를 사용하거나 테스트하기 위해 자격 증명을 받는 방법에 대해 알아봅니다. 체험판 사용자인지 기존 고객인지에 따라 이 튜토리얼에서는 자격 증명을 얻는 적절한 단계를 안내합니다.
 

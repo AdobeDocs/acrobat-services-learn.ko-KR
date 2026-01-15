@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://developer.adobe.com/document-services/homepage/)&#x200B;(으)로 이동합니다.
 
-   ![ 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
+   ![&#x200B; 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
 
 1. 탐색 모음에서 **[!UICONTROL API]**&#x200B;를 클릭한 다음 드롭다운 링크에서 **[!UICONTROL PDF 포함 API]** 페이지로 이동합니다.
 

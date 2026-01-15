@@ -79,7 +79,7 @@ Word 문서에 태그를 추가하는 ![스크린샷](assets/sales_4.png)
 
 ## API 사용
 
-[!DNL Acrobat Services] API [홈페이지](https://developer.adobe.com/document-services/apis/doc-generation)&#x200B;(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 ](https://developer.adobe.com/document-services/pricing/main) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
+[!DNL Acrobat Services] API [홈페이지](https://developer.adobe.com/document-services/apis/doc-generation)&#x200B;(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 &#x200B;](https://developer.adobe.com/document-services/pricing/main) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
 
 **PDF 서비스 API**&#x200B;를 선택한 서비스로 선택하고 아래와 같이 다른 세부 정보를 입력합니다.
 
