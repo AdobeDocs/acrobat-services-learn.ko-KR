@@ -7,10 +7,10 @@ level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15330
 exl-id: 74198c86-505b-4321-923e-0079e3d767cd
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 4d076f7a05fd20b7e864929e74885957f42c5728
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 0%
 Adobe PDF 전자 봉인 API는 [Adobe의 AATL(Approved Trust List)](https://helpx.adobe.com/kr/acrobat/kb/approved-trust-list1.html)에서 특정 TSP(Trust Service Provider)가 발행한 인증서를 사용하여 문서의 규모에 맞게 전자 봉인을 적용합니다. 전자 봉인은 문서의 ID 및 무결성을 확인하는 데 유용합니다. 이는 문서의 크기를 전자 봉인하는 데 사용할 수 있으며 PDF 서비스 API에 포함됩니다.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/eseal/automatically-apply-electronic-seal
   {target = _self}

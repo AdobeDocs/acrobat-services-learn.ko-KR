@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15327
 exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 4d076f7a05fd20b7e864929e74885957f42c5728
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 이 AI 기반 API는 표, 단락, 목록, 제목 등에 자동으로 태그를 지정하여 보조 기술이 적용된 기본 또는 스캔된 PDF의 읽기 환경을 개선합니다. 또한 읽기 순서를 식별하여 여러 열 또는 여러 페이지로 구성된 정보의 논리적 흐름을 보장합니다. 이를 문서 백로그 또는 새 문서 작업 과정에 적용하고 보다 쉽게 규정 준수를 진행할 수 있습니다.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags
   {target = _self}

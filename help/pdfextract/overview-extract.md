@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-9247
 thumbnail: KT-9247.jpg
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
-source-git-commit: 5d00f4e8b7ed1c36670f0f669110b85e887ffe69
+source-git-commit: 4d076f7a05fd20b7e864929e74885957f42c5728
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ Adobe AI로 구동되는 웹 서비스를 통해 모든 PDF의 구조 및 콘텐
 >PDF 추출 API는 PDF 서비스 API에 포함됩니다.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
   {target = _self}
