@@ -8,10 +8,10 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 2b989e4de21881476330b8085636d8335f34f172
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 # API Tutorials [!DNL Adobe Acrobat Services]개 {#tutorials}
 
 + [개요](/help/overview.md)
-+ PDF 서비스 API {#pdfservices}
++ PDF Services API {#pdfservices}
    + [개요](/help/pdfservices/overview-pdfservices.md)
    + [Microsoft Power Automate 자격 증명 가져오기](/help/pdfservices/getting-credentials-power-automate.md)
    + [Microsoft Power Automate에서 첫 번째 플로우 만들기](/help/pdfservices/create-workflow-power-automate.md)
@@ -78,5 +78,5 @@ ht-degree: 7%
    + [Java에서 재무 문서 워크플로우 관리](/help/usecases/financeworkflowsjava.md)
    + [인보이스 처리](/help/usecases/invoices.md)
    + [디지털 문서 게시](/help/usecases/ddppdfembedapi.md)
-+ [테스트용 숨겨진 파일](/help/hidden-file.md)
++ {hide-from-toc}[테스트용 숨겨진 파일](/help/hidden-file.md)
 

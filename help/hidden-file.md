@@ -2,14 +2,13 @@
 title: 숨겨진 파일
 description: 테스트용 숨겨진 파일
 hide: true
-hidefromtoc: true
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 2b989e4de21881476330b8085636d8335f34f172
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 10%
+source-wordcount: '12'
+ht-degree: 0%
 
 ---
 
 # 숨겨진 파일
 
-2026년 1월 15일 금요일
+2026년 1월 15일
