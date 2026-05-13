@@ -8,9 +8,25 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/ceJsh2lv-S4b6mScT7DF83x1C85BAu-bPa5ju4JcYu4
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
+  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: 1389
 ht-degree: 0%
 
 ---
@@ -31,7 +47,7 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [프로젝트 코드](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
 
@@ -141,7 +157,7 @@ Ensure that the content of your package.json file is similar to this code snippe
 
 가입을 완료하면 API 자격 증명이 포함된 코드 샘플이 PC에 다운로드됩니다. 이 코드 샘플을 추출하고 private.key 및 pdftools-api-credentials.json 파일을 응용 프로그램의 루트 디렉터리에 배치합니다.
 
-이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 [&#x200B; 명령을 실행하여 &#x200B;](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)PDF 서비스 Node.js SDK` npm install --save @adobe/documentservices-pdftools-node-sdk `을(를) 설치합니다.
+이제 응용 프로그램의 루트 디렉터리에서 터미널을 사용하여 ` npm install --save @adobe/documentservices-pdftools-node-sdk ` 명령을 실행하여 [PDF 서비스 Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk)을(를) 설치합니다.
 
 ## PDF 만들기
 
@@ -430,5 +446,5 @@ res.download(download.link);
 
 [!DNL Acrobat Services] API를 사용하는 방법을 잘 이해하셨으므로 연습으로 기술을 향상할 수 있습니다. 이 자습서에 사용된 리포지토리를 복제하고 방금 배운 몇 가지 기술을 시험해 볼 수 있습니다. 더 나은 방법은 [!DNL Acrobat Services] API의 무제한 가능성을 탐색하면서 이 응용 프로그램을 다시 빌드하는 것입니다.
 
-내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)에 등록
+내 앱에서 문서 공유 및 검토를 활성화할 준비가 되셨습니까? 회원가입: [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 개발자 계정. 6개월 무료 체험 기간 및 비즈니스가 성장함에 따라 문서 트랜잭션당 \$0.05만 지불하면 [종량제](https://developer.adobe.com/document-services/pricing/main)를 받을 수 있습니다.

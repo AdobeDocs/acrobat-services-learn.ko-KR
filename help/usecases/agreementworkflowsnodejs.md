@@ -9,9 +9,25 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: 추천 항목
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/8SQivYwIRQxLqcHWCvrZ7b4t2BOqGyWKZvvNSpomrlo
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: 2187
 ht-degree: 0%
 
 ---
@@ -20,7 +36,7 @@ ht-degree: 0%
 
 ![사례 영웅 배너 사용](assets/UseCaseAgreementHero.jpg)
 
-많은 비즈니스 애플리케이션과 프로세스에는 제안서 및 계약서와 같은 문서가 필요합니다. PDF 문서를 사용하면 파일을 보다 안전하게 수정할 수 있습니다. 또한 고객이 쉽고 빠르게 문서를 완료할 수 있도록 디지털 서명 지원을 제공합니다. [!DNL Adobe Acrobat Services] API는 웹 응용 프로그램에 PDF 기능을 쉽게 통합합니다.
+많은 비즈니스 애플리케이션과 프로세스에는 제안서 및 계약서와 같은 문서가 필요합니다. PDF 문서를 사용하면 파일을 보다 안전하게 수정할 수 있습니다. 또한 고객이 쉽고 빠르게 문서를 완료할 수 있도록 디지털 서명 지원을 제공합니다. [!DNL Adobe Acrobat Services] API는 웹 애플리케이션에 PDF 기능을 쉽게 통합합니다.
 
 ## 학습 내용
 
@@ -28,7 +44,7 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
@@ -100,7 +116,7 @@ logger.level = 'info';
 logger.info('Application started')
 ```
 
-위 코드는 로깅된 데이터를 의 파일에 기록합니다./logs/applicationlog.txt. 대신 콘솔에 쓰도록 하려면 log4js.configure에 대한 호출을 주석 처리할 수 있습니다.
+위 코드는 로깅된 데이터를 ./logs/applicationlog.txt 의 파일에 기록합니다. 대신 콘솔에 쓰도록 하려면 log4js.configure에 대한 호출을 주석 처리할 수 있습니다.
 
 ## Word 파일을 PDF으로 변환
 

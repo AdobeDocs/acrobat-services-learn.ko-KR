@@ -8,9 +8,24 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Jj-xhGUcWVWOMooS2fOPcYmELcH70cG1eRRaPPy66Yk
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: 1442
 ht-degree: 0%
 
 ---
@@ -35,7 +50,7 @@ ht-degree: 0%
 
 * [npm](https://www.npmjs.com/get-npm)
 
-* [[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/)
+* [API [!DNL Acrobat Services]개](https://developer.adobe.com/document-services/homepage/)
 
 * [Adobe 문서 생성 API](https://developer.adobe.com/document-services/apis/doc-generation)
 
@@ -87,9 +102,9 @@ Word 문서에 태그를 추가하는 ![스크린샷](assets/sales_4.png)
 
 자격 증명을 만들면 코드 샘플이 표시됩니다. 원하는 언어를 선택합니다(이 튜토리얼에서는 Node.js 사용). API 자격 증명은 zip 파일에 있습니다. 파일을 PDFToolsSDK-Node.jsSamples로 추출합니다.
 
-시작하려면 auto-doc\*\*라는 빈 폴더를 만듭니다.\*\* 폴더에서 다음 명령을 실행하여 Node.js 프로젝트를 초기화합니다. `npm init`. 프로젝트 이름을 &quot;auto-doc&quot;*.*(으)로 지정
+시작하려면 auto-doc\*\*.\*\*라는 빈 폴더를 만듭니다. 이 폴더에서 다음 명령을 실행하여 Node.js 프로젝트를 초기화합니다. `npm init`. 프로젝트 이름을 &quot;auto-doc&quot;*.*(으)로 지정
 
-폴더에서 ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, pdftools-api-credentials.json 파일이 있습니다. and private.key를 auto-doc 폴더로 이동합니다. 여기에는 API 자격 증명이 포함됩니다. 또한 auto-doc 폴더에 &quot;resources&quot;라는 하위 폴더를 만듭니다. 판매 제안을 생성할 때마다 클라이언트로부터 받은 JSON 형식의 데이터를 보관합니다. 동일한 폴더에 Microsoft Word의 판매 제안 템플릿을 저장합니다.
+./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples 폴더에 pdftools-api-credentials.json이라는 파일이 있습니다. and private.key를 auto-doc 폴더로 이동합니다. 여기에는 API 자격 증명이 포함됩니다. 또한 auto-doc 폴더에 &quot;resources&quot;라는 하위 폴더를 만듭니다. 판매 제안을 생성할 때마다 클라이언트로부터 받은 JSON 형식의 데이터를 보관합니다. 동일한 폴더에 Microsoft Word의 판매 제안 템플릿을 저장합니다.
 
 이제 마법을 만들 준비가 되었습니다! 이 자습서에서 Node.js를 사용하고 있으므로 Node.js [!DNL Acrobat Services] SDK를 설치해야 합니다. 이렇게 하려면 auto-doc 폴더에서 yarn add @adobe/documentservices-pdftools-node-sdk를 실행합니다.
 
@@ -135,7 +150,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-이 코드는 [!DNL Acrobat Services]을(를) 사용하여 만든 태그를 사용하여 Microsoft 양식에서 JSON 파일을 가져옵니다. 그런 다음 Microsoft Word에서 만든 영업 제안 템플릿에 데이터를 병합하여 새로운 PDF을 생성합니다. PDF은 새로 생성된 파일에 저장됩니다./output 폴더입니다.
+이 코드는 [!DNL Acrobat Services]을(를) 사용하여 만든 태그를 사용하여 Microsoft 양식에서 JSON 파일을 가져옵니다. 그런 다음 Microsoft Word에서 만든 영업 제안 템플릿에 데이터를 병합하여 새로운 PDF을 생성합니다. PDF은 새로 생성된 ./output 폴더에 저장됩니다.
 
 또한 이 코드는 [Adobe Sign API](https://developer.adobe.com/adobesign-api/)를 사용하여 두 회사가 생성된 판매 제안에 서명하도록 합니다. 이 API에 대한 자세한 설명은 이 블로그 게시물 을 참조하십시오.
 

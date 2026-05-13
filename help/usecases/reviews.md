@@ -8,9 +8,25 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Y9rEEmFRErrNRz8lwG2ertPmm95ScYCigzepibfBoB0
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: 1654
 ht-degree: 0%
 
 ---
@@ -21,7 +37,7 @@ ht-degree: 0%
 
 코로나19 팬데믹 기간 동안 많은 기업에서 원격 교차 팀 협력이 필요해졌습니다. [디지털 문서 공유 및 검토](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval)는 팀과 교차 기능 리소스에 대해 일련의 과제를 제시합니다.
 
-이러한 문제에는 다양한 파일 형식의 문서를 공유하고, 콘텐츠를 효과적으로 검토하고 댓글을 달며, 최신 편집 내용과 동기화하는 문제 등이 포함됩니다. [!DNL Adobe Acrobat Services] API는 응용 프로그램 개발자가 사용자를 위해 이러한 문제를 해결할 수 있도록 설계되었습니다.
+이러한 문제에는 다양한 파일 형식의 문서를 공유하고, 콘텐츠를 효과적으로 검토하고 댓글을 달며, 최신 편집 내용과 동기화하는 문제 등이 포함됩니다. [!DNL Adobe Acrobat Services] API는 애플리케이션 개발자가 사용자를 위해 이러한 문제를 해결할 수 있도록 설계되었습니다.
 
 ## 학습 내용
 
@@ -43,7 +59,7 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
@@ -330,7 +346,7 @@ app.get( "/download/:file", function( req, res ){
 
 ## 문서 피드백 저장 중
 
-사용자가 문서에 주석을 추가한 후 **저장을 클릭합니다.** 기본적으로 **저장**&#x200B;을 클릭하면 업데이트된 PDF 파일이 다운로드됩니다. 서버에 있는 현재 PDF 파일을 업데이트하려면 이 작업을 변경합니다.
+사용자가 문서에 주석을 추가한 후 **저장**&#x200B;을 클릭합니다. 기본적으로 **저장**&#x200B;을 클릭하면 업데이트된 PDF 파일이 다운로드됩니다. 서버에 있는 현재 PDF 파일을 업데이트하려면 이 작업을 변경합니다.
 
 업로드/임시 보관함 폴더에 있는 PDF 파일을 덮어쓰는 `/save` 끝점을 서버 코드에 추가합니다.
 
