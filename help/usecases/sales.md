@@ -9,12 +9,20 @@ jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 TQID: https://experienceleague.adobe.com/Jj-xhGUcWVWOMooS2fOPcYmELcH70cG1eRRaPPy66Yk
-product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1442
@@ -86,7 +94,7 @@ Word 문서에 태그를 추가하는 ![스크린샷](assets/sales_4.png)
 
 ## API 사용
 
-[!DNL Acrobat Services] API [홈페이지](https://developer.adobe.com/document-services/apis/doc-generation)&#x200B;(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 ](https://developer.adobe.com/document-services/pricing/main) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
+[!DNL Acrobat Services] API [홈페이지](https://developer.adobe.com/document-services/apis/doc-generation)&#x200B;(으)로 이동합니다. [!DNL Acrobat Services] API를 사용하려면 응용 프로그램에 대한 자격 증명이 필요합니다. 아래로 스크롤하고 **무료 체험판 시작**&#x200B;을 선택하여 자격 증명을 만듭니다. 이러한 서비스는 6개월 동안 [무료로 사용한 다음 문서 트랜잭션당 $0.05만 지불하면 &#x200B;](https://developer.adobe.com/document-services/pricing/main) 바로 사용할 수 있으므로 필요한 만큼만 지불하면 됩니다.
 
 **PDF 서비스 API**&#x200B;를 선택한 서비스로 선택하고 아래와 같이 다른 세부 정보를 입력합니다.
 

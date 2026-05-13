@@ -9,12 +9,21 @@ jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
 TQID: https://experienceleague.adobe.com/ps-wxzaqHNuBwOlfWDDEmOamM3ZOmP-4Ys1H4X--Gk0
-product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1968
@@ -354,7 +363,7 @@ embedMode: "IN_LINE"
 
 마지막으로 하나의 백서를 선택하고 **문서 보기**&#x200B;를 클릭하여 인라인 포함 PDF이 있는 새 페이지를 엽니다.
 
-PDF 백서 ](assets/ddp_11.png)의 ![스크린샷
+PDF 백서 ![&#128279;](assets/ddp_11.png)의 스크린샷
 
 이제 PDF 다운로드 및 PDF 인쇄 옵션이 표시됩니다.
 
@@ -564,6 +573,6 @@ console.log(event);
 
 angular 또는 React 개발자인 경우 PDF Embed API를 React 및 Angular 프로젝트와 통합하는 방법을 특징으로 하는 [추가 샘플](https://github.com/adobe/pdf-embed-api-samples)을 사용해 보십시오.
 
-Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main)[착빙](https://developer.adobe.com/document-services/pricing/main)으로 Adobe PDF Services API를 사용해 보십시오.
+Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main) [착빙](https://developer.adobe.com/document-services/pricing/main)으로 Adobe PDF Services API를 사용해 보십시오.
 
 지금 [!DNL Adobe Acrobat Services]개의 API로 [시작](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요.
