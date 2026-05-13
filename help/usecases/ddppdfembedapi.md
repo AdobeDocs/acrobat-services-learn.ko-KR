@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/ps-wxzaqHNuBwOlfWDDEmOamM3ZOmP-4Ys1H4X--Gk0
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: 1968
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 전자 문서는 어디에나 있습니다. 사실 전 세계적으로 [조 개의 PDF](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world)이 있을 것이며, 이 숫자는 매일 증가합니다. 웹 페이지에 PDF 뷰어를 포함하면 HTML 및 CSS를 다시 디자인하거나 웹 사이트 액세스를 방해하지 않고도 문서를 볼 수 있습니다.
 
-인기 있는 시나리오를 살펴보겠습니다. 회사에서 [웹 사이트에 백서](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)를 게시합니다.
+인기 있는 시나리오를 살펴보겠습니다. 회사가 웹 사이트에 [개의 백서를 게시합니다.](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)
 자신의 앱과 서비스에 대한 컨텍스트를 제공합니다. 이 웹사이트의 마케터는 사용자가 PDF 기반 콘텐츠와 상호 작용하는 방식을 더 잘 이해하고 웹 페이지 및 브랜드와 통합하기를 원합니다. 백서를 다운로드할 수 있는 사용자를 제어하여 [제어된 콘텐츠](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.)로 게시하기로 결정했습니다.
 
 ## 학습 내용
@@ -30,9 +37,9 @@ ht-degree: 0%
 
 ## 관련 API 및 리소스
 
-* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [PDF 포함 API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [PDF 서비스 API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [프로젝트 코드](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
@@ -347,7 +354,7 @@ embedMode: "IN_LINE"
 
 마지막으로 하나의 백서를 선택하고 **문서 보기**&#x200B;를 클릭하여 인라인 포함 PDF이 있는 새 페이지를 엽니다.
 
-PDF 백서 ![의 &#x200B;](assets/ddp_11.png)스크린샷
+PDF 백서 ](assets/ddp_11.png)의 ![스크린샷
 
 이제 PDF 다운로드 및 PDF 인쇄 옵션이 표시됩니다.
 
@@ -557,6 +564,6 @@ console.log(event);
 
 angular 또는 React 개발자인 경우 PDF Embed API를 React 및 Angular 프로젝트와 통합하는 방법을 특징으로 하는 [추가 샘플](https://github.com/adobe/pdf-embed-api-samples)을 사용해 보십시오.
 
-Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main) [착빙](https://developer.adobe.com/document-services/pricing/main)으로 Adobe PDF Services API를 사용해 보십시오.
+Adobe을 통해 혁신적인 솔루션으로 엔드 투 엔드 고객 경험을 구축할 수 있습니다. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/)를 무료로 확인하십시오. 다른 방법을 살펴보려면 [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main)[착빙](https://developer.adobe.com/document-services/pricing/main)으로 Adobe PDF Services API를 사용해 보십시오.
 
-지금 [개의 API로 &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)시작[!DNL Adobe Acrobat Services]하세요.
+지금 [!DNL Adobe Acrobat Services]개의 API로 [시작](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)하세요.

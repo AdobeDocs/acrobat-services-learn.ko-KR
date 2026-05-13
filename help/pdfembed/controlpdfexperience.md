@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/fsD7hB9-yEhVElQUFkM1RmUB1aVJq6C9USXa3Ru9lks
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: 1549
 ht-degree: 0%
 
 ---
@@ -116,7 +123,7 @@ ht-degree: 0%
 
 1. [[!DNL Adobe Acrobat Services] 웹 사이트](https://developer.adobe.com/document-services/homepage/)&#x200B;(으)로 이동합니다.
 
-   ![&#x200B; 웹 사이트의 [!DNL Adobe Acrobat Services]스크린샷](assets/ControlPDF_6.png)
+   [!DNL Adobe Acrobat Services] 웹 사이트의 ![스크린샷](assets/ControlPDF_6.png)
 
 1. 탐색 모음에서 **[!UICONTROL API]**&#x200B;를 클릭한 다음 드롭다운 링크에서 **[!UICONTROL PDF 포함 API]** 페이지로 이동합니다.
 
@@ -162,7 +169,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 엽니다.
 
-1. `<head>`TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG **&#39;라는 주석 아래에서 18행의**&#x200B;에 스크립트 코드를 붙여넣습니다.
+1. **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**&#39;라는 주석 아래에서 18행의 `<head>`에 스크립트 코드를 붙여넣습니다.
 
    스크립트 코드를 붙여넣을 위치의 ![스크린샷](assets/ControlPDF_13.png)
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 다시 엽니다.
 
-1. `<div>`TODO: 연습 1: PDF 포함 API 코드 삽입`<body>`이라는 주석 아래 67행의 **에** 코드를 붙여넣습니다.
+1. **TODO: 연습 1: PDF 포함 API 코드 삽입**&#x200B;이라는 주석 아래 67행의 `<body>`에 `<div>` 코드를 붙여넣습니다.
 
    ![코드를 붙여넣을 위치의 스크린샷](assets/ControlPDF_15.png)
 
@@ -196,7 +203,7 @@ ht-degree: 0%
 
 1. 코드 편집기로 이동하여 **[!UICONTROL 웹]** -> **[!UICONTROL 연습]** -> **[!UICONTROL index.html]** 파일을 다시 엽니다.
 
-1. `<script>` 태그 아래의 68행에 있는 파일의 `<body>`에 `<div>` 코드를 붙여넣습니다.
+1. `<div>` 태그 아래의 68행에 있는 파일의 `<body>`에 `<script>` 코드를 붙여넣습니다.
 
 1. 이전에 만든 clientID 변수를 포함하도록 동일한 **index.html** 파일의 70행을 수정합니다.
 

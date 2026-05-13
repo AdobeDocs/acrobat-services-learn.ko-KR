@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Gd7B7jUfhZPSRujwKVp7hRzb2Nj9-VJFKLYxqwO-GFM
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 2045
 ht-degree: 0%
 
 ---
@@ -87,7 +94,7 @@ Adobe 문서 생성 Tagger의 ![고급 탭의 스크린샷](assets/legal_4.png)
 
 이러한 고급 기능은 기본 태그와 다르지 않습니다. 조건부 논리를 포함하려면 문서에서 채울 부분을 선택합니다. 그런 다음 태그의 삽입을 결정하는 규칙을 구성합니다.
 
-추가 설명을 위해 계약서에 조건부 섹션만 포함할 수 있습니다. 콘텐츠 형식 선택 필드에서 **섹션을 선택합니다.** 레코드 선택 필드에서 조건부 섹션이 표시되는지 여부를 결정하는 옵션을 선택합니다. 원하는 조건 연산자를 선택하고 값 필드에서 테스트할 값을 설정합니다. 그런 다음 **조건 삽입을 클릭합니다.** 아래 화면 캡처가 이 이 프로세스를 설명합니다.
+추가 설명을 위해 계약서에 조건부 섹션만 포함할 수 있습니다. 콘텐츠 형식 선택 필드에서 **섹션**&#x200B;을 선택합니다. 레코드 선택 필드에서 조건부 섹션의 표시 여부를 결정하는 옵션을 선택합니다. 원하는 조건 연산자를 선택하고 값 필드에서 테스트할 값을 설정합니다. 그런 다음 **조건 삽입**&#x200B;을 클릭합니다. 아래의 화면 캡처에서는 이러한 프로세스를 보여 줍니다.
 
 ![조건부 콘텐츠 삽입 스크린샷](assets/legal_5.png)
 
