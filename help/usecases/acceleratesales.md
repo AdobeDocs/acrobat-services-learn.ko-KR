@@ -9,20 +9,14 @@ jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
 TQID: https://experienceleague.adobe.com/xZ2TGxtFDXGq33Zcr1BvJ2V0v7goacfO8Z62mGINeTk
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: c4d07275-6387-4756-8bf7-681e581ffd27
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: c4d07275-6387-4756-8bf7-681e581ffd27
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1767
 ht-degree: 0%
 
 ---
@@ -51,7 +45,7 @@ ht-degree: 0%
 
 1. 샘플 코드를 다운로드할 언어를 선택합니다(예: Node.js).
 1. **[!UICONTROL 개발자 약관]**&#x200B;에 동의하려면 선택하세요.
-1. **[!UICONTROL 자격 증명 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 자격 증명 만들기]**를 선택합니다.
 샘플 파일, pdfservices-api-credentials.json 및 인증을 위한 private.key가 포함된 ZIP 파일로 파일이 컴퓨터에 다운로드됩니다.
 
    ![자격 증명의 스크린샷](assets/accsales_2.png)
@@ -201,7 +195,7 @@ Microsoft Word의 다른 테이블과 마찬가지로 스타일, 크기 및 기�
 1. *[!UICONTROL 계산 유형 선택]*&#x200B;에서 **[!UICONTROL 집계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 유형 선택]*&#x200B;에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
 1. *[!UICONTROL 레코드 선택]*&#x200B;에서 **[!UICONTROL ReferencesOrder]**&#x200B;를 선택합니다.
-1. *[!UICONTROL 집계를 수행할 항목 선택]&#x200B;**에서 &#x200B;** [!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
+1. *[!UICONTROL 집계를 수행할 항목 선택]**에서 **[!UICONTROL totalPaymentsDue.price]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 계산 삽입]**&#x200B;을 선택합니다.
 
 이 프로세스에는 값의 합계를 제공하는 계산 태그가 삽입됩니다. JSONata 계산을 사용하여 더 많은 고급 계산을 수행할 수 있습니다. 예:

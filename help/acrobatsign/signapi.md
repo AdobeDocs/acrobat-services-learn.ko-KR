@@ -9,22 +9,12 @@ jira: KT-8089
 thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
 TQID: https://experienceleague.adobe.com/yISuOQpA5-SuOKdpAoXEAgJXzQwqHwAkgHHW4kdItgQ
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
-subfeature_v2:
-  - id: aba8c493-b814-4c59-a60d-4962bc4c8ada
-  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
-  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
-  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+subfeature_v2: id: aba8c493-b814-4c59-a60d-4962bc4c8adaid: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 2064
@@ -293,7 +283,7 @@ Company Name","","","2021-03-07 19:32:59"
 
 서명 또는 승인을 위해 지정된 수신자에게 문서를 보내면 계약이 만들어집니다. API를 사용하여 계약 상태 및 완료 상태를 추적할 수 있습니다.
 
-[임시 문서](https://helpx.adobe.com/kr/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
+[임시 문서](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), [라이브러리 문서](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) 또는 URL을 사용하여 계약을 만들 수 있습니다. 이 예에서 계약은 이전에 만든 웹 양식과 마찬가지로 `transientDocumentId`을(를) 기반으로 합니다.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
