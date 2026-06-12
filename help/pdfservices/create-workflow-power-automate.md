@@ -9,14 +9,10 @@ jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
 TQID: https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 2046
@@ -39,7 +35,7 @@ ht-degree: 1%
 ### 필요한 항목
 
 * Adobe PDF Services에 대한 **평가판 또는 프로덕션 자격 증명**
-Microsoft Power Automate [여기](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
+Microsoft Power Automate [여기](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)에서 자격 증명을 가져오고 구성하는 방법에 대해 자세히 알아보십시오.
 * 프리미엄 커넥터가 포함된 **Microsoft Power Automate**
 Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types)의 라이선스 수준을 확인하는 방법에 대해 알아보십시오.
 * **OneDrive**
@@ -54,7 +50,7 @@ Power Automate [여기](https://docs.microsoft.com/en-us/power-platform/admin/po
 
 ### 자격 증명 가져오기
 
-이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/ko/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)을 참조하세요.
+이 튜토리얼을 완료하려면 Adobe PDF Services용 Microsoft Power Automate에서 이미 구성된 자격 증명이 필요합니다. 이 단계를 완료하지 않은 경우 [여기 지침](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate)을 참조하세요.
 
 ## 1부: 새 플로우 만들기 및 Word를 PDF으로 변환
 
