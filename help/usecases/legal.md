@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+source-git-commit: a02d17d88a2fb822f7715556b097767cb7f49ad5
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: 2049
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Adobe 문서 생성 Tagger의 ![고급 탭의 스크린샷](assets/legal_4.png)
 
 ### 디렉토리 구조
 
-AdobeLegalContractAPI라는 폴더를 만들고 선택한 편집기에서 엽니다. 아래 폴더 구조를 사용하여 ```npm init``` 명령으로 기본 Node.js 애플리케이션을 만듭니다.
+AdobeLegalContractAPI라는 폴더를 만들고 선택한 편집기에서 엽니다. 아래 폴더 구조를 사용하여 `npm init` 명령으로 기본 Node.js 애플리케이션을 만듭니다.
 
 ```
 ###Directory Structure
@@ -210,7 +210,7 @@ npm install express body-parser morgan multer hbs path config mongoose
 
 등록 프로세스가 완료되면 코드 샘플이 자동으로 PC에 다운로드되어 시작에 도움을 줍니다. 이 코드 샘플을 추출하고 따를 수 있습니다. 추출된 코드 샘플에서 pdftools-api-credentials.json 및 private.key 파일을 Node.js 프로젝트의 루트 디렉터리로 복사해야 합니다. [!DNL Acrobat Services] API 끝점에 액세스하려면 자격 증명이 필요합니다. 개인 설정된 자격 증명으로 SDK 샘플을 다운로드할 수도 있으므로 샘플 코드의 키를 업데이트할 필요가 없습니다.
 
-이제 애플리케이션의 루트 디렉터리에서 터미널을 사용하여 ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` 명령을 실행하여 Adobe PDF Services 노드 SDK를 설치합니다. 설치가 완료되면 [!DNL Acrobat Services] API를 사용하여 응용 프로그램에서 문서를 조작할 수 있습니다.
+이제 애플리케이션의 루트 디렉터리에서 터미널을 사용하여 `npm install \--save @adobe/documentservices-pdftools-node-sdk` 명령을 실행하여 Adobe PDF Services 노드 SDK를 설치합니다. 설치가 완료되면 [!DNL Acrobat Services] API를 사용하여 응용 프로그램에서 문서를 조작할 수 있습니다.
 
 ## PDF 문서 만들기
 
